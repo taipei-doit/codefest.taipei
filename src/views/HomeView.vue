@@ -1,4 +1,20 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import i18n from '@/i18n'; // 確保引入 `i18n.ts`
+import { computed, ref } from 'vue';
+
+interface Activity {
+  name: string;
+  date: string;
+  available: boolean;
+  icon_type: string;
+}
+
+const getMessages = () => i18n.global.messages.value[i18n.global.locale.value] || {};
+const messages = computed(() => getMessages());
+
+const title = ref(messages.value.home.title || '');
+const activities = ref<Activity[]>(messages.value.home.activities || []);
+</script>
 
 <template>
   <main class="wrapper grid md:grid-cols-5 grid-cols-1 relative overflow-hidden">
@@ -26,28 +42,14 @@
           </div>
           <div class="text-white font-sans font-bold tracking-wider mb-12">
             <p class="mb-4 md:text-4xl md:text-left text-xl font-fusion-pixel text-center">
-              2025 雙北程式設計節即將展開
+              {{ title }}
             </p>
-            <div class="max-w-[400px] md:mx-0 mx-auto">
-              <div class="mb-4 flex items-center">
-                <img src="@/assets/images/icons/icon-smile.png" width="40" class="mr-4" alt="" />
+            <div class="max-w-[400px] md:mx-0 mx-auto max-h-[400px] overflow-y-auto pr-4">
+              <div class="mb-4 flex items-center" v-for="(item, index) in activities" :key="index">
+                <img :src="`/images/icons/${item.icon_type}.png`" width="40" class="mr-4" alt="" />
                 <div class="flex-1 flex justify-between border-b border-white py-3 text-[20px]">
-                  <span class="font-fusion-pixel">春季</span>
-                  <span class="font-px437">05/31 ~ 06/01</span>
-                </div>
-              </div>
-              <div class="mb-4 flex items-center">
-                <img src="@/assets/images/icons/icon-loading.png" width="40" class="mr-4" alt="" />
-                <div class="flex-1 flex justify-between border-b border-white py-3 text-[20px]">
-                  <span class="font-fusion-pixel">秋季</span>
-                  <span class="font-px437">Coming soon</span>
-                </div>
-              </div>
-              <div class="mb-4 flex items-center">
-                <img src="@/assets/images/icons/icon-loading.png" width="40" class="mr-4" alt="" />
-                <div class="flex-1 flex justify-between border-b border-white py-3 text-[20px]">
-                  <span class="font-fusion-pixel">臺北生成藝術節</span>
-                  <span class="font-px437">Coming soon</span>
+                  <span class="font-fusion-pixel">{{ item.name }}</span>
+                  <span class="font-px437">{{ item.date }}</span>
                 </div>
               </div>
             </div>

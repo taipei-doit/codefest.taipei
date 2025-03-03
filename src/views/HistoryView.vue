@@ -1,67 +1,39 @@
 <script setup lang="ts">
-import { computed, onMounted, onUnmounted, ref, watch } from 'vue';
+import { computed, nextTick, onMounted, onUnmounted, ref, watch } from 'vue';
 import { useRouter } from 'vue-router';
-import { useI18n } from 'vue-i18n';
 import i18n from '@/i18n'; // 確保引入 `i18n.ts`
 
-interface Activity {
-  id: number;
-  title: string;
+interface HistoryActivity {
+  name: string;
   date: string;
   link: string;
   available: boolean;
   isSelected?: boolean; // 🔹 新增 `isSelected` 屬性（可選）
 }
 
+type ActivityKeys = keyof typeof messages.value.history.activities;
+
 const router = useRouter();
-const { locale } = useI18n();
-
-const getMessages = () => i18n.global.messages.value[i18n.global.locale.value] || {};
-const messages = ref(getMessages());
-
-const updateActivities = (newActivities: Activity[]) => {
-  return newActivities.map((item) => ({
-    ...item,
-    isSelected: false,
-  }));
-};
-
-// ✅ 直接從 `i18n.global.messages` 讀取 JSON
-const navigation = ref(messages.value.navigation || []);
-const codeFestActivities = ref<Activity[]>(updateActivities(messages.value.codeFestActivities));
-const artFestActivities = ref<Activity[]>(updateActivities(messages.value.artFestActivities));
-
-// ✅ 當語系變更時，確保 JSON 更新
-const updateData = () => {
-  navigation.value = messages.value.navigation || [];
-  codeFestActivities.value = updateActivities(messages.value.codeFestActivities);
-  artFestActivities.value = updateActivities(messages.value.artFestActivities);
-};
-
-// ✅ 監聽語系變更，確保 UI 內容隨之更新
-watch(locale, updateData);
-
 const isLeftPanelActive = ref(true);
 const isF1Pressed = ref(false);
 
-const currentActivities = computed(() => {
-  const currentNav = navigation.value.find((item) => item.current);
-  let activities: Activity[] = [];
+const getMessages = () => i18n.global.messages.value[i18n.global.locale.value] || {};
+const messages = computed(() => getMessages());
 
-  switch (currentNav?.type) {
-    case 'taipei-code-fest':
-      activities = codeFestActivities.value;
-      break;
-    case 'taipei-art-fest':
-      activities = artFestActivities.value;
-      break;
-    default:
-      activities = [];
-      break;
-  }
+// ✅ 直接從 `i18n.global.messages` 讀取 JSON
+const navigation = ref(messages.value.history.navigation || []);
 
-  return activities.filter((item) => item.available);
-});
+const selectedType = ref<ActivityKeys>(messages.value.history.navigation[0].type as ActivityKeys);
+const selectedActivities = ref<HistoryActivity[]>([]);
+
+watch(
+  selectedType,
+  (newType) => {
+    selectedActivities.value =
+      messages.value.history.activities[newType]?.filter((item) => item.available) || [];
+  },
+  { immediate: true },
+);
 
 // 通用方法：選擇主選單項目
 const selectNavigationItem = (index: number) => {
@@ -69,31 +41,47 @@ const selectNavigationItem = (index: number) => {
     item.current = idx === index;
   });
   isLeftPanelActive.value = true;
+  selectedType.value = navigation.value[index].type as ActivityKeys;
   resetActivities();
+
+  // 🚀 滾動到選中的元素
+  nextTick(() => {
+    const activeElement = document.querySelector('.active-item');
+    if (activeElement) {
+      activeElement.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  });
 };
 
 // 通用方法：選擇活動項目
 const selectActivity = (index: number) => {
   isLeftPanelActive.value = false;
+  selectedActivities.value = selectedActivities.value.map((item, idx) => ({
+    ...item,
+    isSelected: idx === index,
+  }));
 
-  // 先將所有活動的 isSelected 設為 false
-  resetActivities();
+  // 🚀 滾動到選中的元素
+  nextTick(() => {
+    const activeElement = document.querySelector('.active-sub-item');
+    console.log(activeElement);
 
-  // 選擇對應的活動並設為 `true`
-  const activities = currentActivities.value;
-  if (activities[index]) {
-    activities[index].isSelected = true;
-  }
+    if (activeElement) {
+      activeElement.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  });
 };
 
 // 重置所有活動選中狀態
 const resetActivities = () => {
-  codeFestActivities.value.forEach((item) => (item.isSelected = false));
-  artFestActivities.value.forEach((item) => (item.isSelected = false));
+  selectedActivities.value = selectedActivities.value.map((item) => ({
+    ...item,
+    isSelected: false,
+  }));
 };
 
 const handleKeydown = (e: KeyboardEvent) => {
-  const activities = currentActivities.value;
+  const activities = selectedActivities.value;
   const currentNavIdx = navigation.value.findIndex((item) => item.current);
   const currentActivityIdx = activities.findIndex((item) => item.isSelected);
 
@@ -177,28 +165,32 @@ onUnmounted(() => {
       <div class="col-span-1 md:my-2 md:ml-1 m-2 border border-primary-50 flex flex-col">
         <div class="m-1 flex flex-1 border border-primary-50">
           <nav class="flex flex-1 flex-col bg-primary-800 md:py-12 py-6">
-            <ul role="list" class="flex flex-1 flex-col gap-y-7">
-              <li
+            <div class="flex flex-1 flex-col gap-y-7">
+              <p
                 class="md:text-5xl text-4xl font-px437 text-white pb-7 border-b border-primary-50 px-2 md:text-left text-center"
               >
                 TYPE
-              </li>
-              <li
-                v-for="(item, index) in navigation"
-                :key="item.name"
-                class="font-fusion-pixel px-2"
-              >
-                <button
-                  :class="[
-                    item.current ? 'bg-primary-50 text-primary-850 active-item' : 'text-primary-50',
-                    'group flex gap-x-3 md:px-2 py-5 text-2xl w-full justify-center',
-                  ]"
-                  @click="selectNavigationItem(index)"
+              </p>
+              <ul role="list" class="max-h-[400px] overflow-y-auto">
+                <li
+                  v-for="(item, index) in navigation"
+                  :key="item.name"
+                  class="font-fusion-pixel px-2"
                 >
-                  {{ item.name }}
-                </button>
-              </li>
-            </ul>
+                  <button
+                    :class="[
+                      item.current
+                        ? 'bg-primary-50 text-primary-850 active-item'
+                        : 'text-primary-50',
+                      'group flex gap-x-3 md:px-2 py-5 text-2xl w-full justify-center',
+                    ]"
+                    @click="selectNavigationItem(index)"
+                  >
+                    {{ item.name }}
+                  </button>
+                </li>
+              </ul>
+            </div>
           </nav>
         </div>
       </div>
@@ -212,10 +204,12 @@ onUnmounted(() => {
             </p>
             <div class="md:px-12 px-6">
               <p class="my-6 font-px437 text-white md:text-4xl text-2xl">please select......</p>
-              <ul class="text-white md:text-4xl text-2xl font-fusion-pixel">
+              <ul
+                class="text-white md:text-4xl text-2xl font-fusion-pixel max-h-[400px] overflow-y-auto"
+              >
                 <li
-                  v-for="(activity, index) in currentActivities"
-                  :key="activity.id"
+                  v-for="(activity, index) in selectedActivities"
+                  :key="index"
                   class="flex items-center"
                 >
                   <img
@@ -228,12 +222,14 @@ onUnmounted(() => {
                     :href="activity.link"
                     target="_blank"
                     :class="[
-                      activity.isSelected ? 'bg-primary-50 text-primary-850 active-item' : '',
+                      activity.isSelected
+                        ? 'bg-primary-50 text-primary-850 active-item active-sub-item'
+                        : '',
                       'flex items-center flex-1 md:px-2 py-5',
                     ]"
                     @click="selectActivity(index)"
                   >
-                    <p>{{ activity.title }}</p>
+                    <p>{{ activity.name }}</p>
                   </a>
                 </li>
               </ul>

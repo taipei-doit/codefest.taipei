@@ -1,15 +1,13 @@
 #!/bin/bash
 
-mkdir -p public
-# Remove all files in the public directory
-rm -rf public/*
+# 🚀 先刪除 public/prod，確保乾淨
+rm -rf public/prod
 
-# Run the build command
+# 執行建置
 run-p type-check build-only
 
-# Copy the built files to the public directory
-mkdir -p public
-cp -r dist/* public/
-
-# Copy index.html to 404.html
-cp public/index.html public/404.html
+# ✅ 只在 dist 內有內容時才建立 public/prod
+if [ -d "dist" ] && [ "$(ls -A dist)" ]; then
+  mkdir -p public/prod
+  cp -r dist/* public/prod/
+fi
