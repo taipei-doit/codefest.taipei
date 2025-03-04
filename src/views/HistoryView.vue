@@ -64,8 +64,6 @@ const selectActivity = (index: number) => {
   // 🚀 滾動到選中的元素
   nextTick(() => {
     const activeElement = document.querySelector('.active-sub-item');
-    console.log(activeElement);
-
     if (activeElement) {
       activeElement.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
