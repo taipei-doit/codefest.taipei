@@ -20,9 +20,9 @@ const activities = ref<Activity[]>(messages.value.home.activities || []);
   <main class="wrapper grid md:grid-cols-5 grid-cols-1 relative overflow-hidden">
     <section class="col-span-2 left-container flex items-center justify-center z-10">
       <div
-        class="flex justify-center items-center w-[50px] h-[50px] bg-primary-500 absolute top-8 left-8"
+        class="flex justify-center items-center w-[60px] h-[60px] absolute top-8 left-8"
       >
-        <img src="@/assets/images/icons/icon-codefest.svg" width="28" alt="" />
+        <img src="@/assets/images/icons/taipeicode_logo.svg" alt="" />
       </div>
       <img
         src="@/assets/images/computer.gif"
