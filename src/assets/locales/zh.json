@@ -3,7 +3,7 @@
         "title": "2025 雙北程式設計節即將展開",
         "activities": [
             {
-                "name": "春季",
+                "name": "雙北",
                 "icon_type": "smile",
                 "date": "05/31 ~ 06/01",
                 "available": true
@@ -56,7 +56,7 @@
                     "available": true
                 },
                 {
-                    "name": "2023.秋季 城市儀表板大黑客松",
+                    "name": "2023. 城市儀表板大黑客松",
                     "date": "2024-06-07~2024-06-08",
                     "link": "https://www.youtube.com/watch?v=ZwrK82vid6Y",
                     "available": true
