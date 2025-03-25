@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// 中文字
+@font-face {
+    font-family: "fusion-pixel-10px-monospaced-zh_hant";
+    src: url("@/assets/fonts/fusion-pixel-10px-monospaced-zh_hant.ttf") format("truetype");
+}
+
+// 英數字
+@font-face {
+    font-family: "Px437_IGS_VGA_8x16";
+    src: url("@/assets/fonts/Px437_IGS_VGA_8x16.ttf") format("truetype");
+}
+
+// 中文字
+.font-fusion-pixel {
+    font-family: "fusion-pixel-10px-monospaced-zh_hant", sans-serif;
+}
+
+// 英數字
+.font-px437 {
+    font-family: "Px437_IGS_VGA_8x16", sans-serif;
+}
+
+body {
+    background-color: theme("colors.primary.500");
+}
