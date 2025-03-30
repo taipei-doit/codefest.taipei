@@ -46,7 +46,7 @@ const activities = ref<Activity[]>(messages.value.home.activities || []);
             </p>
             <div class="max-w-[400px] md:mx-0 mx-auto max-h-[400px] overflow-y-auto pr-4">
               <div class="mb-4 flex items-center" v-for="(item, index) in activities" :key="index">
-                <img :src="`/images/icons/${item.icon_type}.png`" width="40" class="mr-4" alt="" />
+                <img :src="`images/icons/${item.icon_type}.png`" width="40" class="mr-4" alt="" />
                 <div class="flex-1 flex justify-between border-b border-white py-3 text-[20px]">
                   <span class="font-fusion-pixel">{{ item.name }}</span>
                   <span class="font-px437">{{ item.date }}</span>
