@@ -6,19 +6,22 @@
                 "name": "雙北",
                 "icon_type": "smile",
                 "date": "05/31 ~ 06/01",
-                "available": true
+                "available": true,
+                "link": "https://codefest.taipei/2025-spring/"
             },
             {
                 "name": "秋季",
                 "icon_type": "loading",
                 "date": "Coming soon",
-                "available": true
+                "available": true,
+                "link": ""
             },
             {
                 "name": "臺北生成藝術節",
                 "icon_type": "loading",
                 "date": "Coming soon",
-                "available": true
+                "available": true,
+                "link": ""
             }
         ]
     },

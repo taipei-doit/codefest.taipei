@@ -1,24 +1,30 @@
 <script setup lang="ts">
-import i18n from '@/i18n'; // 確保引入 `i18n.ts`
-import { computed, ref } from 'vue';
+import i18n from "@/i18n"; // 確保引入 `i18n.ts`
+import { computed, ref } from "vue";
 
 interface Activity {
   name: string;
   date: string;
   available: boolean;
   icon_type: string;
+  link?: string;
 }
 
-const getMessages = () => i18n.global.messages.value[i18n.global.locale.value] || {};
+const getMessages = () =>
+  i18n.global.messages.value[i18n.global.locale.value] || {};
 const messages = computed(() => getMessages());
 
-const title = ref(messages.value.home.title || '');
+const title = ref(messages.value.home.title || "");
 const activities = ref<Activity[]>(messages.value.home.activities || []);
 </script>
 
 <template>
-  <main class="wrapper grid md:grid-cols-5 grid-cols-1 relative overflow-hidden">
-    <section class="col-span-2 left-container flex items-center justify-center z-10">
+  <main
+    class="wrapper grid md:grid-cols-5 grid-cols-1 relative overflow-hidden"
+  >
+    <section
+      class="col-span-2 left-container flex items-center justify-center z-10"
+    >
       <div
         class="flex justify-center items-center w-[60px] h-[60px] absolute top-8 left-8"
       >
@@ -34,24 +40,46 @@ const activities = ref<Activity[]>(messages.value.home.activities || []);
       <div class="flex-1">
         <div>
           <div class="flex items-center md:justify-start justify-center mb-8">
-            <div id="typing-effect" class="typing-container md:text-left text-center">
-              <span class="inline font-fusion-pixel tracking-[.2em] text-5xl text-[#D9FE68]"
+            <div
+              id="typing-effect"
+              class="typing-container md:text-left text-center"
+            >
+              <span
+                class="inline font-fusion-pixel tracking-[.2em] text-5xl text-[#D9FE68]"
                 >ARE YOU READY?</span
               >
             </div>
           </div>
           <div class="text-white font-sans font-bold tracking-wider mb-12">
-            <p class="mb-4 md:text-4xl md:text-left text-xl font-fusion-pixel text-center">
+            <p
+              class="mb-4 md:text-4xl md:text-left text-xl font-fusion-pixel text-center"
+            >
               {{ title }}
             </p>
-            <div class="max-w-[400px] md:mx-0 mx-auto max-h-[400px] overflow-y-auto pr-4">
-              <div class="mb-4 flex items-center" v-for="(item, index) in activities" :key="index">
-                <img :src="`images/icons/${item.icon_type}.png`" width="40" class="mr-4" alt="" />
-                <div class="flex-1 flex justify-between border-b border-white py-3 text-[20px]">
+            <div
+              class="max-w-[400px] md:mx-0 mx-auto max-h-[400px] overflow-y-auto pr-4"
+            >
+              <a
+                :href="item.link"
+                target="_blank"
+                class="mb-4 flex items-center"
+                :class="!item.link ? 'cursor-default' : 'cursor-pointer hover:text-primary-100'"
+                v-for="(item, index) in activities"
+                :key="index"
+              >
+                <img
+                  :src="`images/icons/${item.icon_type}.png`"
+                  width="40"
+                  class="mr-4"
+                  alt=""
+                />
+                <div
+                  class="flex-1 flex justify-between border-b border-white py-3 text-[20px]"
+                >
                   <span class="font-fusion-pixel">{{ item.name }}</span>
                   <span class="font-px437">{{ item.date }}</span>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -61,10 +89,18 @@ const activities = ref<Activity[]>(messages.value.home.activities || []);
       to="/history"
       class="absolute md:bottom-8 bottom-3 md:right-8 right-3 text-center text-white z-10"
     >
-      <img src="@/assets/images/folder.png" class="md:w-[80px] w-[50px] mx-auto" alt="" />
+      <img
+        src="@/assets/images/folder.png"
+        class="md:w-[80px] w-[50px] mx-auto"
+        alt=""
+      />
       <p class="mt-2 font-fusion-pixel">歷年回顧</p>
     </router-link>
-    <img src="@/assets/images/pixel.gif" class="absolute top-6 left-4 scale-[1.3] z-0" alt="" />
+    <img
+      src="@/assets/images/pixel.gif"
+      class="absolute top-6 left-4 scale-[1.3] z-0"
+      alt=""
+    />
   </main>
 </template>
 
@@ -75,7 +111,11 @@ const activities = ref<Activity[]>(messages.value.home.activities || []);
 
 .left-container {
   background-image: url(@/assets/images/left-bg.png),
-    linear-gradient(to bottom, theme('colors.primary.500'), theme('colors.primary.600'));
+    linear-gradient(
+      to bottom,
+      theme("colors.primary.500"),
+      theme("colors.primary.600")
+    );
   background-size: cover, cover;
   background-position: center, center;
   background-repeat: no-repeat, no-repeat;
@@ -91,7 +131,7 @@ const activities = ref<Activity[]>(messages.value.home.activities || []);
   font-size: 20px; /* 文字大小 */
 
   &::after {
-    content: '';
+    content: "";
     display: inline-block;
     width: 4px;
     height: 1.6em;
