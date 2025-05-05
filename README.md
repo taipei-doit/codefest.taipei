@@ -1,5 +1,9 @@
 # CodeFest Taipei
 
+## License
+
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](./LICENSE) file for details.
+
 ## 建議的 IDE 設定
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (並停用 Vetur).
