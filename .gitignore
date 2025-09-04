@@ -32,3 +32,13 @@ coverage
 
 # firebase
 .firebase
+
+# Nuxt build files
+.nuxt/
+.output/
+
+# lint
+.stylelintcache
+
+# env
+.env
