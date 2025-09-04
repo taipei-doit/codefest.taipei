@@ -1,0 +1,78 @@
+{
+    "index": {
+        "title": "2025 雙北程式設計節即將展開",
+        "activities": [
+            {
+                "name": "雙北",
+                "icon_type": "smile",
+                "date": "05/31 ~ 06/01",
+                "available": true,
+                "link": "https://codefest.taipei/2025-spring/"
+            },
+            {
+                "name": "秋季",
+                "icon_type": "loading",
+                "date": "Coming soon",
+                "available": true,
+                "link": ""
+            },
+            {
+                "name": "臺北生成藝術節",
+                "icon_type": "loading",
+                "date": "Coming soon",
+                "available": true,
+                "link": ""
+            }
+        ]
+    },
+    "history": {
+        "navigation": [
+            {
+                "name": "臺北程式設計節",
+                "type": "taipei_code_fest",
+                "current": true
+            },
+            {
+                "name": "臺北生成藝術節",
+                "type": "taipei_art_fest",
+                "current": false
+            }
+        ],
+        "activities": {
+            "taipei_code_fest": [
+                {
+                    "name": "2025.春季 雙北城市儀表版大黑客松",
+                    "date": "",
+                    "link": "",
+                    "available": false
+                },
+                {
+                    "name": "2024.秋季 城市通微服務大黑客松",
+                    "date": "2024-09-07~2024-09-08",
+                    "link": "https://codefest-2024fall.taipei/",
+                    "available": true
+                },
+                {
+                    "name": "2024.春季 城市儀表板大黑客松",
+                    "date": "2024-01-07~2024-01-08",
+                    "link": "https://www.youtube.com/watch?v=c1HpYSh0-tY&t=8s",
+                    "available": true
+                },
+                {
+                    "name": "2023. 城市儀表板大黑客松",
+                    "date": "2024-06-07~2024-06-08",
+                    "link": "https://www.youtube.com/watch?v=ZwrK82vid6Y",
+                    "available": true
+                }
+            ],
+            "taipei_art_fest": [
+                {
+                    "name": "2024臺北生成藝術節",
+                    "date": "2024-09-07~2024-09-08",
+                    "link": "https://drive.google.com/file/d/1vPGUos4zj0uTPt4q3t8nmCuWIlL8lolD/view",
+                    "available": true
+                }
+            ]
+        }
+    }
+}
