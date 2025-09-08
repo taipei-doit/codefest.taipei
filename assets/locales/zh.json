@@ -28,9 +28,14 @@
     "history": {
         "navigation": [
             {
+                "name": "雙北程式設計節",
+                "type": "taipei_and_new_taipei_code_fest",
+                "current": true
+            },
+            {
                 "name": "臺北程式設計節",
                 "type": "taipei_code_fest",
-                "current": true
+                "current": false
             },
             {
                 "name": "臺北生成藝術節",
@@ -39,34 +44,1746 @@
             }
         ],
         "activities": {
+            "taipei_and_new_taipei_code_fest": [
+                {
+                    "id": "2025-spring",
+                    "name": "2025.春季 雙北城市儀表版大黑客松",
+                    "date": "2025-05-31~2025-06-01",
+                    "link": "",
+                    "available": true,
+                    "hero_banner": {
+                        "section_title": "2025雙北程式設計節\n城市儀表板大黑客松",
+                        "background_options": {
+                            "title": "images/2025-spring/hero-banner-title.svg",
+                            "left": "images/2025-spring/hero-banner-tpe.svg",
+                            "right": "images/2025-spring/hero-banner-ntpc.svg",
+                            "mobile": "images/2025-spring/hero-banner-tp.svg"
+                        }
+                    },
+                    "past": {
+                        "available": true,
+                        "section_title": "參賽回顧",
+                        "description": "收錄獲獎團隊及影音回顧",
+                        "winning_teams": {
+                            "title": "獲獎團隊",
+                            "more_winning_team_photos_url": "",
+                            "list": [
+                                {
+                                    "id": 0,
+                                    "ranking": "第一名",
+                                    "team_name": "亂寫都隊",
+                                    "thumbnail": "images/2025-spring/winning-teams/team-1.jpg",
+                                    "team_members": "陽明交通大學",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "商圈活化"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "本專案聚焦商圈活化，整合雙北多源資料，呈現六大組件：景點、無障礙場域、路邊停車格、竊盜熱點、旅館與公廁分布。可快速比對長輩友善度、夜市住宿治安與停車便利性，來規劃行程，同時檢視各地區的觀光潛力。亦開發推薦景點功能，結合各項指標，依使用者需求篩選出適合之場所並排名。"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/shangjung1012/Taipei-City-Dashboard.git' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/shangjung1012/Taipei-City-Dashboard.git</a>"
+                                        },
+                                        {
+                                            "title": "使用的資料集名稱及連結",
+                                            "content": "<ol style='list-style: decimal; padding-left: 1.5em;'><li><a href='https://data.taipei/dataset/detail?id=bd31c976-d3a5-4eed-b8c3-7454bc266afa' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>臺北旅遊網景點資料(中文)</a></li><li><a href='https://data.taipei/dataset/detail?id=7cef6d4e-f69f-47e7-a966-c8b9ccd7685b' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>臺北市夜市友善廁所名單</a></li><li><a href='https://data.taipei/dataset/detail?id=f058688f-1fd0-40d4-85e6-18267484cd18' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>臺北市藝文館所</a></li><li><a href='https://data.moenv.gov.tw/dataset/detail/FAC_P_28' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>建檔公廁明細-臺北市</a></li><li><a href='https://data.taipei/dataset/detail?id=5a911ea5-1694-4301-808e-e1780d971611' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>臺北市路邊停車格位</a></li><li><a href='https://data.gov.tw/dataset/123627?fbclid=IwY2xjawKoAqJleHRuA2FlbQIxMQABHqgbnIiuEolhuIHP_MKcG_ZtmHYrDu4Vaax3cIh5q2QEacByWuY8rj1t03_5' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>新北市合法一般旅館名冊</a></li><li><a href='https://data.moenv.gov.tw/dataset/detail/FAC_P_21' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>建檔公廁明細-新北市</a></li><li><a href='https://data.taipei/dataset/detail?id=08f9bc00-b1e9-4f6e-9199-0da74d8ad930' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>臺北市公有路外停車場無障礙設施設置情形</a></li><li><a href='https://data.taipei/dataset/detail?id=f8a625d2-6529-4c6a-8852-0122d8bb740e' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>臺北市市場處無障礙設施</a></li><li><a href='https://www.iweb.idv.tw/accessibility/253/2/' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>新北無障礙景點</a></li><li><a href='https://data.ntpc.gov.tw/datasets/e09b35a5-a738-48cc-b0f5-570b67ad9c78' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>新北市公有路外停車場即時賸餘車位數</a></li><li><a href='https://data.ntpc.gov.tw/datasets/b3a30a19-4b89-4da2-8d99-18200dc5dfde' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>新北市觀光旅遊景點(中文)</a></li><li><a href='https://data.gov.tw/dataset/135464' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>臺北市一般旅館名冊</a></li><li><a href='https://data.taipei/dataset/detail?id=68785231-d6c5-47a1-b001-77eec70bec02' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>臺北市住宅竊盜點位資訊</a></li><li><a href='https://data.taipei/dataset/detail?id=3a0e2289-a605-4eac-af30-f4af613f456d' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>臺北市機車竊盜點位資訊</a></li><li><a href='https://data.taipei/dataset/detail?id=f87ad53e-79c7-48c4-aec4-f0fd8f99bfb2' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>臺北市汽車竊盜點位資訊</a></li><li><a href='https://data.taipei/dataset/detail?id=5c5e9e13-9803-47c0-bbd2-1a4b3c11c49b' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>臺北市自行車竊盜點位資訊</a></li><li><a href='https://data.ntpc.gov.tw/datasets/8a32c6b5-46fc-4fac-b3a4-317b9998bfd7' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>新北市犯罪資料</a></li></ol>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "images/2025-spring/winning-teams/team-1.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 1,
+                                    "ranking": "第二名",
+                                    "team_name": "城市設計夢想家-王者再起",
+                                    "thumbnail": "images/2025-spring/winning-teams/team-2.jpg",
+                                    "team_members": "東海大學、元智大學",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "健康守護"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "建立四大組件: 1. 現正捐血地點統計資料, 2. 穆斯林友善空間, 3. 銀髮俱樂部, 4. 公共廁所地點統計資料，以上皆有用到地圖圖層。加分題為新增熱門儀表板，和搜索組件功能，以提升使用者體驗。"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/BCPH357/Taipei-City-Dashboard' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/BCPH357/Taipei-City-Dashboard</a>"
+                                        },
+                                        {
+                                            "title": "使用的資料集名稱及連結",
+                                            "content": "<ol style='list-style: decimal; padding-left: 1.5em;'><li><a href='https://data.taipei/dataset/detail?id=48a04f42-094e-46a0-a279-b4d8b703a7b3' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>銀髮俱樂部（台北市開放資料）</a>、<a href='https://data.gov.tw/dataset/124643' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>銀髮俱樂部（政府資料開放平台）</a></li><li><a href='https://www.taiwan.net.tw/m1.aspx?sNo=0020119&keyString=%5E10001%5E' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>穆斯林友善環境</a></li><li><a href='https://www.blood.org.tw/xcevent' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>捐血地點查詢</a></li><li><a href='https://data.moenv.gov.tw/dataset/detail/FAC_P_07' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>全國公廁建檔資料</a></li></ol>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "images/2025-spring/winning-teams/team-2.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "ranking": "第三名",
+                                    "team_name": "ex-Wee",
+                                    "thumbnail": "images/2025-spring/winning-teams/team-3.jpg",
+                                    "team_members": "企業(Vpon、友愉、台積電、群暉)",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "防災應變"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "本資料集涵蓋雙北地區防災相關資訊，包含防空避難設施容量、狹小巷弄分布及淹水風險模擬。可用於分析各行政區避難資源充足度、救災通行難易度與極端降雨下的潛在淹水熱區，協助防災規劃與資源配置。"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/phuanggh/Taipei-City-Dashboard' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/phuanggh/Taipei-City-Dashboard</a>"
+                                        },
+                                        {
+                                            "title": "使用的資料集名稱及連結",
+                                            "content": "<ol style='list-style: decimal; padding-left: 1.5em;'><li><a href='https://segis.moi.gov.tw/STATCloud/QueryInterface' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>113年12月行政區三段年齡組性別人口統計（SEGIS社會經濟資料平台）</a></li><li><a href='https://adr.npa.gov.tw/' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>防空避難地點資料（內政部警政署）</a></li><li><a href='https://data.taipei/dataset/detail?id=95c2eed3-8253-4dce-bf8e-1d6a01517514' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>臺北市狹小巷道清冊（紅黃區）</a></li><li><a href='https://data.ntpc.gov.tw/datasets/5e5bd1b4-b5fd-406b-84c4-ae2d70d2ba71' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>新北市狹小巷弄清冊</a></li><li><a href='https://fhy.wra.gov.tw/fhyv2/disaster/downloads' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>臺灣水災潛勢風險圖資（經濟部水利署）</a></li><li><a href='https://datahub.ncdr.nat.gov.tw/dataset/detail?pid=19409a2a-4326-40d6-957f-eb284137440b' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>近五年淹水災點資料（國家災害防救科技中心）</a></li><li><a href='https://www.twipcam.com/#google_vignette' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>台灣即時影像監視器</a></li></ol>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "images/2025-spring/winning-teams/team-3.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "ranking": "佳作1",
+                                    "team_name": "粽子裡沒 bug",
+                                    "thumbnail": "images/2025-spring/winning-teams/team-4.jpg",
+                                    "team_members": "成功大學、政治大學、企業(中嘉、LINE PAY、土地銀行)",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "商圈活化"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "本「友善商圈」頁面整合雙北地區商圈的友善店家分布、旅服資源、人流趨勢與公共設施設置，透過多元指標與分區視覺化，協助使用者掌握商圈友善程度與潛力，作為政策推動與商圈活化之決策參考。"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/kungfangyu/Taipei-City-Dashboard' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/kungfangyu/Taipei-City-Dashboard</a>"
+                                        },
+                                        {
+                                            "title": "使用的資料集名稱及連結",
+                                            "content": "<ol style='list-style: decimal; padding-left: 1.5em;'><li><a href='https://data.taipei/dataset/detail?id=d807396c-e41f-4005-be42-0160280783a1' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>友善店家清冊</a></li><li><a href='https://data.taipei/dataset/detail?id=cd050577-115f-4299-b37a-012ff490a632' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>臺北市AED設置地點</a></li><li><a href='https://data.ntpc.gov.tw/datasets/61b29f27-219a-4394-9722-af97a5707598' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>新北市AED設置地點</a></li><li><a href='https://www.travel.taipei/zh-tw/statistical-bulletin/service-center?start-year=2024&start-month=6&end-year=2025&end-month=6&range=1&orderby=desc' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>台北市旅服中心服務量</a></li><li><a href='https://data.ntpc.gov.tw/datasets/79dccdc3-1e46-4ae8-870a-44988344ce48' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>新北市旅服中心到站人次</a></li><li><a href='https://data.taipei/dataset/detail?id=89f53365-ea7b-4132-b702-27b26a575b3b' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>台北市商圈通訊錄</a></li><li><a href='https://newtaipei.travel/zh-tw/shop/business-district' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>新北市商圈參考資料</a></li><li><a href='https://data.taipei/dataset/detail?id=ca205b54-a06f-4d84-894c-d6ab5079ce79' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>台北市公廁點位資訊</a></li><li><a href='https://data.ntpc.gov.tw/datasets/3A43D9D0-BC7F-4F8F-9940-080005F6AC8C' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>新北市列管公廁資訊</a></li></ol>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "images/2025-spring/winning-teams/team-4.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 4,
+                                    "ranking": "佳作2",
+                                    "team_name": "木柵派大星",
+                                    "thumbnail": "images/2025-spring/winning-teams/team-5.jpg",
+                                    "team_members": "政治大學、臺灣大學",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "健康守護"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "建置雙北地區健康決策支援平台：整合死亡率、十大癌症發生率、運動場館使用、疫苗接種與長照據點等多元健康數據，透過視覺化儀表板呈現區域健康狀況與資源分布，提供政府單位精準政策制定依據，並協助民眾了解自身健康風險與可用資源，促進公共衛生管理與社區健康提升。"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/RoyLee1224/Taipei-City-Dashboard/tree/develop' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/RoyLee1224/Taipei-City-Dashboard/tree/develop</a>"
+                                        },
+                                        {
+                                            "title": "使用的資料集名稱及連結",
+                                            "content": "<ol style='list-style: decimal; padding-left: 1.5em;'><li><a href='https://data.ntpc.gov.tw/datasets/a0323809-1c7b-42f3-8dea-2b14f40118f7' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>新北市長期照顧服務-機構喘息服務</a></li><li><a href='https://data.taipei/api/frontstage/tpeod/dataset/resource.download?rid=9a3e0440-87ea-4793-9240-5c8dc02b5129' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>臺北市銀髮族服務-私立老人安養暨長期照顧機構</a></li><li><a href='https://data.taipei/dataset/detail?id=d10a3309-01f9-4180-88d2-c4e6ee18b640' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>臺北市銀髮族服務-公立老人安養暨長期照顧機構</a></li><li><a href='https://oas.bas.ntpc.gov.tw/NTPCTRWD/NewPage/Publish.aspx?Mid1=382390000E' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>新北市政府體育局各場地及國民運動中心開放使用情形</a></li><li><a href='https://data.taipei/dataset/detail?id=1562240c-4e54-467f-8a1d-a3c06833e1d5' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>台北市運動中心資料</a></li><li><a href='https://data.ntpc.gov.tw/datasets/5e6a672a-09e6-4119-8de6-0ca9856f3a01' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>死亡率—主要死因</a></li><li><a href='https://data.taipei/dataset/detail?id=0393f306-9248-4316-8f8a-2014b5e30728' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>臺北市主要死亡原因</a></li><li><a href='https://data.gov.tw/dataset/6399' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>癌症發生統計</a></li><li><a href='https://data.ntpc.gov.tw/datasets/551cd3f4-534a-45cf-976a-359090fb7df6' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>新北市流感疫苗接種合約醫療院所</a></li><li><a href='https://data.ntpc.gov.tw/datasets/781ed216-be0d-4a31-a3e3-bc8f6fe2b221' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>新北市各區衛生所之門診時間及疫苗種類彙整表</a></li></ol>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "images/2025-spring/winning-teams/team-5.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 5,
+                                    "ranking": "佳作3",
+                                    "team_name": "Bombardino Crocodilo 🐊✈",
+                                    "thumbnail": "images/2025-spring/winning-teams/team-6.jpg",
+                                    "team_members": "中原大學",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "商圈活化"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "<div><p>我們的商圈共榮儀表板統整了雙北 81 個商圈的資訊，共製作了 8 個圖表組件與 6 個地圖組件，主要提供以下幾類目標對象使用：</p><ul style='list-style: decimal; padding-left: 1.5em;'><li>想出遊的民眾：統整各大商圈範圍、友善店家、旅館清冊、觀光景點等圖資，供想出遊的民眾參考。</li><li>想開店的業者、商圈管委會：設計「商圈資訊公告版位」以協助商圈活動曝光，並建立「商圈觀測戰情室」：透過店鋪租金成本分析、各捷運站乘客流動量、觀光遊憩景點人數，以及各行業別登記資本額與家數的逐年趨勢，協助想開店的業者與商圈管委會更了解市場動向。</li></ul></div>"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/MO7YW4NG/Taipei-City-Dashboard' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/MO7YW4NG/Taipei-City-Dashboard</a>"
+                                        },
+                                        {
+                                            "title": "使用的資料集名稱及連結",
+                                            "content": "<ol style='list-style: decimal; padding-left: 1.5em;'><li><a href='https://data.taipei/dataset/detail?id=89f53365-ea7b-4132-b702-27b26a575b3b' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>臺北市商圈通訊錄</a></li><li><a href='https://data.ntpc.gov.tw/datasets/f54ded71-eb04-466d-bb6d-dd948c8d8502' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>各商圈理事長聯絡資料</a></li><li><a href='https://data.taipei/dataset/detail?id=d807396c-e41f-4005-be42-0160280783a1' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>友善店家清冊</a></li><li><a href='https://www.travel.taipei/zh-tw/statistical-bulletin/number-of-visitors?range=1&start-year=2022&start-month=1&end-year=2025&end-month=12' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>主要觀光遊憩區遊客人數調查</a></li><li><a href='https://data.ntpc.gov.tw/datasets/1498e0b9-78cc-41c4-b569-e0c7b4458178' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>新北市景點遊客人次統計</a></li><li><a href='https://data.taipei/dataset/detail?id=4d7d0b46-2e90-4ee7-b000-c0f2f3a37651' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>臺北市一般旅館名冊</a></li><li><a href='https://data.ntpc.gov.tw/datasets/8565597e-a174-4907-99c7-adb5ddee1326' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>新北市合法一般旅館名冊</a></li><li><a href='https://data.taipei/dataset/detail?id=178ebf06-0451-4ac1-bbba-c255ca1fdac6' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>臺北捷運各站進出人次</a></li><li><a href='https://data.taipei/dataset/detail?id=cfa4778c-62c1-497b-b704-756231de348b' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>臺北捷運車站出入口座標</a></li><li><a href='https://data.gcis.nat.gov.tw/od/detail?oid=ACA82CEE-1C9D-47F8-9E5F-1DE39D5EEAF9#moreBtn' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>公司登記現有家數及實收資本額</a></li><li><a href='https://tcdb.gov.taipei/' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>臺北市商業密集區/商圈觀測戰情室平台</a></li></ol>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "images/2025-spring/winning-teams/team-6.jpg"
+                                    ]
+                                }
+                            ]
+                        },
+                        "photos": {
+                            "title": "照片回顧",
+                            "image_list": [
+                                "images/2025-spring/past-photos/0518/A7408586.jpg",
+                                "images/2025-spring/past-photos/0518/A7408655.jpg",
+                                "images/2025-spring/past-photos/0518/A7408704.jpg",
+                                "images/2025-spring/past-photos/0518/A7408726.jpg",
+                                "images/2025-spring/past-photos/0518/A7408748.jpg",
+                                "images/2025-spring/past-photos/0518/A7408795.jpg"
+                            ]
+                        },
+                        "videos": {
+                            "title": "影音回顧",
+                            "more_videos_url": "",
+                            "list": [
+                                {
+                                    "id": 0,
+                                    "date": "",
+                                    "title": "2025雙北程式設計節大黑客松\n【全紀錄影片】",
+                                    "thumbnail": "images/2025-spring/videos/1_video.png",
+                                    "video_url": "https://www.youtube.com/watch?v=RCb_fGtyel0"
+                                },
+                                {
+                                    "id": 0,
+                                    "date": "",
+                                    "title": "2025雙北程式設計節大黑客松\n【閉幕影片】",
+                                    "thumbnail": "images/2025-spring/videos/2_video.png",
+                                    "video_url": "https://www.youtube.com/watch?v=lFJKEKxZ8XA"
+                                },
+                                {
+                                    "id": 0,
+                                    "date": "",
+                                    "title": "2025雙北程式設計節大黑客松\n【精華影片】",
+                                    "thumbnail": "images/2025-spring/videos/3_video.png",
+                                    "video_url": "https://www.youtube.com/watch?v=-FyyjkS5bLA"
+                                }
+                            ]
+                        }
+                    },
+                    "rules": {
+                        "available": true,
+                        "section_title": "競賽規則",
+                        "description": "\"The power of open source is the power of the people.\"\n— Philippe Kahn\n（開源的力量就是人民的力量）",
+                        "content_title": "概念",
+                        "content": "在智慧城市與數據驅動時代，創新技術成為推動城市發展與提升市政服務的關鍵。2025這一屆獨特的雙北黑客松將帶領我們探索如何運用開源技術與數據可視化，挑戰傳統思維，實現跨縣市合作，共同創造出更具競爭力的智慧解決方案。\n透過結合創新設計與先進技術，我們期望進一步優化市政服務，推動雙北邁向智慧城市的未來。如有任何疑問，歡迎隨時聯絡我們！\n心動了嗎？ 趕快報名！",
+                        "buttons": [],
+                        "promotion_images": {
+                            "desktop_url": "images/2025-spring/img-rules.jpg",
+                            "mobile_url": "images/2025-spring/img-rules-mobile.jpg"
+                        },
+                        "judges": {
+                            "available": true,
+                            "list": [
+                                {
+                                    "name": "初選",
+                                    "list": [
+                                        {
+                                            "id": 0,
+                                            "thumbnail": "images/2025-spring/judges/judge-1-1.jpg",
+                                            "name": "李欣穎",
+                                            "corporation": "開放文化基金會",
+                                            "position": "執行長"
+                                        },
+                                        {
+                                            "id": 1,
+                                            "thumbnail": "images/2025-spring/judges/judge-1-2.jpg",
+                                            "name": "沈昇勳",
+                                            "corporation": "悠遊卡股份有限公司",
+                                            "position": "獨立董事"
+                                        },
+                                        {
+                                            "id": 2,
+                                            "thumbnail": "images/2025-spring/judges/judge-1-3.jpg",
+                                            "name": "宋祥瑀​",
+                                            "corporation": "儀表板開發團隊",
+                                            "position": ""
+                                        },
+                                        {
+                                            "id": 3,
+                                            "thumbnail": "images/2025-spring/judges/judge-1-4.jpg",
+                                            "name": "潘相輔",
+                                            "corporation": "儀表板開發團隊",
+                                            "position": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "決選",
+                                    "list": [
+                                        {
+                                            "id": 4,
+                                            "thumbnail": "images/2025-spring/judges/judge-2-1.jpg",
+                                            "name": "趙式隆",
+                                            "corporation": "臺北市政府資訊局",
+                                            "position": "局長"
+                                        },
+                                        {
+                                            "id": 5,
+                                            "thumbnail": "images/2025-spring/judges/judge-2-2.jpg",
+                                            "name": "陳富添",
+                                            "corporation": "新北市政府資訊中心",
+                                            "position": "主任"
+                                        },
+                                        {
+                                            "id": 6,
+                                            "thumbnail": "images/2025-spring/judges/judge-2-3.jpg",
+                                            "name": "高信雄",
+                                            "corporation": "中央警察大學資訊管理學系",
+                                            "position": "助理教授"
+                                        },
+                                        {
+                                            "id": 7,
+                                            "thumbnail": "images/2025-spring/judges/judge-2-4.jpg",
+                                            "name": "吳達偉",
+                                            "corporation": "新竹市政府勞工及青年處",
+                                            "position": "處長"
+                                        },
+                                        {
+                                            "id": 8,
+                                            "thumbnail": "images/2025-spring/judges/judge-2-5.jpg",
+                                            "name": "林奕辰",
+                                            "corporation": "洽吧智能股份有限公司",
+                                            "position": "創辦人＆執行長"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "schedule": {
+                        "available": true,
+                        "section_title": "重要時程",
+                        "list": [
+                            {
+                                "id": "competition",
+                                "schedule_name": "競賽日 05.31 - 06.01",
+                                "schedule_sub_name": "2025年05月31日 星期六 ~ 2025年06月01日 星期日\n新北市政府大樓（新北市板橋區中山路一段 161 號）",
+                                "button": {
+                                    "text": "",
+                                    "link": "",
+                                    "type": ""
+                                },
+                                "schedule_headers": [
+                                    {
+                                        "name": "日期"
+                                    },
+                                    {
+                                        "name": "時間"
+                                    },
+                                    {
+                                        "name": "議程"
+                                    }
+                                ],
+                                "schedule": [
+                                    {
+                                        "col1": "05.31(六)",
+                                        "col2": "9:00~9:30",
+                                        "col3": "報到(詳Email)"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "9:30~10:00",
+                                        "col3": "開幕式"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "10:00~24:00",
+                                        "col3": "Hacking及Coding診療室"
+                                    },
+                                    {
+                                        "col1": "06.01(日)",
+                                        "col2": "0:00~11:00",
+                                        "col3": "Hacking及Coding診療室"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "11:00-13:10",
+                                        "col3": "初選"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "13:10~13:40",
+                                        "col3": "公告入選決賽隊伍"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "13:40~16:30",
+                                        "col3": "決選"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "16:30~17:00",
+                                        "col3": "評審討論"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "17:00~17:30",
+                                        "col3": "頒獎與閉幕式"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "sponsor": {
+                        "available": true,
+                        "section_title": "感謝單位",
+                        "list": [
+                            {
+                                "id": 0,
+                                "image_url": "images/2025-spring/sponsors/(國立臺北商業大學企業管理系)logo.svg"
+                            },
+                            {
+                                "id": 1,
+                                "image_url": "images/2025-spring/sponsors/(國立臺灣大學 電機工程學系學生會)NTUEESA_logo.svg"
+                            },
+                            {
+                                "id": 2,
+                                "image_url": "images/2025-spring/sponsors/實踐大學校徽及校名.svg"
+                            },
+                            {
+                                "id": 3,
+                                "image_url": "images/2025-spring/sponsors/sitcon_logo.svg"
+                            },
+                            {
+                                "id": 4,
+                                "image_url": "images/2025-spring/sponsors/師範大學_logo.svg"
+                            },
+                            {
+                                "id": 5,
+                                "image_url": "images/2025-spring/sponsors/OCF_logo.svg"
+                            },
+                            {
+                                "id": 6,
+                                "image_url": "images/2025-spring/sponsors/college-unit_LOGO-資訊管理學系.svg"
+                            },
+                            {
+                                "id": 7,
+                                "image_url": "images/2025-spring/sponsors/北科程式.svg"
+                            }
+                        ]
+                    },
+                    "footer": {
+                        "organizer": [
+                            "新北市政府資訊中心",
+                            "臺北市政府資訊局"
+                        ],
+                        "buttons": [
+                            {
+                                "name": "Github",
+                                "link": "https://github.com/taipei-doit/Taipei-City-Dashboard"
+                            },
+                            {
+                                "name": "YouTube",
+                                "link": "https://www.youtube.com/@Code-FestTaipei"
+                            }
+                        ]
+                    }
+                }
+            ],
             "taipei_code_fest": [
                 {
-                    "name": "2025.春季 雙北城市儀表版大黑客松",
-                    "date": "",
-                    "link": "",
-                    "available": false
-                },
-                {
+                    "id": "2024-fall",
                     "name": "2024.秋季 城市通微服務大黑客松",
                     "date": "2024-09-07~2024-09-08",
-                    "link": "https://codefest-2024fall.taipei/",
-                    "available": true
+                    "link": "",
+                    "available": true,
+                    "hero_banner": {
+                        "section_title": "2024臺北秋季程式設計節\n城市通微服務大黑客松",
+                        "background_options": {
+                            "title": "images/2025-spring/hero-banner-title.svg",
+                            "left": "images/2025-spring/hero-banner-tpe.svg",
+                            "right": "images/2025-spring/hero-banner-ntpc.svg",
+                            "mobile": "images/2025-spring/hero-banner-tp.svg"
+                        }
+                    },
+                    "past": {
+                        "available": true,
+                        "section_title": "參賽回顧",
+                        "description": "收錄獲獎團隊及影音回顧",
+                        "winning_teams": {
+                            "title": "獲獎團隊",
+                            "more_winning_team_photos_url": "",
+                            "list": [
+                                {
+                                    "id": 0,
+                                    "ranking": "第一名",
+                                    "team_name": "Wee Won",
+                                    "thumbnail": "images/2024-fall/winning-teams/team-1.jpg",
+                                    "team_members": "Vpon",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "個人服務；捐血資訊"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "目前捐血相關資訊都需自行到血液基金會官網或APP抓取，同時缺血人數下降，缺血問題也日益嚴重，本APP期待透過遊戲、定時提醒以鼓勵民眾捐血，系統與台北通個人資訊串接，可提醒下次預計捐血時間、捐血排名等資訊，另外也規劃單身捐血者可於捐血後於周邊指定優惠店家消費及聯誼，認識更多同伴，並提供民眾自主回報巡迴捐血車等功能。"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/taipei-doit/townpass2024-blood-donation' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/taipei-doit/townpass2024-blood-donation</a>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "images/2024-fall/winning-teams/team-1.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 1,
+                                    "ranking": "第二名",
+                                    "team_name": "光頭的朋友們",
+                                    "thumbnail": "images/2024-fall/winning-teams/team-2.jpg",
+                                    "team_members": "國立臺中教育大學資工",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "個人服務；垃圾桶分布"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "市民常常不知道附近哪裡有垃圾筒可丟，或是花很多時間在等垃圾車，本服務可透過透過影像辨識來辨別垃圾的回收類別及回收日期等資訊；可依使用者所在位置進行最近的垃圾筒及垃圾車站點的推薦及導航功能；可透過垃圾車位置估算到達時間，並設計鬧鐘提醒，縮短等待時間或避免錯過垃圾車。"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/taipei-doit/townpass2024-recycling' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/taipei-doit/townpass2024-recycling</a>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "images/2024-fall/winning-teams/team-2.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "ranking": "第三名",
+                                    "team_name": "嘻嘻的時候黑客松松澤",
+                                    "thumbnail": "images/2024-fall/winning-teams/team-3.jpg",
+                                    "team_members": "成大+清華資工",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "交通；停車資訊"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "台北市千金難求停車位，本作品【找車位】透過視覺化提供台北市停車位即時資訊(包含停車場、停車格及黃線)，讓使用者可透過地圖尋找合適費率及距離的停車格/停車場，選定後導航；另提供停車計時，藉由設定鬧鐘提醒使用者快要進入下一個收費時段；另也提供使用者自行輸入車位號碼，以記錄室內停車的精確位置。"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/taipei-doit/townpass2024-parking' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/taipei-doit/townpass2024-parking</a>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "images/2024-fall/winning-teams/team-3.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "ranking": "佳作1",
+                                    "team_name": "MSP Player",
+                                    "thumbnail": "images/2024-fall/winning-teams/team-4.jpg",
+                                    "team_members": "台灣微軟+Qualcomm+Appier+山富國際旅行社+全支付電子支付股份有限公司",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "個人服務；樂齡長者"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "社會福利會因個人條件不同而有差異，透過台北市民福利政策微服務，子女可透過台北通帳號綁定父母的身分條件，產出對應的福利清單，包含身障、低收入戶、重陽敬老金等應用服務。本服務除串接台北通帳號外，亦使用爬蟲技術、大語言模型等。期待透過本服務可協助綜整樂齡長者個人化的福利資訊。"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/taipei-doit/townpass2024-welfare' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/taipei-doit/townpass2024-welfare</a>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "images/2024-fall/winning-teams/team-4.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 4,
+                                    "ranking": "佳作2",
+                                    "team_name": "我被其他隊抓走了",
+                                    "thumbnail": "images/2024-fall/winning-teams/team-5.jpg",
+                                    "team_members": "台大資工系",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "氣候；天氣資訊彙整"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "提供即時雨晴微服務，可藉由取用行動裝置所在地，查看未來一小時雨量預測，也可查詢特定地點未來雨量預測，本服務整合中央氣象署&OSM資料，可提供小區域的雨量熱區、即時預測資料等，並以視覺化呈現。"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/taipei-doit/townpass2024-weather' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/taipei-doit/townpass2024-weather</a>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "images/2024-fall/winning-teams/team-5.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 5,
+                                    "ranking": "佳作3",
+                                    "team_name": "這樣對不隊",
+                                    "thumbnail": "images/2024-fall/winning-teams/team-6.jpg",
+                                    "team_members": "企業聯隊",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "個人服務；運動場館；配對服務"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "想運動沒場地，沒隊友想找人一起報團。本有球必應微服務可預約北市運動場館服務(付費/免費)，或是依場館時段配對揪團一起運動，讓民眾不需要跨平台或跨場館去交叉比對運動資訊，使場地有效資源發揮最大效益，即使晚一步預約也可以有美好經驗，提高市民運動意願。"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/taipei-doit/townpass2024-venue-rental' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/taipei-doit/townpass2024-venue-rental</a>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "images/2024-fall/winning-teams/team-6.jpg"
+                                    ]
+                                }
+                            ]
+                        },
+                        "photos": {
+                            "title": "照片回顧",
+                            "image_list": []
+                        },
+                        "videos": {
+                            "title": "影音回顧",
+                            "more_videos_url": "",
+                            "list": [
+                                {
+                                    "id": 0,
+                                    "date": "",
+                                    "title": "2024臺北秋季程式設計節大黑客松\n【啟動影片】",
+                                    "thumbnail": "images/2024-fall/videos/1_video.png",
+                                    "video_url": "https://youtu.be/gqqurMHjGJo"
+                                },
+                                {
+                                    "id": 0,
+                                    "date": "",
+                                    "title": "2024臺北秋季程式設計節大黑客松\n【閉幕影片】",
+                                    "thumbnail": "images/2024-fall/videos/2_video.png",
+                                    "video_url": "https://youtu.be/kyjFbdbopXY"
+                                },
+                                {
+                                    "id": 0,
+                                    "date": "",
+                                    "title": "2024臺北秋季程式設計節大黑客松\n【精華影片】",
+                                    "thumbnail": "images/2024-fall/videos/3_video.png",
+                                    "video_url": "https://youtu.be/8_ZaFYZ9BQU"
+                                },
+                                {
+                                    "id": 0,
+                                    "date": "",
+                                    "title": "2024臺北秋季程式設計節大黑客松\n【全紀錄影片】",
+                                    "thumbnail": "images/2024-fall/videos/3_video.png",
+                                    "video_url": "https://youtu.be/_mwFRyvvV_k"
+                                }
+                            ]
+                        }
+                    },
+                    "rules": {
+                        "available": true,
+                        "section_title": "競賽規則",
+                        "description": "\"The power of open source is the power of the people.\"\n— Philippe Kahn\n（開源的力量就是人民的力量）",
+                        "content_title": "概念",
+                        "content": "為持續朝向服務型政府目標邁進，並推廣開源及開放政策，臺北市政府資訊局希望透過「台北通」的經驗，實踐更好的市政數位服務使用體驗、提升行政效率！\n希望各路好手運用創意和技術，將臺北市資料大平台、政府資料開放平臺以及台北通微服務基礎做為開發參考，提出與市政相關之創意方案，並以開源軟體開發為組件化的微服務，開發成果需使用在手機上，並透過展示與實際操作，向大家傳達設計微服務的概念想法。",
+                        "buttons": [],
+                        "promotion_images": {
+                            "desktop_url": "images/2024-fall/img-rules.png",
+                            "mobile_url": "images/2024-fall/img-rules-mobile.png"
+                        },
+                        "judges": {
+                            "available": true,
+                            "list": [
+                                {
+                                    "name": "初選",
+                                    "list": [
+                                        {
+                                            "id": 0,
+                                            "thumbnail": "",
+                                            "name": "王景弘",
+                                            "corporation": "JavaScript.tw技術社團",
+                                            "position": "創辦人"
+                                        },
+                                        {
+                                            "id": 1,
+                                            "thumbnail": "",
+                                            "name": "謝樹瑄",
+                                            "corporation": "臺北市政府資訊局開發團隊",
+                                            "position": "城市通架構師"
+                                        },
+                                        {
+                                            "id": 2,
+                                            "thumbnail": "",
+                                            "name": "蔡秉翰",
+                                            "corporation": "臺北市政府資訊局",
+                                            "position": "專門委員"
+                                        },
+                                        {
+                                            "id": 3,
+                                            "thumbnail": "",
+                                            "name": "沈昇勳",
+                                            "corporation": "悠遊卡股份有限公司",
+                                            "position": "獨立董事"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "決選",
+                                    "list": [
+                                        {
+                                            "id": 4,
+                                            "thumbnail": "",
+                                            "name": "林珠珍",
+                                            "corporation": "臺北市政府資訊局",
+                                            "position": "代理副局長"
+                                        },
+                                        {
+                                            "id": 5,
+                                            "thumbnail": "",
+                                            "name": "陳慧敏",
+                                            "corporation": "數位發展部數位產業署",
+                                            "position": "副署長"
+                                        },
+                                        {
+                                            "id": 6,
+                                            "thumbnail": "",
+                                            "name": "吳肇銘",
+                                            "corporation": "(時任)桃園市政府智慧城鄉發展委員會",
+                                            "position": "主任委員"
+                                        },
+                                        {
+                                            "id": 7,
+                                            "thumbnail": "",
+                                            "name": "黃惠敏",
+                                            "corporation": "臺中市政府數位治理局",
+                                            "position": "副局長"
+                                        },
+                                        {
+                                            "id": 8,
+                                            "thumbnail": "",
+                                            "name": "李柏鋒",
+                                            "corporation": "財團法人開放文化基金會",
+                                            "position": "董事長"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "schedule": {
+                        "available": true,
+                        "section_title": "重要時程",
+                        "list": [
+                            {
+                                "id": "competition",
+                                "schedule_name": "競賽日 09.07 - 09.08",
+                                "schedule_sub_name": "2024年09月07日 星期六 ~ 2024年09月08日 星期日\n國立臺灣大學綜合體育館（臺北市大安區羅斯福路四段1號）",
+                                "button": {
+                                    "text": "",
+                                    "link": "",
+                                    "type": ""
+                                },
+                                "schedule_headers": [
+                                    {
+                                        "name": "日期"
+                                    },
+                                    {
+                                        "name": "時間"
+                                    },
+                                    {
+                                        "name": "議程"
+                                    }
+                                ],
+                                "schedule": [
+                                    {
+                                        "col1": "09.07(六)",
+                                        "col2": "9:00~9:30",
+                                        "col3": "報到"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "9:30~10:00",
+                                        "col3": "開幕式"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "10:00~19:30",
+                                        "col3": "Hacking及教練加油站"
+                                    },
+                                    {
+                                        "col1": "09.08(日)",
+                                        "col2": "~09:30",
+                                        "col3": "Hacking及教練加油站"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "09:30-13:40",
+                                        "col3": "初選"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "13:40~17:00",
+                                        "col3": "決選及MVP團隊獎"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "17:00~17:30",
+                                        "col3": "頒獎"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "sponsor": {
+                        "available": true,
+                        "section_title": "感謝單位",
+                        "list": [
+                            {
+                                "id": 0,
+                                "name": "acer"
+                            },
+                            {
+                                "id": 1,
+                                "name": "aws"
+                            },
+                            {
+                                "id": 2,
+                                "name": "GDG Taipei"
+                            },
+                            {
+                                "id": 3,
+                                "name": "MR.BROWN"
+                            },
+                            {
+                                "id": 4,
+                                "name": "梅竹黑客松"
+                            }
+                        ]
+                    },
+                    "footer": {
+                        "organizer": [
+                            "臺北市政府資訊局"
+                        ],
+                        "co_organizer": [
+                            "臺北市政府公務人員訓練處"
+                        ],
+                        "implementer": [
+                            "台北市電腦商業同業公會"
+                        ],
+                        "buttons": [
+                            {
+                                "name": "Github",
+                                "link": ""
+                            },
+                            {
+                                "name": "YouTube",
+                                "link": ""
+                            }
+                        ]
+                    }
                 },
                 {
+                    "id": "2024-spring",
                     "name": "2024.春季 城市儀表板大黑客松",
                     "date": "2024-01-07~2024-01-08",
-                    "link": "https://www.youtube.com/watch?v=c1HpYSh0-tY&t=8s",
-                    "available": true
+                    "link": "",
+                    "available": true,
+                    "hero_banner": {
+                        "section_title": "2024臺北春季程式設計節\n城市儀表板大黑客松",
+                        "background_options": {
+                            "title": "images/2025-spring/hero-banner-title.svg",
+                            "left": "images/2025-spring/hero-banner-tpe.svg",
+                            "right": "images/2025-spring/hero-banner-ntpc.svg",
+                            "mobile": "images/2025-spring/hero-banner-tp.svg"
+                        }
+                    },
+                    "past": {
+                        "available": true,
+                        "section_title": "參賽回顧",
+                        "description": "收錄獲獎團隊及影音回顧",
+                        "winning_teams": {
+                            "title": "獲獎團隊",
+                            "more_winning_team_photos_url": "",
+                            "list": [
+                                {
+                                    "id": 0,
+                                    "ranking": "第一名",
+                                    "team_name": "(´ཀ`」 ∠)",
+                                    "thumbnail": "https://lh3.googleusercontent.com/d/1WgNZ7VH06wEow2eNlzWhNZj7JbL4GTbG",
+                                    "team_members": "臺大電機大三",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "EOC儀表板（消防）"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "互動式緊急應變儀表板"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/rakechen-0307/Taipei-City-Dashboard' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/rakechen-0307/Taipei-City-Dashboard</a>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://lh3.googleusercontent.com/d/1WgNZ7VH06wEow2eNlzWhNZj7JbL4GTbG"
+                                    ]
+                                },
+                                {
+                                    "id": 1,
+                                    "ranking": "第二名",
+                                    "team_name": "Weeeee Chill",
+                                    "thumbnail": "https://lh3.googleusercontent.com/d/1GvYwasIetBVNQjsbPBXSY2UagIe76SYu",
+                                    "team_members": "Vpon 公司",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "防災都市儀表板（都發）"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "Weeeee防災"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/anne030303/Taipei-City-Dashboard-FE/tree/feature/2024-spring' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/anne030303/Taipei-City-Dashboard-FE/tree/feature/2024-spring</a>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://lh3.googleusercontent.com/d/1GvYwasIetBVNQjsbPBXSY2UagIe76SYu"
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "ranking": "第三名",
+                                    "team_name": "數據探索者",
+                                    "thumbnail": "https://lh3.googleusercontent.com/d/1Mnr_YR74yyBQN1AyhpICrlz2umpK2GWe",
+                                    "team_members": "鴻海",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "氣候變遷儀表板（環保）"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "避免氣候難民，成為淨零贏家，從知道便行動"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/RayChenCode/Taipei-City-Dashboard-2024-Spring' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/RayChenCode/Taipei-City-Dashboard-2024-Spring</a>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://lh3.googleusercontent.com/d/1Mnr_YR74yyBQN1AyhpICrlz2umpK2GWe"
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "ranking": "佳作1",
+                                    "team_name": "真的是GO了",
+                                    "thumbnail": "https://lh3.googleusercontent.com/d/1JRIrFoYkWRleqJu8IsdKaf9mh2aaTEng",
+                                    "team_members": "中原資管大三",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "交通安全儀表板（交通）"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "違停警示系統"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/tzuuuu/Taipei-City-Dashboard' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/tzuuuu/Taipei-City-Dashboard</a>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://lh3.googleusercontent.com/d/1JRIrFoYkWRleqJu8IsdKaf9mh2aaTEng"
+                                    ]
+                                },
+                                {
+                                    "id": 4,
+                                    "ranking": "佳作2",
+                                    "team_name": "快樂菠菜",
+                                    "thumbnail": "https://lh3.googleusercontent.com/d/1Hq1IH2am7QsUDg2EANTK3lG3Fbz2t4-U",
+                                    "team_members": "業界組合團隊",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "為民服務儀表板（民政）"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "學生安全儀表板"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/scott9909041/Taipei-City-Dashboard' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/scott9909041/Taipei-City-Dashboard</a>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://lh3.googleusercontent.com/d/1Hq1IH2am7QsUDg2EANTK3lG3Fbz2t4-U"
+                                    ]
+                                },
+                                {
+                                    "id": 5,
+                                    "ranking": "佳作3",
+                                    "team_name": "猛虎出閘隊",
+                                    "thumbnail": "https://lh3.googleusercontent.com/d/1Jzr3X637CGzJ58cuX-2v1MSzUH3kNiWT",
+                                    "team_members": "臺北榮總資訊室",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "為民服務儀表板（民政）"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "親子我幫您儀表板"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/david855033/VGHTPE-Taipei-City-Dashboard' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/david855033/VGHTPE-Taipei-City-Dashboard</a>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://lh3.googleusercontent.com/d/1Jzr3X637CGzJ58cuX-2v1MSzUH3kNiWT"
+                                    ]
+                                },
+                                {
+                                    "id": 6,
+                                    "ranking": "佳作4",
+                                    "team_name": "黑客狗",
+                                    "thumbnail": "https://lh3.googleusercontent.com/d/1rHy8nCqw0umYoLZWuqyaVYA1AQIBjq1_",
+                                    "team_members": "業界組合團隊",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "為民服務儀表板（民政）"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "與民眾更靠近"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/Aquilass/hackathon-Taipei-City-Dashboard' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/Aquilass/hackathon-Taipei-City-Dashboard</a>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://lh3.googleusercontent.com/d/1rHy8nCqw0umYoLZWuqyaVYA1AQIBjq1_"
+                                    ]
+                                }
+                            ]
+                        },
+                        "photos": {
+                            "title": "照片回顧",
+                            "image_list": []
+                        },
+                        "videos": {
+                            "title": "影音回顧",
+                            "more_videos_url": "",
+                            "list": [
+                                {
+                                    "id": 0,
+                                    "date": "",
+                                    "title": "2024臺北春季程式設計節大黑客松\n【閉幕影片】",
+                                    "thumbnail": "images/2024-spring/videos/1_video.png",
+                                    "video_url": "https://youtu.be/C9g3UBkekXc"
+                                },
+                                {
+                                    "id": 1,
+                                    "date": "",
+                                    "title": "2024臺北春季程式設計節大黑客松\n【精華影片】",
+                                    "thumbnail": "images/2024-spring/videos/2_video.png",
+                                    "video_url": "https://youtu.be/c1HpYSh0-tY"
+                                }
+                            ]
+                        }
+                    },
+                    "rules": {
+                        "available": true,
+                        "section_title": "競賽規則",
+                        "description": "\"The power of open source is the power of the people.\"\n— Philippe Kahn\n（開源的力量就是人民的力量）",
+                        "content_title": "概念",
+                        "content": "為達到透明開放、科技普惠、建立服務型政府的目標，本競賽特以政府機關第一個開放原始碼（ Open Source ，或稱開源）的城市資料視覺化平台「臺北城市儀表板」為題，廣邀各界高手，全力支持開放原始碼，在良好基礎上提出創意可視化方案。同時，本機關更希望以本競賽作為首發，透過拋磚引玉，逐步將開源技術導入市政服務的一環，期望降低成本、提高政府經營效率，更期望藉此打造、激盪出跨縣市且更優質的數位公共服務。本次競賽主題為：EOC、為民服務、交通安全、防災都市及氣候變遷。",
+                        "buttons": [],
+                        "promotion_images": {
+                            "desktop_url": "images/2024-spring/img-rules.png",
+                            "mobile_url": "images/2024-spring/img-rules-mobile.png"
+                        },
+                        "judges": {
+                            "available": true,
+                            "list": [
+                                {
+                                    "name": "初選",
+                                    "list": [
+                                        {
+                                            "id": 0,
+                                            "thumbnail": "",
+                                            "name": "王景弘",
+                                            "corporation": "JavaScript.tw技術社團",
+                                            "position": "創辦人"
+                                        },
+                                        {
+                                            "id": 1,
+                                            "thumbnail": "",
+                                            "name": "江明宗",
+                                            "corporation": "國家資通安全研究院",
+                                            "position": "顧問"
+                                        },
+                                        {
+                                            "id": 2,
+                                            "thumbnail": "",
+                                            "name": "游璿達",
+                                            "corporation": "(時任)臺北市政府資訊局儀表板開發團隊",
+                                            "position": "資料分析師"
+                                        },
+                                        {
+                                            "id": 3,
+                                            "thumbnail": "",
+                                            "name": "何紹宇",
+                                            "corporation": "(時任)臺北市政府資訊局儀表板開發團隊",
+                                            "position": "前端工程師"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "決選",
+                                    "list": [
+                                        {
+                                            "id": 4,
+                                            "thumbnail": "",
+                                            "name": "趙式隆",
+                                            "corporation": "臺北市政府資訊局",
+                                            "position": "局長"
+                                        },
+                                        {
+                                            "id": 5,
+                                            "thumbnail": "",
+                                            "name": "黃彥男",
+                                            "corporation": "(時任)中研院資通安全專題中心",
+                                            "position": "執行長"
+                                        },
+                                        {
+                                            "id": 6,
+                                            "thumbnail": "",
+                                            "name": "陳富添",
+                                            "corporation": "新北市政府資訊中心",
+                                            "position": "主任"
+                                        },
+                                        {
+                                            "id": 7,
+                                            "thumbnail": "",
+                                            "name": "黃鐘揚",
+                                            "corporation": "國立台灣大學電機工程學系",
+                                            "position": "教授"
+                                        },
+                                        {
+                                            "id": 8,
+                                            "thumbnail": "",
+                                            "name": "龔培元",
+                                            "corporation": "鴻海精密工業股份有限公司",
+                                            "position": "資訊長"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "schedule": {
+                        "available": true,
+                        "section_title": "重要時程",
+                        "list": [
+                            {
+                                "id": "competition",
+                                "schedule_name": "競賽日 05.11 - 05.12",
+                                "schedule_sub_name": "2024年05月11日 星期六 ~ 2024年05月12日 星期日\n劍潭青年活動中心（臺北市士林區中山北路四段16號）",
+                                "button": {
+                                    "text": "",
+                                    "link": "",
+                                    "type": ""
+                                },
+                                "schedule_headers": [
+                                    {
+                                        "name": "日期"
+                                    },
+                                    {
+                                        "name": "時間"
+                                    },
+                                    {
+                                        "name": "議程"
+                                    }
+                                ],
+                                "schedule": [
+                                    {
+                                        "col1": "05.11(六)",
+                                        "col2": "9:00~9:30",
+                                        "col3": "報到"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "9:30~10:00",
+                                        "col3": "開幕式"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "10:00~",
+                                        "col3": "Hacking"
+                                    },
+                                    {
+                                        "col1": "05.12(日)",
+                                        "col2": "~10:00",
+                                        "col3": "Hacking"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "10:00-13:30",
+                                        "col3": "初選"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "13:30~17:00",
+                                        "col3": "決選及最佳預測獎"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "17:00~17:30",
+                                        "col3": "閉幕式"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "sponsor": {
+                        "available": true,
+                        "section_title": "感謝單位",
+                        "list": [
+                            {
+                                "id": 0,
+                                "name": "臺北市政府民政局"
+                            },
+                            {
+                                "id": 1,
+                                "name": "臺北市政府消防局"
+                            },
+                            {
+                                "id": 2,
+                                "name": "臺北市政府交通局"
+                            },
+                            {
+                                "id": 3,
+                                "name": "臺北市政府環境保護局"
+                            },
+                            {
+                                "id": 4,
+                                "name": "臺北市政府都市發展局"
+                            },
+                            {
+                                "id": 5,
+                                "name": "臺北市政府社會局"
+                            },
+                            {
+                                "id": 6,
+                                "name": "家湘涼麵"
+                            },
+                            {
+                                "id": 7,
+                                "name": "士林阿輝麵線"
+                            },
+                            {
+                                "id": 8,
+                                "name": "頃刻間綠豆沙牛奶專賣店"
+                            }
+                        ]
+                    },
+                    "footer": {
+                        "organizer": [
+                            "臺北市政府資訊局"
+                        ],
+                        "co_organizer": [
+                            "臺北市政府公務人員訓練處",
+                            "臺北市政府勞動局",
+                            "臺北市政府衛生局"
+                        ],
+                        "implementer": [
+                            "台北市電腦商業同業公會"
+                        ],
+                        "buttons": [
+                            {
+                                "name": "Github",
+                                "link": ""
+                            },
+                            {
+                                "name": "YouTube",
+                                "link": ""
+                            }
+                        ]
+                    }
                 },
                 {
+                    "id": "2023",
                     "name": "2023. 城市儀表板大黑客松",
                     "date": "2024-06-07~2024-06-08",
-                    "link": "https://www.youtube.com/watch?v=ZwrK82vid6Y",
-                    "available": true
+                    "link": "",
+                    "available": true,
+                    "hero_banner": {
+                        "section_title": "2023臺北程式設計節\n城市儀表板大黑客松",
+                        "background_options": {
+                            "title": "images/2025-spring/hero-banner-title.svg",
+                            "left": "images/2025-spring/hero-banner-tpe.svg",
+                            "right": "images/2025-spring/hero-banner-ntpc.svg",
+                            "mobile": "images/2025-spring/hero-banner-tp.svg"
+                        }
+                    },
+                    "past": {
+                        "available": true,
+                        "section_title": "參賽回顧",
+                        "description": "收錄獲獎團隊及影音回顧",
+                        "winning_teams": {
+                            "title": "獲獎團隊",
+                            "more_winning_team_photos_url": "",
+                            "list": [
+                                {
+                                    "id": 0,
+                                    "ranking": "第一名",
+                                    "team_name": "OPEN POSSIBLE數據視界",
+                                    "thumbnail": "https://lh3.googleusercontent.com/d/1l2mdl_Rk244Rg4X2S_OQLatweqvjXb3B",
+                                    "team_members": "台灣大哥大",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "祝您好孕"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "除整併許多有用圖表，作品更重視用戶體驗，選用視障友善的配色與排版。"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://lh3.googleusercontent.com/d/1l2mdl_Rk244Rg4X2S_OQLatweqvjXb3B"
+                                    ]
+                                },
+                                {
+                                    "id": 1,
+                                    "ranking": "第二名",
+                                    "team_name": "黃梓睿是我的威猛先生",
+                                    "thumbnail": "https://lh3.googleusercontent.com/d/1WSwogAuRPCw54C30T3BdASZExSQVNzfY",
+                                    "team_members": "中原資管",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "韌性城市"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "大量運用政府已開放的圖資，將有用的公共設施展現於儀表板地圖上。"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://lh3.googleusercontent.com/d/1WSwogAuRPCw54C30T3BdASZExSQVNzfY"
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "ranking": "第三名",
+                                    "team_name": "我們都是112A",
+                                    "thumbnail": "https://lh3.googleusercontent.com/d/1b3qIfserr59DCaYiftraM3AZTLDmJfio",
+                                    "team_members": "臺大資管＋臺大經濟",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "韌性城市"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "整理淹水模擬圖，開發圖層篩選功能，讓使用者概覽不同雨量下的淹水模擬。"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://lh3.googleusercontent.com/d/1b3qIfserr59DCaYiftraM3AZTLDmJfio"
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "ranking": "佳作1",
+                                    "team_name": "捕蚊燈",
+                                    "thumbnail": "https://lh3.googleusercontent.com/d/1vNOnLNBFUpPNHbsPHiLiP-thtafhR0vp",
+                                    "team_members": "臺大電機系學會",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "祝您好孕"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "提升儀表板呈現資料的維度，除顯示醫療院所點位，更用創意方式呈現服務項目。"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://lh3.googleusercontent.com/d/1vNOnLNBFUpPNHbsPHiLiP-thtafhR0vp"
+                                    ]
+                                },
+                                {
+                                    "id": 4,
+                                    "ranking": "佳作2",
+                                    "team_name": "數據調色盤",
+                                    "thumbnail": "https://lh3.googleusercontent.com/d/1QQ4JWNNydb-e_Vs8iCTaaIcRIgRn4v7t",
+                                    "team_members": "中華電信",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "祝您好孕"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "跳脫儀表板框架，以專欄形式排列儀表板組件。"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://lh3.googleusercontent.com/d/1QQ4JWNNydb-e_Vs8iCTaaIcRIgRn4v7t"
+                                    ]
+                                },
+                                {
+                                    "id": 5,
+                                    "ranking": "佳作3",
+                                    "team_name": "Wee Win",
+                                    "thumbnail": "https://lh3.googleusercontent.com/d/1oN5Cmc7mPA6Sp5h9kj7J3JUUkAyt5nz5",
+                                    "team_members": "威朋大數據",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "祝您好孕"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "地理空間分析強大，所有資料都有做加值分析，使用許多創意方式呈現地圖資料。"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://lh3.googleusercontent.com/d/1oN5Cmc7mPA6Sp5h9kj7J3JUUkAyt5nz5"
+                                    ]
+                                },
+                                {
+                                    "id": 6,
+                                    "ranking": "佳作4",
+                                    "team_name": "▶︎ |Ill'I||I|'lI| 00:21",
+                                    "thumbnail": "https://lh3.googleusercontent.com/d/1aDXxwXg76jFg-e-o1mYCY-7CpLCrUr_G",
+                                    "team_members": "臺大電機",
+                                    "descriptions": [
+                                        {
+                                            "title": "主題選擇",
+                                            "content": "祝您好孕"
+                                        },
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "技術精湛，整併最多功能的隊伍，資料處理、客製圖表、演算法新地圖都充滿亮點。"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://lh3.googleusercontent.com/d/1aDXxwXg76jFg-e-o1mYCY-7CpLCrUr_G"
+                                    ]
+                                }
+                            ]
+                        },
+                        "photos": {
+                            "title": "照片回顧",
+                            "image_list": []
+                        },
+                        "videos": {
+                            "title": "影音回顧",
+                            "more_videos_url": "",
+                            "list": [
+                                {
+                                    "id": 0,
+                                    "date": "",
+                                    "title": "2023臺北程式設計節大黑客松\n【精華影片】",
+                                    "thumbnail": "images/2023/videos/1_video.png",
+                                    "video_url": "https://youtu.be/ZwrK82vid6Y"
+                                },
+                                {
+                                    "id": 1,
+                                    "date": "",
+                                    "title": "2023臺北程式設計節大黑客松\n【全紀錄影片】",
+                                    "thumbnail": "images/2023/videos/2_video.png",
+                                    "video_url": "https://youtu.be/M_TzhmgXs8I"
+                                }
+                            ]
+                        }
+                    },
+                    "rules": {
+                        "available": true,
+                        "section_title": "競賽規則",
+                        "description": "\"The power of open source is the power of the people.\"\n— Philippe Kahn\n（開源的力量就是人民的力量）",
+                        "content_title": "概念",
+                        "content": "為達到透明開放、科技普惠、建立服務型政府的目標，本競賽特以政府機 關第一個開放原始碼（ Open Source ，或稱開源）的城市資料視覺化平台「臺 北城市儀表板」為題，廣邀各界高手，全力支持開放原始碼，在良好基礎上提 出創意可視化方案。本次競賽主題為：祝您好孕、韌性城市、有緣在臺北。",
+                        "buttons": [],
+                        "promotion_images": {
+                            "desktop_url": "images/2023/img-rules.png",
+                            "mobile_url": "images/2023/img-rules-mobile.png"
+                        },
+                        "judges": {
+                            "available": true,
+                            "list": [
+                                {
+                                    "name": "初選",
+                                    "list": [
+                                        {
+                                            "id": 0,
+                                            "thumbnail": "",
+                                            "name": "吳泰輝",
+                                            "corporation": "g0v",
+                                            "position": "共同創辦人"
+                                        },
+                                        {
+                                            "id": 1,
+                                            "thumbnail": "",
+                                            "name": "林佑達",
+                                            "corporation": "（時任）國立陽明交通大學",
+                                            "position": "兼任助理教授"
+                                        },
+                                        {
+                                            "id": 2,
+                                            "thumbnail": "",
+                                            "name": "游璿達",
+                                            "corporation": "(時任)臺北市政府資訊局儀表板開發團隊",
+                                            "position": "資料分析師"
+                                        },
+                                        {
+                                            "id": 3,
+                                            "thumbnail": "",
+                                            "name": "何紹宇",
+                                            "corporation": "(時任)臺北市政府資訊局儀表板開發團隊",
+                                            "position": "前端工程師"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "決選",
+                                    "list": [
+                                        {
+                                            "id": 4,
+                                            "thumbnail": "",
+                                            "name": "趙式隆",
+                                            "corporation": "臺北市政府資訊局",
+                                            "position": "局長"
+                                        },
+                                        {
+                                            "id": 5,
+                                            "thumbnail": "",
+                                            "name": "闕河鳴",
+                                            "corporation": "數位發展部",
+                                            "position": "政務次長"
+                                        },
+                                        {
+                                            "id": 6,
+                                            "thumbnail": "",
+                                            "name": "吳肇銘",
+                                            "corporation": "（時任）桃園市政府研究發展考核委員會",
+                                            "position": "主任委員"
+                                        },
+                                        {
+                                            "id": 7,
+                                            "thumbnail": "",
+                                            "name": "黃惠敏",
+                                            "corporation": "臺中市政府數位治理局",
+                                            "position": "副局長"
+                                        },
+                                        {
+                                            "id": 8,
+                                            "thumbnail": "",
+                                            "name": "林家樑",
+                                            "corporation": "MIT城市科學實驗室亞洲區",
+                                            "position": "主任"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    "schedule": {
+                        "available": true,
+                        "section_title": "重要時程",
+                        "list": [
+                            {
+                                "id": "competition",
+                                "schedule_name": "競賽日 11.18 - 11.19",
+                                "schedule_sub_name": "2023年11月18日 星期六 ~ 2023年11月19日 星期日\n臺北市立大學天母校區體育館（臺北市士林區忠誠路二段101號）",
+                                "button": {
+                                    "text": "",
+                                    "link": "",
+                                    "type": ""
+                                },
+                                "schedule_headers": [
+                                    {
+                                        "name": "日期"
+                                    },
+                                    {
+                                        "name": "時間"
+                                    },
+                                    {
+                                        "name": "議程"
+                                    }
+                                ],
+                                "schedule": [
+                                    {
+                                        "col1": "11.18(六)",
+                                        "col2": "8:30~9:00",
+                                        "col3": "相關介紹或影片播放/預演"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "9:00~10:00",
+                                        "col3": "開幕式"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "10:00~",
+                                        "col3": "競賽開始"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "12:00~13:30",
+                                        "col3": "午餐用餐"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "15:00~16:00",
+                                        "col3": "下午茶進場"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "17:00~17:30",
+                                        "col3": "表演活動"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "18:00~20:00",
+                                        "col3": "晚餐提供"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "21:00~22:00",
+                                        "col3": "宵夜時間"
+                                    },
+                                    {
+                                        "col1": "11.19(日)",
+                                        "col2": "7:30~8:00",
+                                        "col3": "早操時間"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "8:00~8:30",
+                                        "col3": "早餐時間"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "12:00~13:30",
+                                        "col3": "午餐進場"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "13:30-15:00",
+                                        "col3": "第一輪評選時間\n持續系統補正時間"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "15:00~15:30",
+                                        "col3": "下午茶進場\n公告進入決賽15強"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "15:30~17:00",
+                                        "col3": "上台展示 & QA"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "17:00~18:00",
+                                        "col3": "頒獎與閉幕式"
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "18:00~",
+                                        "col3": "活動結束"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "sponsor": {
+                        "available": true,
+                        "section_title": "感謝單位",
+                        "list": [
+                            {
+                                "id": 0,
+                                "name": "MALAYSIAN FRIENDSHIP AND TRADE CENTRE, TAIPEI 馬來西亞友誼及貿易中心"
+                            },
+                            {
+                                "id": 1,
+                                "name": "伯朗咖啡"
+                            },
+                            {
+                                "id": 2,
+                                "name": "kiehl's"
+                            },
+                            {
+                                "id": 3,
+                                "name": "萬瑞廣告"
+                            }
+                        ]
+                    },
+                    "footer": {
+                        "organizer": [
+                            "臺北市政府資訊局"
+                        ],
+                        "co_organizer": [
+                            "臺北市政府衛生局",
+                            "臺北市立聯合醫院"
+                        ],
+                        "implementer": [
+                            "臺北市立大學"
+                        ],
+                        "buttons": [
+                            {
+                                "name": "Github",
+                                "link": ""
+                            },
+                            {
+                                "name": "YouTube",
+                                "link": ""
+                            }
+                        ]
+                    }
                 }
             ],
             "taipei_art_fest": [
                 {
+                    "id": "2024-art-fest",
                     "name": "2024臺北生成藝術節",
                     "date": "2024-09-07~2024-09-08",
                     "link": "https://drive.google.com/file/d/1vPGUos4zj0uTPt4q3t8nmCuWIlL8lolD/view",
