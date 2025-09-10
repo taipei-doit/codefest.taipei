@@ -48,27 +48,6 @@ const currentActivity = computed(() => {
   return null;
 });
 
-/** hero banner - 左側背景圖片 */
-const leftBackgroundImage = computed(() => {
-  const heroBanner = currentActivity.value?.hero_banner;
-  if (!heroBanner?.background_options) return '';
-  return heroBanner.background_options.left || '';
-});
-
-/** hero banner - 右側背景圖片 */
-const rightBackgroundImage = computed(() => {
-  const heroBanner = currentActivity.value?.hero_banner;
-  if (!heroBanner?.background_options) return '';
-  return heroBanner.background_options.right || '';
-});
-
-/** hero banner - 背景圖片選擇 (用於手機端) */
-const backgroundImage = computed(() => {
-  const heroBanner = currentActivity.value?.hero_banner;
-  if (!heroBanner?.background_options) return '';
-  return heroBanner.background_options.mobile || '';
-});
-
 /** 參賽回顧 */
 const winningTeamList = computed<PastWinningTeam[]>(() => {
   if (!currentActivity.value?.past?.winning_teams?.list) {
@@ -182,11 +161,6 @@ onUnmounted(() => {
       <div class="lg:border-0 border border-white flex flex-1">
         <div
           class="lg:border-0 m-1 border border-white text-white flex-1 flex items-center justify-center text-center bg-tp"
-          :style="{
-            '--left-bg': leftBackgroundImage ? `url(${leftBackgroundImage})` : 'none',
-            '--right-bg': rightBackgroundImage ? `url(${rightBackgroundImage})` : 'none',
-            '--mobile-bg': backgroundImage ? `url(${backgroundImage})` : 'none',
-          }"
         >
           <!-- desktop noise -->
           <img
@@ -1062,7 +1036,7 @@ onUnmounted(() => {
 .bg-tp {
   @apply relative;
   &::before {
-    content: var(--left-bg);
+    content: url('images/2025-spring/hero-banner-tpe.svg');
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
@@ -1070,7 +1044,7 @@ onUnmounted(() => {
   }
 
   &::after {
-    content: var(--right-bg);
+    content: url('images/2025-spring/hero-banner-ntpc.svg');
     background-repeat: no-repeat;
     position: absolute;
     right: 0;
@@ -1084,7 +1058,7 @@ onUnmounted(() => {
   }
 
   .bg-tp {
-    background-image: var(--mobile-bg);
+    background-image: url('images/2025-spring/hero-banner-tp.svg');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
