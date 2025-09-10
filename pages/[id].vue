@@ -199,7 +199,7 @@ onUnmounted(() => {
             src="@/assets/images/hero-banner-noise3.svg"
             alt="noise"
           />
-          <div class="p-10 flex flex-col justify-around h-full max-h-[250px] relative">
+          <div class="lg:p-10 p-8 flex flex-col justify-around h-full max-h-[250px] relative">
             <!-- desktop noise -->
             <img
               class="lg:block hidden hero-banner-noise hero-banner-noise--2"
@@ -222,7 +222,7 @@ onUnmounted(() => {
               alt="城市儀表板大黑客松"
             /> -->
             <p
-              class="lg:text-5xl text-3xl lg:leading-[1.4] leading-[1.4] font-fusion-pixel whitespace-pre-line"
+              class="lg:text-5xl text-2xl lg:leading-[1.4] leading-[1.4] font-fusion-pixel whitespace-pre-line"
             >
               {{ currentActivity?.hero_banner?.section_title }}
             </p>
