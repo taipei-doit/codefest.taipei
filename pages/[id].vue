@@ -1036,7 +1036,7 @@ onUnmounted(() => {
 .bg-tp {
   @apply relative;
   &::before {
-    content: url('images/2025-spring/hero-banner-tpe.svg');
+    content: url('@/assets/images/2025-spring/hero-banner-tpe.svg');
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
@@ -1044,7 +1044,7 @@ onUnmounted(() => {
   }
 
   &::after {
-    content: url('images/2025-spring/hero-banner-ntpc.svg');
+    content: url('@/assets/images/2025-spring/hero-banner-ntpc.svg');
     background-repeat: no-repeat;
     position: absolute;
     right: 0;
@@ -1058,7 +1058,7 @@ onUnmounted(() => {
   }
 
   .bg-tp {
-    background-image: url('images/2025-spring/hero-banner-tp.svg');
+    background-image: url('@/assets/images/2025-spring/hero-banner-tp.svg');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
