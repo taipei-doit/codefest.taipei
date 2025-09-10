@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/welcome/',
     head: {
-      title: '2025雙北程式設計節',
+      title: 'Codefest',
       meta: [
         { name: 'robots', content: 'index,follow' },
         { 'http-equiv': 'cache-control', content: 'no-cache' },
