@@ -900,11 +900,11 @@
                         "buttons": [
                             {
                                 "name": "Github",
-                                "link": ""
+                                "link": "https://github.com/taipei-doit"
                             },
                             {
                                 "name": "YouTube",
-                                "link": ""
+                                "link": "https://www.youtube.com/@Code-FestTaipei"
                             }
                         ]
                     }
@@ -1338,11 +1338,11 @@
                         "buttons": [
                             {
                                 "name": "Github",
-                                "link": ""
+                                "link": "https://github.com/taipei-doit"
                             },
                             {
                                 "name": "YouTube",
-                                "link": ""
+                                "link": "https://www.youtube.com/@Code-FestTaipei"
                             }
                         ]
                     }
