@@ -66,7 +66,7 @@
                                     "id": 0,
                                     "ranking": "第一名",
                                     "team_name": "亂寫都隊",
-                                    "thumbnail": "images/2025-spring/winning-teams/team-1.jpg",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20spring/%E5%BE%97%E7%8D%8E%E5%9C%98%E9%9A%8A/A7400182.jpg",
                                     "team_members": "陽明交通大學",
                                     "descriptions": [
                                         {
@@ -87,14 +87,14 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "images/2025-spring/winning-teams/team-1.jpg"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20spring/%E5%BE%97%E7%8D%8E%E5%9C%98%E9%9A%8A/A7400182.jpg"
                                     ]
                                 },
                                 {
                                     "id": 1,
                                     "ranking": "第二名",
                                     "team_name": "城市設計夢想家-王者再起",
-                                    "thumbnail": "images/2025-spring/winning-teams/team-2.jpg",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20spring/%E5%BE%97%E7%8D%8E%E5%9C%98%E9%9A%8A/A7400140.jpg",
                                     "team_members": "東海大學、元智大學",
                                     "descriptions": [
                                         {
@@ -115,14 +115,14 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "images/2025-spring/winning-teams/team-2.jpg"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20spring/%E5%BE%97%E7%8D%8E%E5%9C%98%E9%9A%8A/A7400140.jpg"
                                     ]
                                 },
                                 {
                                     "id": 2,
                                     "ranking": "第三名",
                                     "team_name": "ex-Wee",
-                                    "thumbnail": "images/2025-spring/winning-teams/team-3.jpg",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20spring/%E5%BE%97%E7%8D%8E%E5%9C%98%E9%9A%8A/A7400122.jpg",
                                     "team_members": "企業(Vpon、友愉、台積電、群暉)",
                                     "descriptions": [
                                         {
@@ -143,14 +143,14 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "images/2025-spring/winning-teams/team-3.jpg"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20spring/%E5%BE%97%E7%8D%8E%E5%9C%98%E9%9A%8A/A7400122.jpg"
                                     ]
                                 },
                                 {
                                     "id": 3,
                                     "ranking": "佳作1",
                                     "team_name": "粽子裡沒 bug",
-                                    "thumbnail": "images/2025-spring/winning-teams/team-4.jpg",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20spring/%E5%BE%97%E7%8D%8E%E5%9C%98%E9%9A%8A/A7400098.jpg",
                                     "team_members": "成功大學、政治大學、企業(中嘉、LINE PAY、土地銀行)",
                                     "descriptions": [
                                         {
@@ -171,14 +171,14 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "images/2025-spring/winning-teams/team-4.jpg"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20spring/%E5%BE%97%E7%8D%8E%E5%9C%98%E9%9A%8A/A7400098.jpg"
                                     ]
                                 },
                                 {
                                     "id": 4,
                                     "ranking": "佳作2",
                                     "team_name": "木柵派大星",
-                                    "thumbnail": "images/2025-spring/winning-teams/team-5.jpg",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20spring/%E5%BE%97%E7%8D%8E%E5%9C%98%E9%9A%8A/A7400074.jpg",
                                     "team_members": "政治大學、臺灣大學",
                                     "descriptions": [
                                         {
@@ -199,14 +199,14 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "images/2025-spring/winning-teams/team-5.jpg"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20spring/%E5%BE%97%E7%8D%8E%E5%9C%98%E9%9A%8A/A7400074.jpg"
                                     ]
                                 },
                                 {
                                     "id": 5,
                                     "ranking": "佳作3",
                                     "team_name": "Bombardino Crocodilo 🐊✈",
-                                    "thumbnail": "images/2025-spring/winning-teams/team-6.jpg",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20spring/%E5%BE%97%E7%8D%8E%E5%9C%98%E9%9A%8A/A7400051.jpg",
                                     "team_members": "中原大學",
                                     "descriptions": [
                                         {
@@ -227,7 +227,7 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "images/2025-spring/winning-teams/team-6.jpg"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20spring/%E5%BE%97%E7%8D%8E%E5%9C%98%E9%9A%8A/A7400051.jpg"
                                     ]
                                 }
                             ]
@@ -235,12 +235,12 @@
                         "photos": {
                             "title": "照片回顧",
                             "image_list": [
-                                "images/2025-spring/past-photos/0518/A7408586.jpg",
-                                "images/2025-spring/past-photos/0518/A7408655.jpg",
-                                "images/2025-spring/past-photos/0518/A7408704.jpg",
-                                "images/2025-spring/past-photos/0518/A7408726.jpg",
-                                "images/2025-spring/past-photos/0518/A7408748.jpg",
-                                "images/2025-spring/past-photos/0518/A7408795.jpg"
+                                "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20spring/0531_coding/AC201314.jpg",
+                                "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20spring/0531_coding/AC201316.jpg",
+                                "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20spring/0531_coding/AC201319.jpg",
+                                "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20spring/0531_coding/AC201328.jpg",
+                                "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20spring/0531_coding/AC201362.jpg",
+                                "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20spring/0531_coding/AC201364.jpg"
                             ]
                         },
                         "videos": {
@@ -513,7 +513,7 @@
                                     "id": 0,
                                     "ranking": "第一名",
                                     "team_name": "Wee Won",
-                                    "thumbnail": "images/2024-fall/winning-teams/team-1.jpg",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/Wee%20Won_%E7%AC%AC%E4%B8%80%E5%90%8D.jpg",
                                     "team_members": "Vpon",
                                     "descriptions": [
                                         {
@@ -530,14 +530,14 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "images/2024-fall/winning-teams/team-1.jpg"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/Wee%20Won_%E7%AC%AC%E4%B8%80%E5%90%8D.jpg"
                                     ]
                                 },
                                 {
                                     "id": 1,
                                     "ranking": "第二名",
                                     "team_name": "光頭的朋友們",
-                                    "thumbnail": "images/2024-fall/winning-teams/team-2.jpg",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E5%85%89%E9%A0%AD%E7%9A%84%E6%9C%8B%E5%8F%8B%E5%80%91_%E7%AC%AC%E4%BA%8C%E5%90%8D.jpg",
                                     "team_members": "國立臺中教育大學資工",
                                     "descriptions": [
                                         {
@@ -554,14 +554,14 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "images/2024-fall/winning-teams/team-2.jpg"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E5%85%89%E9%A0%AD%E7%9A%84%E6%9C%8B%E5%8F%8B%E5%80%91_%E7%AC%AC%E4%BA%8C%E5%90%8D.jpg"
                                     ]
                                 },
                                 {
                                     "id": 2,
                                     "ranking": "第三名",
                                     "team_name": "嘻嘻的時候黑客松松澤",
-                                    "thumbnail": "images/2024-fall/winning-teams/team-3.jpg",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E5%98%BB%E5%98%BB%E7%9A%84%E6%99%82%E5%80%99%E9%BB%91%E5%AE%A2%E6%9D%BE%E6%9D%BE%E6%BE%A4_%E7%AC%AC%E4%B8%89%E5%90%8D.jpg",
                                     "team_members": "成大+清華資工",
                                     "descriptions": [
                                         {
@@ -578,14 +578,14 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "images/2024-fall/winning-teams/team-3.jpg"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E5%98%BB%E5%98%BB%E7%9A%84%E6%99%82%E5%80%99%E9%BB%91%E5%AE%A2%E6%9D%BE%E6%9D%BE%E6%BE%A4_%E7%AC%AC%E4%B8%89%E5%90%8D.jpg"
                                     ]
                                 },
                                 {
                                     "id": 3,
                                     "ranking": "佳作1",
                                     "team_name": "MSP Player",
-                                    "thumbnail": "images/2024-fall/winning-teams/team-4.jpg",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/MSP%20Player_%E4%BD%B3%E4%BD%9C.jpg",
                                     "team_members": "台灣微軟+Qualcomm+Appier+山富國際旅行社+全支付電子支付股份有限公司",
                                     "descriptions": [
                                         {
@@ -602,14 +602,14 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "images/2024-fall/winning-teams/team-4.jpg"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/MSP%20Player_%E4%BD%B3%E4%BD%9C.jpg"
                                     ]
                                 },
                                 {
                                     "id": 4,
                                     "ranking": "佳作2",
                                     "team_name": "我被其他隊抓走了",
-                                    "thumbnail": "images/2024-fall/winning-teams/team-5.jpg",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E6%88%91%E8%A2%AB%E5%85%B6%E4%BB%96%E9%9A%8A%E6%8A%93%E8%B5%B0%E4%BA%86_%E4%BD%B3%E4%BD%9C.jpg",
                                     "team_members": "台大資工系",
                                     "descriptions": [
                                         {
@@ -626,14 +626,14 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "images/2024-fall/winning-teams/team-5.jpg"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E6%88%91%E8%A2%AB%E5%85%B6%E4%BB%96%E9%9A%8A%E6%8A%93%E8%B5%B0%E4%BA%86_%E4%BD%B3%E4%BD%9C.jpg"
                                     ]
                                 },
                                 {
                                     "id": 5,
                                     "ranking": "佳作3",
                                     "team_name": "這樣對不隊",
-                                    "thumbnail": "images/2024-fall/winning-teams/team-6.jpg",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E9%80%99%E6%A8%A3%E5%B0%8D%E4%B8%8D%E9%9A%8A_%E4%BD%B3%E4%BD%9C.jpg",
                                     "team_members": "企業聯隊",
                                     "descriptions": [
                                         {
@@ -650,14 +650,22 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "images/2024-fall/winning-teams/team-6.jpg"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E9%80%99%E6%A8%A3%E5%B0%8D%E4%B8%8D%E9%9A%8A_%E4%BD%B3%E4%BD%9C.jpg"
                                     ]
                                 }
                             ]
                         },
                         "photos": {
                             "title": "照片回顧",
-                            "image_list": []
+                            "image_list": [
+                                "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/0907coding/0907_coding01.jpg",
+                                "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/0907coding/0907_coding02.jpg",
+                                "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/0907coding/0907_coding03.jpg",
+                                "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/0907coding/0907_coding04.jpg",
+                                "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/0907coding/0907_coding05.jpg",
+                                "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/0907coding/0907_coding06.jpg",
+                                "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/0907coding/0907_coding07.jpg"
+                            ]
                         },
                         "videos": {
                             "title": "影音回顧",
@@ -667,28 +675,28 @@
                                     "id": 0,
                                     "date": "",
                                     "title": "2024臺北秋季程式設計節大黑客松\n【啟動影片】",
-                                    "thumbnail": "images/2024-fall/videos/1_video.png",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E5%BD%B1%E7%89%87%E5%B0%81%E9%9D%A2%E7%85%A7/%E5%B0%81%E9%9D%A2%E7%85%A701_%E5%95%9F%E5%8B%95%E5%84%80%E5%BC%8F.jpg",
                                     "video_url": "https://youtu.be/gqqurMHjGJo"
                                 },
                                 {
                                     "id": 0,
                                     "date": "",
                                     "title": "2024臺北秋季程式設計節大黑客松\n【閉幕影片】",
-                                    "thumbnail": "images/2024-fall/videos/2_video.png",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E5%BD%B1%E7%89%87%E5%B0%81%E9%9D%A2%E7%85%A7/%E5%B0%81%E9%9D%A2%E7%85%A702_%E9%96%89%E5%B9%95.jpg",
                                     "video_url": "https://youtu.be/kyjFbdbopXY"
                                 },
                                 {
                                     "id": 0,
                                     "date": "",
                                     "title": "2024臺北秋季程式設計節大黑客松\n【精華影片】",
-                                    "thumbnail": "images/2024-fall/videos/3_video.png",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E5%BD%B1%E7%89%87%E5%B0%81%E9%9D%A2%E7%85%A7/%E5%B0%81%E9%9D%A2%E7%85%A703_%E7%B2%BE%E8%8F%AF%E5%BD%B1%E7%89%87.jpg",
                                     "video_url": "https://youtu.be/8_ZaFYZ9BQU"
                                 },
                                 {
                                     "id": 0,
                                     "date": "",
                                     "title": "2024臺北秋季程式設計節大黑客松\n【全紀錄影片】",
-                                    "thumbnail": "images/2024-fall/videos/3_video.png",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E5%BD%B1%E7%89%87%E5%B0%81%E9%9D%A2%E7%85%A7/%E5%B0%81%E9%9D%A2%E7%85%A704_%E5%85%A8%E7%B4%80%E9%8C%84.jpg",
                                     "video_url": "https://youtu.be/_mwFRyvvV_k"
                                 }
                             ]
@@ -702,7 +710,7 @@
                         "content": "為持續朝向服務型政府目標邁進，並推廣開源及開放政策，臺北市政府資訊局希望透過「台北通」的經驗，實踐更好的市政數位服務使用體驗、提升行政效率！\n希望各路好手運用創意和技術，將臺北市資料大平台、政府資料開放平臺以及台北通微服務基礎做為開發參考，提出與市政相關之創意方案，並以開源軟體開發為組件化的微服務，開發成果需使用在手機上，並透過展示與實際操作，向大家傳達設計微服務的概念想法。",
                         "buttons": [],
                         "promotion_images": {
-                            "desktop_url": "images/2024-fall/img-rules.png",
+                            "desktop_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E4%B8%BB%E8%A6%96%E8%A6%BA%E7%85%A7.jpg",
                             "mobile_url": "images/2024-fall/img-rules-mobile.png"
                         },
                         "judges": {
@@ -713,31 +721,31 @@
                                     "list": [
                                         {
                                             "id": 0,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E5%88%9D%E9%81%B8%E8%A9%95%E5%AF%A9/%E7%8E%8B%E6%99%AF%E5%BC%98_JavaScript.tw%E6%8A%80%E8%A1%93%E7%A4%BE%E5%9C%98%E5%89%B5%E8%BE%A6%E4%BA%BA.jpg",
                                             "name": "王景弘",
                                             "corporation": "JavaScript.tw技術社團",
                                             "position": "創辦人"
                                         },
                                         {
                                             "id": 1,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E5%88%9D%E9%81%B8%E8%A9%95%E5%AF%A9/%E8%AC%9D%E6%A8%B9%E7%91%84_%E8%87%BA%E5%8C%97%E5%B8%82%E6%94%BF%E5%BA%9C%E8%B3%87%E8%A8%8A%E5%B1%80%E9%96%8B%E7%99%BC%E5%9C%98%E9%9A%8A%E5%9F%8E%E5%B8%82%E9%80%9A%E6%9E%B6%E6%A7%8B%E5%B8%AB.jpg",
                                             "name": "謝樹瑄",
                                             "corporation": "臺北市政府資訊局開發團隊",
                                             "position": "城市通架構師"
                                         },
                                         {
                                             "id": 2,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E5%88%9D%E9%81%B8%E8%A9%95%E5%AF%A9/%E8%94%A1%E7%A7%89%E7%BF%B0_%E8%87%BA%E5%8C%97%E5%B8%82%E6%94%BF%E5%BA%9C%E8%B3%87%E8%A8%8A%E5%B1%80%E5%B0%88%E9%96%80%E5%A7%94%E5%93%A1.jpg",
                                             "name": "蔡秉翰",
                                             "corporation": "臺北市政府資訊局",
                                             "position": "專門委員"
                                         },
                                         {
                                             "id": 3,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E5%88%9D%E9%81%B8%E8%A9%95%E5%AF%A9/%E6%B2%88%E6%98%87%E5%8B%B3_%E6%B4%BD%E5%90%A7%E6%99%BA%E8%83%BD%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%90%88%E5%A4%A5%E4%BA%BA%E6%9A%A8%E6%8A%80%E8%A1%93%E9%95%B7.jpg",
                                             "name": "沈昇勳",
-                                            "corporation": "悠遊卡股份有限公司",
-                                            "position": "獨立董事"
+                                            "corporation": "洽吧智能股份有限公司",
+                                            "position": "合夥人暨技術長"
                                         }
                                     ]
                                 },
@@ -746,35 +754,35 @@
                                     "list": [
                                         {
                                             "id": 4,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E6%B1%BA%E9%81%B8%E8%A9%95%E5%AF%A9/%E6%9E%97%E7%8F%A0%E7%8F%8D_%E8%87%BA%E5%8C%97%E5%B8%82%E6%94%BF%E5%BA%9C%E8%B3%87%E8%A8%8A%E5%B1%80%E4%BB%A3%E7%90%86%E5%89%AF%E5%B1%80%E9%95%B7(%E6%99%82%E4%BB%BB).jpg",
                                             "name": "林珠珍",
                                             "corporation": "臺北市政府資訊局",
                                             "position": "代理副局長"
                                         },
                                         {
                                             "id": 5,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E6%B1%BA%E9%81%B8%E8%A9%95%E5%AF%A9/%E9%99%B3%E6%85%A7%E6%95%8F_%E6%95%B8%E4%BD%8D%E7%99%BC%E5%B1%95%E9%83%A8%E6%95%B8%E4%BD%8D%E7%94%A2%E6%A5%AD%E7%BD%B2%E5%89%AF%E7%BD%B2%E9%95%B7.jpg",
                                             "name": "陳慧敏",
                                             "corporation": "數位發展部數位產業署",
                                             "position": "副署長"
                                         },
                                         {
                                             "id": 6,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E6%B1%BA%E9%81%B8%E8%A9%95%E5%AF%A9/%E5%90%B3%E8%82%87%E9%8A%98_%E6%A1%83%E5%9C%92%E5%B8%82%E6%94%BF%E5%BA%9C%E6%99%BA%E6%85%A7%E5%9F%8E%E9%84%89%E7%99%BC%E5%B1%95%E5%A7%94%E5%93%A1%E6%9C%83%E4%B8%BB%E4%BB%BB%E5%A7%94%E5%93%A1.jpg",
                                             "name": "吳肇銘",
                                             "corporation": "(時任)桃園市政府智慧城鄉發展委員會",
                                             "position": "主任委員"
                                         },
                                         {
                                             "id": 7,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E6%B1%BA%E9%81%B8%E8%A9%95%E5%AF%A9/%E9%BB%83%E6%83%A0%E6%95%8F_%E8%87%BA%E4%B8%AD%E5%B8%82%E6%94%BF%E5%BA%9C%E6%95%B8%E4%BD%8D%E6%B2%BB%E7%90%86%E5%B1%80%E5%89%AF%E5%B1%80%E9%95%B7.jpg",
                                             "name": "黃惠敏",
                                             "corporation": "臺中市政府數位治理局",
                                             "position": "副局長"
                                         },
                                         {
                                             "id": 8,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E6%B1%BA%E9%81%B8%E8%A9%95%E5%AF%A9/%E6%9D%8E%E6%9F%8F%E9%8B%92_%E8%B2%A1%E5%9C%98%E6%B3%95%E4%BA%BA%E9%96%8B%E6%94%BE%E6%96%87%E5%8C%96%E5%9F%BA%E9%87%91%E6%9C%83%E8%91%A3%E4%BA%8B%E9%95%B7.jpg",
                                             "name": "李柏鋒",
                                             "corporation": "財團法人開放文化基金會",
                                             "position": "董事長"
@@ -854,23 +862,28 @@
                         "list": [
                             {
                                 "id": 0,
-                                "name": "acer"
+                                "name": "acer",
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D01.png"
                             },
                             {
                                 "id": 1,
-                                "name": "aws"
+                                "name": "aws",
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D02.png"
                             },
                             {
                                 "id": 2,
-                                "name": "GDG Taipei"
+                                "name": "GDG Taipei",
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D03.png"
                             },
                             {
                                 "id": 3,
-                                "name": "MR.BROWN"
+                                "name": "MR.BROWN",
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D04.png"
                             },
                             {
                                 "id": 4,
-                                "name": "梅竹黑客松"
+                                "name": "梅竹黑客松",
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D05.png"
                             }
                         ]
                     },
@@ -917,7 +930,7 @@
                                     "id": 0,
                                     "ranking": "第一名",
                                     "team_name": "(´ཀ`」 ∠)",
-                                    "thumbnail": "https://lh3.googleusercontent.com/d/1WgNZ7VH06wEow2eNlzWhNZj7JbL4GTbG",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/(%C2%B4%E0%BD%80%60%E3%80%8D%20%E2%88%A0)_%E7%AC%AC%E4%B8%80%E5%90%8D.jpg",
                                     "team_members": "臺大電機大三",
                                     "descriptions": [
                                         {
@@ -934,14 +947,14 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "https://lh3.googleusercontent.com/d/1WgNZ7VH06wEow2eNlzWhNZj7JbL4GTbG"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/(%C2%B4%E0%BD%80%60%E3%80%8D%20%E2%88%A0)_%E7%AC%AC%E4%B8%80%E5%90%8D.jpg"
                                     ]
                                 },
                                 {
                                     "id": 1,
                                     "ranking": "第二名",
                                     "team_name": "Weeeee Chill",
-                                    "thumbnail": "https://lh3.googleusercontent.com/d/1GvYwasIetBVNQjsbPBXSY2UagIe76SYu",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/Weeeee%20Chill_%E7%AC%AC%E4%BA%8C%E5%90%8D.jpg",
                                     "team_members": "Vpon 公司",
                                     "descriptions": [
                                         {
@@ -958,14 +971,14 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "https://lh3.googleusercontent.com/d/1GvYwasIetBVNQjsbPBXSY2UagIe76SYu"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/Weeeee%20Chill_%E7%AC%AC%E4%BA%8C%E5%90%8D.jpg"
                                     ]
                                 },
                                 {
                                     "id": 2,
                                     "ranking": "第三名",
                                     "team_name": "數據探索者",
-                                    "thumbnail": "https://lh3.googleusercontent.com/d/1Mnr_YR74yyBQN1AyhpICrlz2umpK2GWe",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E6%95%B8%E6%93%9A%E6%8E%A2%E7%B4%A2%E8%80%85_%E7%AC%AC%E4%B8%89%E5%90%8D.jpg",
                                     "team_members": "鴻海",
                                     "descriptions": [
                                         {
@@ -982,14 +995,14 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "https://lh3.googleusercontent.com/d/1Mnr_YR74yyBQN1AyhpICrlz2umpK2GWe"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E6%95%B8%E6%93%9A%E6%8E%A2%E7%B4%A2%E8%80%85_%E7%AC%AC%E4%B8%89%E5%90%8D.jpg"
                                     ]
                                 },
                                 {
                                     "id": 3,
                                     "ranking": "佳作1",
                                     "team_name": "真的是GO了",
-                                    "thumbnail": "https://lh3.googleusercontent.com/d/1JRIrFoYkWRleqJu8IsdKaf9mh2aaTEng",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E7%9C%9F%E7%9A%84%E6%98%AFGo%E4%BA%86_%E4%BD%B3%E4%BD%9C.jpg",
                                     "team_members": "中原資管大三",
                                     "descriptions": [
                                         {
@@ -1006,14 +1019,14 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "https://lh3.googleusercontent.com/d/1JRIrFoYkWRleqJu8IsdKaf9mh2aaTEng"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E7%9C%9F%E7%9A%84%E6%98%AFGo%E4%BA%86_%E4%BD%B3%E4%BD%9C.jpg"
                                     ]
                                 },
                                 {
                                     "id": 4,
                                     "ranking": "佳作2",
                                     "team_name": "快樂菠菜",
-                                    "thumbnail": "https://lh3.googleusercontent.com/d/1Hq1IH2am7QsUDg2EANTK3lG3Fbz2t4-U",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E5%BF%AB%E6%A8%82%E8%8F%A0%E8%8F%9C_%E4%BD%B3%E4%BD%9C.jpg",
                                     "team_members": "業界組合團隊",
                                     "descriptions": [
                                         {
@@ -1030,14 +1043,14 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "https://lh3.googleusercontent.com/d/1Hq1IH2am7QsUDg2EANTK3lG3Fbz2t4-U"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E5%BF%AB%E6%A8%82%E8%8F%A0%E8%8F%9C_%E4%BD%B3%E4%BD%9C.jpg"
                                     ]
                                 },
                                 {
                                     "id": 5,
                                     "ranking": "佳作3",
                                     "team_name": "猛虎出閘隊",
-                                    "thumbnail": "https://lh3.googleusercontent.com/d/1Jzr3X637CGzJ58cuX-2v1MSzUH3kNiWT",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E7%8C%9B%E8%99%8E%E5%87%BA%E9%96%98%E9%9A%8A_%E4%BD%B3%E4%BD%9C.jpg",
                                     "team_members": "臺北榮總資訊室",
                                     "descriptions": [
                                         {
@@ -1054,14 +1067,14 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "https://lh3.googleusercontent.com/d/1Jzr3X637CGzJ58cuX-2v1MSzUH3kNiWT"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E7%8C%9B%E8%99%8E%E5%87%BA%E9%96%98%E9%9A%8A_%E4%BD%B3%E4%BD%9C.jpg"
                                     ]
                                 },
                                 {
                                     "id": 6,
                                     "ranking": "佳作4",
                                     "team_name": "黑客狗",
-                                    "thumbnail": "https://lh3.googleusercontent.com/d/1rHy8nCqw0umYoLZWuqyaVYA1AQIBjq1_",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E9%BB%91%E5%AE%A2%E7%8B%97_%E4%BD%B3%E4%BD%9C.jpg",
                                     "team_members": "業界組合團隊",
                                     "descriptions": [
                                         {
@@ -1078,14 +1091,20 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "https://lh3.googleusercontent.com/d/1rHy8nCqw0umYoLZWuqyaVYA1AQIBjq1_"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E9%BB%91%E5%AE%A2%E7%8B%97_%E4%BD%B3%E4%BD%9C.jpg"
                                     ]
                                 }
                             ]
                         },
                         "photos": {
                             "title": "照片回顧",
-                            "image_list": []
+                            "image_list": [
+                                "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/0511coding/coding01.jpg",
+                                "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/0511coding/coding02.jpg",
+                                "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/0511coding/coding03.jpg",
+                                "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/0511coding/coding04.jpg",
+                                "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/0511coding/coding05.jpg"
+                            ]
                         },
                         "videos": {
                             "title": "影音回顧",
@@ -1095,14 +1114,14 @@
                                     "id": 0,
                                     "date": "",
                                     "title": "2024臺北春季程式設計節大黑客松\n【閉幕影片】",
-                                    "thumbnail": "images/2024-spring/videos/1_video.png",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E5%BD%B1%E7%89%87%E5%B0%81%E9%9D%A2%E5%9C%96/%E5%BD%B1%E7%89%87%E5%B0%81%E9%9D%A2%E5%9C%9601.jpg",
                                     "video_url": "https://youtu.be/C9g3UBkekXc"
                                 },
                                 {
                                     "id": 1,
                                     "date": "",
                                     "title": "2024臺北春季程式設計節大黑客松\n【精華影片】",
-                                    "thumbnail": "images/2024-spring/videos/2_video.png",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E5%BD%B1%E7%89%87%E5%B0%81%E9%9D%A2%E5%9C%96/%E5%BD%B1%E7%89%87%E5%B0%81%E9%9D%A2%E5%9C%9602.jpg",
                                     "video_url": "https://youtu.be/c1HpYSh0-tY"
                                 }
                             ]
@@ -1116,7 +1135,7 @@
                         "content": "為達到透明開放、科技普惠、建立服務型政府的目標，本競賽特以政府機關第一個開放原始碼（ Open Source ，或稱開源）的城市資料視覺化平台「臺北城市儀表板」為題，廣邀各界高手，全力支持開放原始碼，在良好基礎上提出創意可視化方案。同時，本機關更希望以本競賽作為首發，透過拋磚引玉，逐步將開源技術導入市政服務的一環，期望降低成本、提高政府經營效率，更期望藉此打造、激盪出跨縣市且更優質的數位公共服務。本次競賽主題為：EOC、為民服務、交通安全、防災都市及氣候變遷。",
                         "buttons": [],
                         "promotion_images": {
-                            "desktop_url": "images/2024-spring/img-rules.png",
+                            "desktop_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E4%B8%BB%E8%A6%96%E8%A6%BA%E7%85%A7.jpg",
                             "mobile_url": "images/2024-spring/img-rules-mobile.png"
                         },
                         "judges": {
@@ -1127,28 +1146,28 @@
                                     "list": [
                                         {
                                             "id": 0,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E5%88%9D%E5%AF%A9%E8%A9%95%E5%AF%A9/%E7%8E%8B%E6%99%AF%E5%BC%98_JavaScript.tw%E6%8A%80%E8%A1%93%E7%A4%BE%E5%9C%98%E5%89%B5%E8%BE%A6%E4%BA%BA.jpg",
                                             "name": "王景弘",
                                             "corporation": "JavaScript.tw技術社團",
                                             "position": "創辦人"
                                         },
                                         {
                                             "id": 1,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E5%88%9D%E5%AF%A9%E8%A9%95%E5%AF%A9/%E6%B1%9F%E6%98%8E%E5%AE%97_%E5%9C%8B%E5%AE%B6%E8%B3%87%E9%80%9A%E5%AE%89%E5%85%A8%E7%A0%94%E7%A9%B6%E9%99%A2%E9%A1%A7%E5%95%8F.jpg",
                                             "name": "江明宗",
                                             "corporation": "國家資通安全研究院",
                                             "position": "顧問"
                                         },
                                         {
                                             "id": 2,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E5%88%9D%E5%AF%A9%E8%A9%95%E5%AF%A9/%E6%B8%B8%E7%92%BF%E9%81%94_%E8%87%BA%E5%8C%97%E5%A4%A7%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83%E8%B3%87%E6%96%99%E7%A7%91%E5%AD%B8%E5%AE%B6.jpg",
                                             "name": "游璿達",
                                             "corporation": "(時任)臺北市政府資訊局儀表板開發團隊",
                                             "position": "資料分析師"
                                         },
                                         {
                                             "id": 3,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E5%88%9D%E5%AF%A9%E8%A9%95%E5%AF%A9/%E4%BD%95%E7%B4%B9%E5%AE%87_%E8%87%BA%E5%8C%97%E5%A4%A7%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83%E5%85%A8%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB.jpg",
                                             "name": "何紹宇",
                                             "corporation": "(時任)臺北市政府資訊局儀表板開發團隊",
                                             "position": "前端工程師"
@@ -1160,35 +1179,35 @@
                                     "list": [
                                         {
                                             "id": 4,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E6%B1%BA%E9%81%B8%E8%A9%95%E5%AF%A9/%E8%B6%99%E5%BC%8F%E9%9A%86_%E8%87%BA%E5%8C%97%E5%B8%82%E6%94%BF%E5%BA%9C%E8%B3%87%E8%A8%8A%E5%B1%80%E5%B1%80%E9%95%B7.jpg",
                                             "name": "趙式隆",
                                             "corporation": "臺北市政府資訊局",
                                             "position": "局長"
                                         },
                                         {
                                             "id": 5,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E6%B1%BA%E9%81%B8%E8%A9%95%E5%AF%A9/%E9%BB%83%E5%BD%A5%E7%94%B7_%E4%B8%AD%E5%A4%AE%E7%A0%94%E7%A9%B6%E9%99%A2%E8%B3%87%E9%80%9A%E5%AE%89%E5%85%A8%E5%B0%88%E9%A1%8C%E4%B8%AD%E5%BF%83(%E6%99%82%E4%BB%BB)%E5%9F%B7%E8%A1%8C%E9%95%B7.jpg",
                                             "name": "黃彥男",
                                             "corporation": "(時任)中研院資通安全專題中心",
                                             "position": "執行長"
                                         },
                                         {
                                             "id": 6,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E6%B1%BA%E9%81%B8%E8%A9%95%E5%AF%A9/%E9%99%B3%E5%AF%8C%E6%B7%BB_%E6%96%B0%E5%8C%97%E5%B8%82%E6%94%BF%E5%BA%9C%E8%B3%87%E8%A8%8A%E4%B8%AD%E5%BF%83%E4%B8%BB%E4%BB%BB.jpg",
                                             "name": "陳富添",
                                             "corporation": "新北市政府資訊中心",
                                             "position": "主任"
                                         },
                                         {
                                             "id": 7,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E6%B1%BA%E9%81%B8%E8%A9%95%E5%AF%A9/%E9%BB%83%E9%90%98%E6%8F%9A_%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E5%A4%A7%E5%AD%B8%E9%9B%BB%E6%A9%9F%E5%B7%A5%E7%A8%8B%E5%AD%B8%E7%B3%BB%E6%95%99%E6%8E%88.jpg",
                                             "name": "黃鐘揚",
                                             "corporation": "國立台灣大學電機工程學系",
                                             "position": "教授"
                                         },
                                         {
                                             "id": 8,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E6%B1%BA%E9%81%B8%E8%A9%95%E5%AF%A9/%E9%BE%94%E5%9F%B9%E5%85%83_%E9%B4%BB%E6%B5%B7%E7%B2%BE%E5%AF%86%E5%B7%A5%E6%A5%AD%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E8%B3%87%E8%A8%8A%E9%95%B7.jpg",
                                             "name": "龔培元",
                                             "corporation": "鴻海精密工業股份有限公司",
                                             "position": "資訊長"
@@ -1349,7 +1368,7 @@
                                     "id": 0,
                                     "ranking": "第一名",
                                     "team_name": "OPEN POSSIBLE數據視界",
-                                    "thumbnail": "https://lh3.googleusercontent.com/d/1l2mdl_Rk244Rg4X2S_OQLatweqvjXb3B",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A%E7%85%A7%E7%89%87/%E7%AC%AC%E4%B8%80%E5%90%8D-OPEN%20POSSIBLE%E6%95%B8%E6%93%9A%E8%A6%96%E7%95%8C.jpg",
                                     "team_members": "台灣大哥大",
                                     "descriptions": [
                                         {
@@ -1362,14 +1381,14 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "https://lh3.googleusercontent.com/d/1l2mdl_Rk244Rg4X2S_OQLatweqvjXb3B"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A%E7%85%A7%E7%89%87/%E7%AC%AC%E4%B8%80%E5%90%8D-OPEN%20POSSIBLE%E6%95%B8%E6%93%9A%E8%A6%96%E7%95%8C.jpg"
                                     ]
                                 },
                                 {
                                     "id": 1,
                                     "ranking": "第二名",
                                     "team_name": "黃梓睿是我的威猛先生",
-                                    "thumbnail": "https://lh3.googleusercontent.com/d/1WSwogAuRPCw54C30T3BdASZExSQVNzfY",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A%E7%85%A7%E7%89%87/%E7%AC%AC%E4%BA%8C%E5%90%8D-%E9%BB%83%E6%A2%93%E7%9D%BF%E6%98%AF%E6%88%91%E7%9A%84%E5%A8%81%E7%8C%9B%E5%85%88%E7%94%9F.jpg",
                                     "team_members": "中原資管",
                                     "descriptions": [
                                         {
@@ -1382,14 +1401,14 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "https://lh3.googleusercontent.com/d/1WSwogAuRPCw54C30T3BdASZExSQVNzfY"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A%E7%85%A7%E7%89%87/%E7%AC%AC%E4%BA%8C%E5%90%8D-%E9%BB%83%E6%A2%93%E7%9D%BF%E6%98%AF%E6%88%91%E7%9A%84%E5%A8%81%E7%8C%9B%E5%85%88%E7%94%9F.jpg"
                                     ]
                                 },
                                 {
                                     "id": 2,
                                     "ranking": "第三名",
                                     "team_name": "我們都是112A",
-                                    "thumbnail": "https://lh3.googleusercontent.com/d/1b3qIfserr59DCaYiftraM3AZTLDmJfio",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A%E7%85%A7%E7%89%87/%E7%AC%AC%E4%B8%89%E5%90%8D-%E6%88%91%E5%80%91%E9%83%BD%E6%98%AF112A.jpg",
                                     "team_members": "臺大資管＋臺大經濟",
                                     "descriptions": [
                                         {
@@ -1402,14 +1421,14 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "https://lh3.googleusercontent.com/d/1b3qIfserr59DCaYiftraM3AZTLDmJfio"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A%E7%85%A7%E7%89%87/%E7%AC%AC%E4%B8%89%E5%90%8D-%E6%88%91%E5%80%91%E9%83%BD%E6%98%AF112A.jpg"
                                     ]
                                 },
                                 {
                                     "id": 3,
                                     "ranking": "佳作1",
                                     "team_name": "捕蚊燈",
-                                    "thumbnail": "https://lh3.googleusercontent.com/d/1vNOnLNBFUpPNHbsPHiLiP-thtafhR0vp",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A%E7%85%A7%E7%89%87/%E4%BD%B3%E4%BD%9C-%E6%8D%95%E8%9A%8A%E7%87%88.jpg",
                                     "team_members": "臺大電機系學會",
                                     "descriptions": [
                                         {
@@ -1422,14 +1441,14 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "https://lh3.googleusercontent.com/d/1vNOnLNBFUpPNHbsPHiLiP-thtafhR0vp"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A%E7%85%A7%E7%89%87/%E4%BD%B3%E4%BD%9C-%E6%8D%95%E8%9A%8A%E7%87%88.jpg"
                                     ]
                                 },
                                 {
                                     "id": 4,
                                     "ranking": "佳作2",
                                     "team_name": "數據調色盤",
-                                    "thumbnail": "https://lh3.googleusercontent.com/d/1QQ4JWNNydb-e_Vs8iCTaaIcRIgRn4v7t",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A%E7%85%A7%E7%89%87/%E4%BD%B3%E4%BD%9C-%E6%95%B8%E6%93%9A%E8%AA%BF%E8%89%B2%E7%9B%A4.jpg",
                                     "team_members": "中華電信",
                                     "descriptions": [
                                         {
@@ -1442,14 +1461,14 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "https://lh3.googleusercontent.com/d/1QQ4JWNNydb-e_Vs8iCTaaIcRIgRn4v7t"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A%E7%85%A7%E7%89%87/%E4%BD%B3%E4%BD%9C-%E6%95%B8%E6%93%9A%E8%AA%BF%E8%89%B2%E7%9B%A4.jpg"
                                     ]
                                 },
                                 {
                                     "id": 5,
                                     "ranking": "佳作3",
                                     "team_name": "Wee Win",
-                                    "thumbnail": "https://lh3.googleusercontent.com/d/1oN5Cmc7mPA6Sp5h9kj7J3JUUkAyt5nz5",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A%E7%85%A7%E7%89%87/%E4%BD%B3%E4%BD%9C-Wee%20Win.jpg",
                                     "team_members": "威朋大數據",
                                     "descriptions": [
                                         {
@@ -1462,14 +1481,14 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "https://lh3.googleusercontent.com/d/1oN5Cmc7mPA6Sp5h9kj7J3JUUkAyt5nz5"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A%E7%85%A7%E7%89%87/%E4%BD%B3%E4%BD%9C-Wee%20Win.jpg"
                                     ]
                                 },
                                 {
                                     "id": 6,
                                     "ranking": "佳作4",
                                     "team_name": "▶︎ |Ill'I||I|'lI| 00:21",
-                                    "thumbnail": "https://lh3.googleusercontent.com/d/1aDXxwXg76jFg-e-o1mYCY-7CpLCrUr_G",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A%E7%85%A7%E7%89%87/%E4%BD%B3%E4%BD%9C-%E2%96%B6%EF%B8%8E%20_Ill_I_I_lI_%2000_21.jpg",
                                     "team_members": "臺大電機",
                                     "descriptions": [
                                         {
@@ -1482,14 +1501,20 @@
                                         }
                                     ],
                                     "image_list": [
-                                        "https://lh3.googleusercontent.com/d/1aDXxwXg76jFg-e-o1mYCY-7CpLCrUr_G"
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A%E7%85%A7%E7%89%87/%E4%BD%B3%E4%BD%9C-%E2%96%B6%EF%B8%8E%20_Ill_I_I_lI_%2000_21.jpg"
                                     ]
                                 }
                             ]
                         },
                         "photos": {
                             "title": "照片回顧",
-                            "image_list": []
+                            "image_list": [
+                                "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/1118coding/coding01.jpg",
+                                "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/1118coding/coding02.jpg",
+                                "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/1118coding/coding03.jpg",
+                                "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/1118coding/coding04.jpg",
+                                "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/1118coding/coding05.jpg"
+                            ]
                         },
                         "videos": {
                             "title": "影音回顧",
@@ -1499,14 +1524,14 @@
                                     "id": 0,
                                     "date": "",
                                     "title": "2023臺北程式設計節大黑客松\n【精華影片】",
-                                    "thumbnail": "images/2023/videos/1_video.png",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E5%BD%B1%E7%89%87%E5%B0%81%E9%9D%A2%E5%9C%96/%E5%B0%81%E9%9D%A2%E5%9C%9601.jpg",
                                     "video_url": "https://youtu.be/ZwrK82vid6Y"
                                 },
                                 {
                                     "id": 1,
                                     "date": "",
                                     "title": "2023臺北程式設計節大黑客松\n【全紀錄影片】",
-                                    "thumbnail": "images/2023/videos/2_video.png",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E5%BD%B1%E7%89%87%E5%B0%81%E9%9D%A2%E5%9C%96/%E5%B0%81%E9%9D%A2%E5%9C%9602(%E7%B4%80%E9%8C%84%E7%89%87).jpg",
                                     "video_url": "https://youtu.be/M_TzhmgXs8I"
                                 }
                             ]
@@ -1520,7 +1545,7 @@
                         "content": "為達到透明開放、科技普惠、建立服務型政府的目標，本競賽特以政府機 關第一個開放原始碼（ Open Source ，或稱開源）的城市資料視覺化平台「臺 北城市儀表板」為題，廣邀各界高手，全力支持開放原始碼，在良好基礎上提 出創意可視化方案。本次競賽主題為：祝您好孕、韌性城市、有緣在臺北。",
                         "buttons": [],
                         "promotion_images": {
-                            "desktop_url": "images/2023/img-rules.png",
+                            "desktop_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E4%B8%BB%E8%A6%96%E8%A6%BA%E7%85%A7.png",
                             "mobile_url": "images/2023/img-rules-mobile.png"
                         },
                         "judges": {
@@ -1531,28 +1556,28 @@
                                     "list": [
                                         {
                                             "id": 0,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E5%88%9D%E9%81%B8%E8%A9%95%E5%AF%A9/%E5%90%B3%E6%B3%B0%E8%BC%9D_g0v%E5%85%B1%E5%90%8C%E5%89%B5%E8%BE%A6%E4%BA%BA%20.jpg",
                                             "name": "吳泰輝",
                                             "corporation": "g0v",
                                             "position": "共同創辦人"
                                         },
                                         {
                                             "id": 1,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E5%88%9D%E9%81%B8%E8%A9%95%E5%AF%A9/%E6%9E%97%E4%BD%91%E9%81%94_%EF%BC%88%E6%99%82%E4%BB%BB%EF%BC%89%E5%9C%8B%E7%AB%8B%E9%99%BD%E6%98%8E%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%B8.JPG",
                                             "name": "林佑達",
                                             "corporation": "（時任）國立陽明交通大學",
                                             "position": "兼任助理教授"
                                         },
                                         {
                                             "id": 2,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E5%88%9D%E9%81%B8%E8%A9%95%E5%AF%A9/%E6%B8%B8%E7%92%BF%E9%81%94_%E8%87%BA%E5%8C%97%E5%A4%A7%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83%E8%B3%87%E6%96%99%E7%A7%91%E5%AD%B8%E5%AE%B6.jpg",
                                             "name": "游璿達",
                                             "corporation": "(時任)臺北市政府資訊局儀表板開發團隊",
                                             "position": "資料分析師"
                                         },
                                         {
                                             "id": 3,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E5%88%9D%E9%81%B8%E8%A9%95%E5%AF%A9/%E4%BD%95%E7%B4%B9%E5%AE%87_%E8%87%BA%E5%8C%97%E5%A4%A7%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83%E5%85%A8%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB.jpg",
                                             "name": "何紹宇",
                                             "corporation": "(時任)臺北市政府資訊局儀表板開發團隊",
                                             "position": "前端工程師"
@@ -1571,28 +1596,28 @@
                                         },
                                         {
                                             "id": 5,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E6%B1%BA%E9%81%B8%E8%A9%95%E5%AF%A9/%E9%97%95%E6%B2%B3%E9%B3%B4%E6%94%BF%E5%8B%99%E6%AC%A1%E9%95%B7.jpg",
                                             "name": "闕河鳴",
                                             "corporation": "數位發展部",
                                             "position": "政務次長"
                                         },
                                         {
                                             "id": 6,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E6%B1%BA%E9%81%B8%E8%A9%95%E5%AF%A9/%E5%90%B3%E8%82%87%E9%8A%98%E6%A1%83%E5%9C%92%E5%B8%82%E6%94%BF%E5%BA%9C%E7%A0%94%E7%A9%B6%E7%99%BC%E5%B1%95%E8%80%83%E6%A0%B8%E5%A7%94%E5%93%A1%E6%9C%83%E4%B8%BB%E4%BB%BB%E5%A7%94%E5%93%A1(%E6%99%82%E4%BB%BB).jpg",
                                             "name": "吳肇銘",
                                             "corporation": "（時任）桃園市政府研究發展考核委員會",
                                             "position": "主任委員"
                                         },
                                         {
                                             "id": 7,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E6%B1%BA%E9%81%B8%E8%A9%95%E5%AF%A9/%E9%BB%83%E6%83%A0%E6%95%8F%E8%87%BA%E4%B8%AD%E5%B8%82%E6%94%BF%E5%BA%9C%E6%95%B8%E4%BD%8D%E6%B2%BB%E7%90%86%E5%B1%80%E5%89%AF%E5%B1%80%E9%95%B7.png",
                                             "name": "黃惠敏",
                                             "corporation": "臺中市政府數位治理局",
                                             "position": "副局長"
                                         },
                                         {
                                             "id": 8,
-                                            "thumbnail": "",
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E6%B1%BA%E9%81%B8%E8%A9%95%E5%AF%A9/%E6%9E%97%E5%AE%B6%E6%A8%91%E9%BA%BB%E7%9C%81%E7%90%86%E5%B7%A5%E5%AD%B8%E9%99%A2%E5%9F%8E%E5%B8%82%E7%A7%91%E5%AD%B8%E5%AF%A6%E9%A9%97%E5%AE%A4%E4%BA%9E%E6%B4%B2%E5%8D%80%E4%B8%BB%E4%BB%BB.jpg",
                                             "name": "林家樑",
                                             "corporation": "MIT城市科學實驗室亞洲區",
                                             "position": "主任"
@@ -1717,19 +1742,23 @@
                         "list": [
                             {
                                 "id": 0,
-                                "name": "MALAYSIAN FRIENDSHIP AND TRADE CENTRE, TAIPEI 馬來西亞友誼及貿易中心"
+                                "name": "MALAYSIAN FRIENDSHIP AND TRADE CENTRE, TAIPEI 馬來西亞友誼及貿易中心",
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D%E5%8E%BB%E8%83%8C%E5%9C%9604.png"
                             },
                             {
                                 "id": 1,
-                                "name": "伯朗咖啡"
+                                "name": "伯朗咖啡",
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D%E5%8E%BB%E8%83%8C%E5%9C%9603.png"
                             },
                             {
                                 "id": 2,
-                                "name": "kiehl's"
+                                "name": "kiehl's",
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D%E5%8E%BB%E8%83%8C%E5%9C%9602.png"
                             },
                             {
                                 "id": 3,
-                                "name": "萬瑞廣告"
+                                "name": "萬瑞廣告",
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D%E5%8E%BB%E8%83%8C%E5%9C%9601.png"
                             }
                         ]
                     },
@@ -1745,10 +1774,6 @@
                             "臺北市立大學"
                         ],
                         "buttons": [
-                            {
-                                "name": "Github",
-                                "link": ""
-                            },
                             {
                                 "name": "YouTube",
                                 "link": ""

@@ -330,7 +330,9 @@ onUnmounted(() => {
                           > -->
                           <div class="video-box relative">
                             <img
-                              :src="runtimeConfig.app.baseURL + image"
+                              :src="
+                                image.includes('https') ? image : runtimeConfig.app.baseURL + image
+                              "
                               class="w-full h-full object-cover transition-all duration-300 group-hover:brightness-75"
                               alt=""
                             />
@@ -382,7 +384,11 @@ onUnmounted(() => {
                           <a :href="group.video_url" target="_blank">
                             <div class="video-box relative">
                               <img
-                                :src="runtimeConfig.app.baseURL + group.thumbnail"
+                                :src="
+                                  group.thumbnail.includes('https')
+                                    ? group.thumbnail
+                                    : runtimeConfig.app.baseURL + group.thumbnail
+                                "
                                 class="w-full h-full object-cover transition-all duration-300 group-hover:brightness-75"
                                 alt=""
                               />
@@ -465,8 +471,10 @@ onUnmounted(() => {
                       <!-- desktop image -->
                       <img
                         :src="
-                          runtimeConfig.app.baseURL +
-                          currentActivity.rules.promotion_images.desktop_url
+                          currentActivity.rules.promotion_images.desktop_url.includes('https')
+                            ? currentActivity.rules.promotion_images.desktop_url
+                            : runtimeConfig.app.baseURL +
+                              currentActivity.rules.promotion_images.desktop_url
                         "
                         class="lg:block hidden mt-1"
                         alt="黑客松宣傳圖"
@@ -474,8 +482,10 @@ onUnmounted(() => {
                       <!-- mobile image -->
                       <img
                         :src="
-                          runtimeConfig.app.baseURL +
-                          currentActivity.rules.promotion_images.mobile_url
+                          currentActivity.rules.promotion_images.mobile_url.includes('https')
+                            ? currentActivity.rules.promotion_images.mobile_url
+                            : runtimeConfig.app.baseURL +
+                              currentActivity.rules.promotion_images.mobile_url
                         "
                         class="lg:hidden block"
                         alt="黑客松宣傳圖"
@@ -630,7 +640,11 @@ onUnmounted(() => {
                                 >
                                   <img
                                     v-if="judge.thumbnail"
-                                    :src="runtimeConfig.app.baseURL + judge.thumbnail"
+                                    :src="
+                                      judge.thumbnail.includes('https')
+                                        ? judge.thumbnail
+                                        : runtimeConfig.app.baseURL + judge.thumbnail
+                                    "
                                     class="w-full h-full object-cover object-top"
                                     :alt="`評審照片-${judge.name}`"
                                   />
@@ -931,9 +945,13 @@ onUnmounted(() => {
                           <div class="group block">
                             <img
                               v-if="sponsor.image_url"
-                              :src="runtimeConfig.app.baseURL + sponsor.image_url"
+                              :src="
+                                sponsor.image_url.includes('https')
+                                  ? sponsor.image_url
+                                  : runtimeConfig.app.baseURL + sponsor.image_url
+                              "
                               alt="sponsor"
-                              class="w-auto h-[80px] object-contain"
+                              class="w-auto max-h-[80px] object-contain"
                             />
                             <p v-else class="text-white text-2xl">{{ sponsor.name }}</p>
                           </div>
@@ -956,9 +974,13 @@ onUnmounted(() => {
                           <div class="group block">
                             <img
                               v-if="sponsor.image_url"
-                              :src="runtimeConfig.app.baseURL + sponsor.image_url"
+                              :src="
+                                sponsor.image_url.includes('https')
+                                  ? sponsor.image_url
+                                  : runtimeConfig.app.baseURL + sponsor.image_url
+                              "
                               alt="sponsor"
-                              class="w-auto h-[60px] object-contain"
+                              class="w-auto max-h-[60px] object-contain"
                             />
                             <p v-else class="text-white text-2xl">{{ sponsor.name }}</p>
                           </div>
@@ -978,9 +1000,13 @@ onUnmounted(() => {
                           <div class="group block">
                             <img
                               v-if="sponsor.image_url"
-                              :src="runtimeConfig.app.baseURL + sponsor.image_url"
+                              :src="
+                                sponsor.image_url.includes('https')
+                                  ? sponsor.image_url
+                                  : runtimeConfig.app.baseURL + sponsor.image_url
+                              "
                               alt="sponsor"
-                              class="w-auto h-[60px] object-contain"
+                              class="w-auto max-h-[60px] object-contain"
                             />
                             <p v-else class="text-white text-2xl">{{ sponsor.name }}</p>
                           </div>
@@ -1143,7 +1169,6 @@ onUnmounted(() => {
 
     img {
       max-width: none; /* 移除寬度限制 */
-      height: 100%; /* 讓圖片填滿容器高度 */
       object-fit: contain; /* 保持比例 */
     }
   }
