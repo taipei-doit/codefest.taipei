@@ -32,14 +32,6 @@ export interface HistoryNavigation {
 
 interface HeroBanner {
   section_title: string;
-  background_options: BackgroundOptions;
-}
-
-interface BackgroundOptions {
-  title: string;
-  left: string;
-  right: string;
-  mobile: string;
 }
 
 interface Past {

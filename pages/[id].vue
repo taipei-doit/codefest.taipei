@@ -190,11 +190,6 @@ onUnmounted(() => {
             <p class="lg:text-2xl text-xl font-fusion-pixel text-are-you-ready mt-6">
               <!-- {{ currentActivity?.hero_banner?.section_title }} -->
             </p>
-            <!-- <img
-              :src="currentActivity?.hero_banner?.background_options?.title"
-              class="mx-auto"
-              alt="城市儀表板大黑客松"
-            /> -->
             <p
               class="lg:text-5xl text-2xl lg:leading-[1.4] leading-[1.4] font-fusion-pixel whitespace-pre-line"
             >

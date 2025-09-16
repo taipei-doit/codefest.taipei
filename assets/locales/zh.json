@@ -52,13 +52,7 @@
                     "link": "",
                     "available": true,
                     "hero_banner": {
-                        "section_title": "2025雙北程式設計節\n城市儀表板大黑客松",
-                        "background_options": {
-                            "title": "images/2025-spring/hero-banner-title.svg",
-                            "left": "images/2025-spring/hero-banner-tpe.svg",
-                            "right": "images/2025-spring/hero-banner-ntpc.svg",
-                            "mobile": "images/2025-spring/hero-banner-tp.svg"
-                        }
+                        "section_title": "2025雙北程式設計節\n城市儀表板大黑客松"
                     },
                     "past": {
                         "available": true,
@@ -505,13 +499,7 @@
                     "link": "",
                     "available": true,
                     "hero_banner": {
-                        "section_title": "2024臺北秋季程式設計節\n城市通微服務大黑客松",
-                        "background_options": {
-                            "title": "images/2025-spring/hero-banner-title.svg",
-                            "left": "images/2025-spring/hero-banner-tpe.svg",
-                            "right": "images/2025-spring/hero-banner-ntpc.svg",
-                            "mobile": "images/2025-spring/hero-banner-tp.svg"
-                        }
+                        "section_title": "2024臺北秋季程式設計節\n城市通微服務大黑客松"
                     },
                     "past": {
                         "available": true,
@@ -915,13 +903,7 @@
                     "link": "",
                     "available": true,
                     "hero_banner": {
-                        "section_title": "2024臺北春季程式設計節\n城市儀表板大黑客松",
-                        "background_options": {
-                            "title": "images/2025-spring/hero-banner-title.svg",
-                            "left": "images/2025-spring/hero-banner-tpe.svg",
-                            "right": "images/2025-spring/hero-banner-ntpc.svg",
-                            "mobile": "images/2025-spring/hero-banner-tp.svg"
-                        }
+                        "section_title": "2024臺北春季程式設計節\n城市儀表板大黑客松"
                     },
                     "past": {
                         "available": true,
@@ -1353,13 +1335,7 @@
                     "link": "",
                     "available": true,
                     "hero_banner": {
-                        "section_title": "2023臺北程式設計節\n城市儀表板大黑客松",
-                        "background_options": {
-                            "title": "images/2025-spring/hero-banner-title.svg",
-                            "left": "images/2025-spring/hero-banner-tpe.svg",
-                            "right": "images/2025-spring/hero-banner-ntpc.svg",
-                            "mobile": "images/2025-spring/hero-banner-tp.svg"
-                        }
+                        "section_title": "2023臺北程式設計節\n城市儀表板大黑客松"
                     },
                     "past": {
                         "available": true,
