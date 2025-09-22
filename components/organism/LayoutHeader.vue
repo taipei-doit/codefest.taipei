@@ -1,8 +1,12 @@
 <script setup lang="ts">
-import { useDialogStore } from '~/stores/dialogStore';
+const route = useRoute();
 
-const dialogStore = useDialogStore();
-const { activeDialog } = storeToRefs(dialogStore);
+// 定義需要顯示 NTPC logo 的路徑
+const NTPC_LOGO_PATHS = ['2025-spring'];
+
+const isShowNtpcLogo = computed(() => {
+  return NTPC_LOGO_PATHS.includes(route.params.id as string);
+});
 </script>
 
 <template>
@@ -19,12 +23,14 @@ const { activeDialog } = storeToRefs(dialogStore);
           <span class="text-white">返回</span>
         </NuxtLink>
         <NuxtLink to="/" class="px-4 flex space-x-2 ml-auto lg:ml-0" tabindex="0">
-          <img src="/images/logos/logo-icon-ntpc.svg" class="lg:w-[40px] w-[30px]" alt="" />
+          <img
+            v-if="isShowNtpcLogo"
+            src="/images/logos/logo-icon-ntpc.svg"
+            class="lg:w-[40px] w-[30px]"
+            alt=""
+          />
           <img src="/images/logos/logo-icon-tpe.svg" class="lg:w-[40px] w-[30px]" alt="" />
         </NuxtLink>
-        <!-- <p class="text-white text-2xl font-fusion-pixel text-center py-4">
-              {{ currentActivity?.name }}
-            </p> -->
       </div>
     </div>
   </header>

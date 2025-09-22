@@ -47,7 +47,7 @@
             "taipei_and_new_taipei_code_fest": [
                 {
                     "id": "2025-spring",
-                    "name": "2025.春季 雙北城市儀表版大黑客松",
+                    "name": "2025.春季雙北城市儀表版大黑客松",
                     "date": "2025-05-31~2025-06-01",
                     "link": "",
                     "available": true,
@@ -306,14 +306,14 @@
                                             "id": 2,
                                             "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20spring/2025%E8%A9%95%E5%AF%A9%E5%9C%96/judge-1-3.jpg",
                                             "name": "宋祥瑀​",
-                                            "corporation": "儀表板開發團隊",
+                                            "corporation": "城市儀表板開發團隊",
                                             "position": ""
                                         },
                                         {
                                             "id": 3,
                                             "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20spring/2025%E8%A9%95%E5%AF%A9%E5%9C%96/judge-1-4.jpg",
                                             "name": "潘相輔",
-                                            "corporation": "儀表板開發團隊",
+                                            "corporation": "城市儀表板開發團隊",
                                             "position": ""
                                         }
                                     ]
@@ -494,7 +494,7 @@
             "taipei_code_fest": [
                 {
                     "id": "2024-fall",
-                    "name": "2024.秋季 城市通微服務大黑客松",
+                    "name": "2024.秋季城市通微服務大黑客松",
                     "date": "2024-09-07~2024-09-08",
                     "link": "",
                     "available": true,
@@ -770,7 +770,7 @@
                                             "id": 6,
                                             "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E6%B1%BA%E9%81%B8%E8%A9%95%E5%AF%A9/%E5%90%B3%E8%82%87%E9%8A%98_%E6%A1%83%E5%9C%92%E5%B8%82%E6%94%BF%E5%BA%9C%E6%99%BA%E6%85%A7%E5%9F%8E%E9%84%89%E7%99%BC%E5%B1%95%E5%A7%94%E5%93%A1%E6%9C%83%E4%B8%BB%E4%BB%BB%E5%A7%94%E5%93%A1.jpg",
                                             "name": "吳肇銘",
-                                            "corporation": "(時任)桃園市政府智慧城鄉發展委員會",
+                                            "corporation": "桃園市政府智慧城鄉發展委員會",
                                             "position": "主任委員"
                                         },
                                         {
@@ -911,7 +911,7 @@
                 },
                 {
                     "id": "2024-spring",
-                    "name": "2024.春季 城市儀表板大黑客松",
+                    "name": "2024.春季城市儀表板大黑客松",
                     "date": "2024-01-07~2024-01-08",
                     "link": "",
                     "available": true,
@@ -1162,14 +1162,14 @@
                                             "id": 2,
                                             "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E5%88%9D%E5%AF%A9%E8%A9%95%E5%AF%A9/%E6%B8%B8%E7%92%BF%E9%81%94_%E8%87%BA%E5%8C%97%E5%A4%A7%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83%E8%B3%87%E6%96%99%E7%A7%91%E5%AD%B8%E5%AE%B6.jpg",
                                             "name": "游璿達",
-                                            "corporation": "(時任)臺北市政府資訊局儀表板開發團隊",
+                                            "corporation": "臺北市政府資訊局儀表板開發團隊",
                                             "position": "資料分析師"
                                         },
                                         {
                                             "id": 3,
                                             "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E5%88%9D%E5%AF%A9%E8%A9%95%E5%AF%A9/%E4%BD%95%E7%B4%B9%E5%AE%87_%E8%87%BA%E5%8C%97%E5%A4%A7%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83%E5%85%A8%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB.jpg",
                                             "name": "何紹宇",
-                                            "corporation": "(時任)臺北市政府資訊局儀表板開發團隊",
+                                            "corporation": "臺北市政府資訊局儀表板開發團隊",
                                             "position": "前端工程師"
                                         }
                                     ]
@@ -1188,7 +1188,7 @@
                                             "id": 5,
                                             "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E6%B1%BA%E9%81%B8%E8%A9%95%E5%AF%A9/%E9%BB%83%E5%BD%A5%E7%94%B7_%E4%B8%AD%E5%A4%AE%E7%A0%94%E7%A9%B6%E9%99%A2%E8%B3%87%E9%80%9A%E5%AE%89%E5%85%A8%E5%B0%88%E9%A1%8C%E4%B8%AD%E5%BF%83(%E6%99%82%E4%BB%BB)%E5%9F%B7%E8%A1%8C%E9%95%B7.jpg",
                                             "name": "黃彥男",
-                                            "corporation": "(時任)中研院資通安全專題中心",
+                                            "corporation": "中研院資通安全專題中心",
                                             "position": "執行長"
                                         },
                                         {
@@ -1349,7 +1349,7 @@
                 },
                 {
                     "id": "2023",
-                    "name": "2023. 城市儀表板大黑客松",
+                    "name": "2023.城市儀表板大黑客松",
                     "date": "2024-06-07~2024-06-08",
                     "link": "",
                     "available": true,
@@ -1565,21 +1565,21 @@
                                             "id": 1,
                                             "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E5%88%9D%E9%81%B8%E8%A9%95%E5%AF%A9/%E6%9E%97%E4%BD%91%E9%81%94_%EF%BC%88%E6%99%82%E4%BB%BB%EF%BC%89%E5%9C%8B%E7%AB%8B%E9%99%BD%E6%98%8E%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%B8.JPG",
                                             "name": "林佑達",
-                                            "corporation": "（時任）國立陽明交通大學",
+                                            "corporation": "國立陽明交通大學",
                                             "position": "兼任助理教授"
                                         },
                                         {
                                             "id": 2,
                                             "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E5%88%9D%E9%81%B8%E8%A9%95%E5%AF%A9/%E6%B8%B8%E7%92%BF%E9%81%94_%E8%87%BA%E5%8C%97%E5%A4%A7%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83%E8%B3%87%E6%96%99%E7%A7%91%E5%AD%B8%E5%AE%B6.jpg",
                                             "name": "游璿達",
-                                            "corporation": "(時任)臺北市政府資訊局儀表板開發團隊",
+                                            "corporation": "臺北市政府資訊局儀表板開發團隊",
                                             "position": "資料分析師"
                                         },
                                         {
                                             "id": 3,
                                             "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E5%88%9D%E9%81%B8%E8%A9%95%E5%AF%A9/%E4%BD%95%E7%B4%B9%E5%AE%87_%E8%87%BA%E5%8C%97%E5%A4%A7%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83%E5%85%A8%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB.jpg",
                                             "name": "何紹宇",
-                                            "corporation": "(時任)臺北市政府資訊局儀表板開發團隊",
+                                            "corporation": "臺北市政府資訊局儀表板開發團隊",
                                             "position": "前端工程師"
                                         }
                                     ]
@@ -1605,7 +1605,7 @@
                                             "id": 6,
                                             "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E6%B1%BA%E9%81%B8%E8%A9%95%E5%AF%A9/%E5%90%B3%E8%82%87%E9%8A%98%E6%A1%83%E5%9C%92%E5%B8%82%E6%94%BF%E5%BA%9C%E7%A0%94%E7%A9%B6%E7%99%BC%E5%B1%95%E8%80%83%E6%A0%B8%E5%A7%94%E5%93%A1%E6%9C%83%E4%B8%BB%E4%BB%BB%E5%A7%94%E5%93%A1(%E6%99%82%E4%BB%BB).jpg",
                                             "name": "吳肇銘",
-                                            "corporation": "（時任）桃園市政府研究發展考核委員會",
+                                            "corporation": "桃園市政府研究發展考核委員會",
                                             "position": "主任委員"
                                         },
                                         {
@@ -1785,7 +1785,7 @@
             "taipei_art_fest": [
                 {
                     "id": "2024-art-fest",
-                    "name": "2024臺北生成藝術節",
+                    "name": "2024.臺北生成藝術節",
                     "date": "2024-09-07~2024-09-08",
                     "link": "https://drive.google.com/file/d/1Kt0fULr17L1Cbb3lrOW_nFlDBZcYJTNh/view",
                     "available": true
