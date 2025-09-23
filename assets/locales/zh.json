@@ -1,6 +1,6 @@
 {
     "index": {
-        "title": "2025 臺北程式設計節即將登場",
+        "title": "2025 秋季臺北程式設計節即將登場",
         "activities": [
             {
                 "name": "秋季",
@@ -283,7 +283,7 @@
                                             "id": 1,
                                             "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20fall/%E5%88%9D%E9%81%B8%E8%A9%95%E5%AF%A9/%E8%AC%9D%E6%A8%B9%E7%91%84_%E8%87%BA%E5%8C%97%E5%B8%82%E6%94%BF%E5%BA%9C%E8%B3%87%E8%A8%8A%E5%B1%80%E9%96%8B%E7%99%BC%E5%9C%98%E9%9A%8A%E5%9F%8E%E5%B8%82%E9%80%9A%E6%9E%B6%E6%A7%8B%E5%B8%AB.jpg",
                                             "name": "謝樹瑄",
-                                            "corporation": "臺北市政府資訊局開發團隊",
+                                            "corporation": "臺北市政府資訊局",
                                             "position": "城市通架構師"
                                         },
                                         {
@@ -715,15 +715,15 @@
                                             "id": 2,
                                             "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E5%88%9D%E5%AF%A9%E8%A9%95%E5%AF%A9/%E6%B8%B8%E7%92%BF%E9%81%94_%E8%87%BA%E5%8C%97%E5%A4%A7%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83%E8%B3%87%E6%96%99%E7%A7%91%E5%AD%B8%E5%AE%B6.jpg",
                                             "name": "游璿達",
-                                            "corporation": "臺北市政府資訊局儀表板開發團隊",
-                                            "position": "資料分析師"
+                                            "corporation": "臺北市政府資訊局",
+                                            "position": "城市儀表板開發團隊"
                                         },
                                         {
                                             "id": 3,
                                             "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2024%20spring/%E5%88%9D%E5%AF%A9%E8%A9%95%E5%AF%A9/%E4%BD%95%E7%B4%B9%E5%AE%87_%E8%87%BA%E5%8C%97%E5%A4%A7%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83%E5%85%A8%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB.jpg",
                                             "name": "何紹宇",
-                                            "corporation": "臺北市政府資訊局儀表板開發團隊",
-                                            "position": "前端工程師"
+                                            "corporation": "臺北市政府資訊局",
+                                            "position": "城市儀表板開發團隊"
                                         }
                                     ]
                                 },
@@ -1125,15 +1125,15 @@
                                             "id": 2,
                                             "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E5%88%9D%E9%81%B8%E8%A9%95%E5%AF%A9/%E6%B8%B8%E7%92%BF%E9%81%94_%E8%87%BA%E5%8C%97%E5%A4%A7%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83%E8%B3%87%E6%96%99%E7%A7%91%E5%AD%B8%E5%AE%B6.jpg",
                                             "name": "游璿達",
-                                            "corporation": "臺北市政府資訊局儀表板開發團隊",
-                                            "position": "資料分析師"
+                                            "corporation": "臺北市政府資訊局",
+                                            "position": "城市儀表板開發團隊"
                                         },
                                         {
                                             "id": 3,
                                             "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2023/%E5%88%9D%E9%81%B8%E8%A9%95%E5%AF%A9/%E4%BD%95%E7%B4%B9%E5%AE%87_%E8%87%BA%E5%8C%97%E5%A4%A7%E6%95%B8%E6%93%9A%E4%B8%AD%E5%BF%83%E5%85%A8%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%AB.jpg",
                                             "name": "何紹宇",
-                                            "corporation": "臺北市政府資訊局儀表板開發團隊",
-                                            "position": "前端工程師"
+                                            "corporation": "臺北市政府資訊局",
+                                            "position": "城市儀表板開發團隊"
                                         }
                                     ]
                                 },
@@ -1597,15 +1597,15 @@
                                             "id": 2,
                                             "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20spring/2025%E8%A9%95%E5%AF%A9%E5%9C%96/judge-1-3.jpg",
                                             "name": "宋祥瑀​",
-                                            "corporation": "城市儀表板開發團隊",
-                                            "position": ""
+                                            "corporation": "臺北市政府資訊局",
+                                            "position": "城市儀表板開發團隊"
                                         },
                                         {
                                             "id": 3,
                                             "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20spring/2025%E8%A9%95%E5%AF%A9%E5%9C%96/judge-1-4.jpg",
                                             "name": "潘相輔",
-                                            "corporation": "城市儀表板開發團隊",
-                                            "position": ""
+                                            "corporation": "臺北市政府資訊局",
+                                            "position": "城市儀表板開發團隊"
                                         }
                                     ]
                                 },
