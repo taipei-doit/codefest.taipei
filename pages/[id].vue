@@ -48,6 +48,26 @@ const currentActivity = computed(() => {
   return null;
 });
 
+/** 驗證活動 ID 是否有效 */
+const isValidActivityId = computed(() => {
+  return currentActivity.value !== null;
+});
+
+/** 監聽 ID 變化，如果無效則重定向到根目錄 */
+watch(
+  () => route.params.id,
+  () => {
+    // 等待 i18n 載入完成後再檢查
+    nextTick(() => {
+      if (!isValidActivityId.value) {
+        console.log(`Invalid activity ID: ${route.params.id}, redirecting to home`);
+        navigateTo('/');
+      }
+    });
+  },
+  { immediate: true }
+);
+
 /** 參賽回顧 */
 const winningTeamList = computed<PastWinningTeam[]>(() => {
   if (!currentActivity.value?.past?.winning_teams?.list) {
@@ -71,10 +91,10 @@ const pastSlidesPerPage = 3;
 /**
  * 參賽回顧 - 總頁數
  */
-const pastTotalPages = computed(() => Math.ceil(winningTeamList.value.length / pastSlidesPerPage));
+const _pastTotalPages = computed(() => Math.ceil(winningTeamList.value.length / pastSlidesPerPage));
 // 監聽 Swiper 變更時，更新 `pastCurrentPage`
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const onPastSlideChange = (event: any) => {
+const _onPastSlideChange = (event: any) => {
   // console.log(event);
   if (event) {
     pastCurrentPage.value = Math.ceil(event.realIndex / pastSlidesPerPage) + 1;
