@@ -4,21 +4,21 @@
         "activities": [
             {
                 "name": "秋季",
-                "icon_type": "loading",
-                "date": "Coming soon",
+                "icon_type": "smile",
+                "date": "11/08 ~ 11/09",
                 "available": true,
                 "link": ""
             },
             {
                 "name": "臺北生成藝術節",
                 "icon_type": "smile",
-                "date": "11/2",
+                "date": "11/02",
                 "available": true,
                 "link": "https://genartfest.taipei/"
             },
             {
                 "name": "雙北",
-                "icon_type": "smile",
+                "icon_type": "finish",
                 "date": "05/31 ~ 06/01",
                 "available": true,
                 "link": "https://codefest.taipei/2025-spring/"
