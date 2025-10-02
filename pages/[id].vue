@@ -818,12 +818,14 @@ onUnmounted(() => {
                     </div>
                     <div class="p-4 w-full overflow-auto">
                       <table
-                        v-show="
-                          activeSchedule.id === 'online' ||
-                          activeSchedule.id === 'workshop' ||
-                          activeSchedule.id === 'competition'
-                        "
                         class="w-full min-w-max border-collapse text-white"
+                        :class="{
+                          hidden: !(
+                            activeSchedule.id === 'online' ||
+                            activeSchedule.id === 'workshop' ||
+                            activeSchedule.id === 'competition'
+                          ),
+                        }"
                       >
                         <thead>
                           <tr class="border-white custom-dashed text-left">
@@ -901,9 +903,13 @@ onUnmounted(() => {
                       </div>
                       <div class="p-4 w-full overflow-auto">
                         <table
-                          v-show="
-                            tab.id === 'online' || tab.id === 'workshop' || tab.id === 'competition'
-                          "
+                          :class="{
+                            hidden: !(
+                              tab.id === 'online' ||
+                              tab.id === 'workshop' ||
+                              tab.id === 'competition'
+                            ),
+                          }"
                           class="w-full min-w-max border-collapse text-white"
                         >
                           <thead>
