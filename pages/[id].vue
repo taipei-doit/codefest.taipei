@@ -279,8 +279,8 @@ onUnmounted(() => {
                       <div v-for="(group, index) in winningTeamList" :key="index">
                         <div :key="group.id">
                           <a
-                            href="javascript:void(0)"
-                            @click="
+                            href="#"
+                            @click.prevent="
                               activeWinningTeam = group;
                               dialogStore.openDialog('winningTeam');
                             "
@@ -342,8 +342,8 @@ onUnmounted(() => {
                       >
                         <div :key="image.id">
                           <!-- <a
-                            href="javascript:void(0)"
-                            @click="
+                            href="#"
+                            @click.prevent="
                               activePhoto = group;
                               dialogStore.openDialog('photo');
                             "
