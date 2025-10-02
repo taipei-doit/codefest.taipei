@@ -39,10 +39,11 @@ const activities = computed<Activity[]>(() => {
               <a
                 v-for="(item, index) in activities"
                 :key="index"
-                :href="item.link"
-                target="_blank"
+                :href="item.link || '#'"
+                :target="item.link ? '_blank' : '_self'"
                 class="mb-4 flex items-center"
                 :class="!item.link ? 'cursor-default' : 'cursor-pointer hover:text-primary-100'"
+                @click="!item.link && $event.preventDefault()"
               >
                 <img :src="`images/icons/${item.icon_type}.png`" width="40" class="mr-4" alt="" />
                 <div class="flex-1 flex justify-between border-b border-white py-3 text-[20px]">

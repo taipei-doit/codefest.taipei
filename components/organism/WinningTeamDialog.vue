@@ -2,6 +2,7 @@
 import { Dialog, DialogPanel, DialogTitle, DialogDescription } from '@headlessui/vue';
 import type { PastWinningTeam } from '~/interfaces/past.interface';
 import { Swiper, SwiperSlide } from 'swiper/vue';
+import type { Swiper as SwiperType } from 'swiper';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/free-mode';
@@ -18,10 +19,10 @@ const props = defineProps<{
 
 const emit = defineEmits(['close']);
 
-const thumbsSwiper = ref<Swiper | null>(null);
+const thumbsSwiper = ref<SwiperType | null>(null);
 const swiperReady = ref(false);
 
-const setThumbsSwiper = (swiper: Swiper) => {
+const setThumbsSwiper = (swiper: SwiperType) => {
   try {
     thumbsSwiper.value = swiper;
     swiperReady.value = true;
@@ -33,7 +34,7 @@ const setThumbsSwiper = (swiper: Swiper) => {
 // Reset swiper state when dialog closes
 watch(
   () => props.isOpen,
-  newValue => {
+  (newValue: boolean) => {
     if (!newValue) {
       thumbsSwiper.value = null;
       swiperReady.value = false;
@@ -67,7 +68,11 @@ watch(
               <!-- 單圖模式 -->
               <div v-if="!props.activeWinningTeam?.image_list.length" class="aspect-video">
                 <img
-                  :src="runtimeConfig.app.baseURL + props.activeWinningTeam?.thumbnail"
+                  :src="
+                    props.activeWinningTeam?.thumbnail.includes('https')
+                      ? props.activeWinningTeam?.thumbnail
+                      : runtimeConfig.app.baseURL + props.activeWinningTeam?.thumbnail
+                  "
                   class="w-full h-full object-cover lg:mb-0 mb-6"
                   alt=""
                 />
@@ -92,7 +97,7 @@ watch(
                     >
                       <div class="aspect-video">
                         <img
-                          :src="runtimeConfig.app.baseURL + item"
+                          :src="item.includes('https') ? item : runtimeConfig.app.baseURL + item"
                           class="w-full h-full object-cover"
                           alt=""
                         />
@@ -141,7 +146,7 @@ watch(
                   >
                     <div class="aspect-square cursor-pointer">
                       <img
-                        :src="runtimeConfig.app.baseURL + item"
+                        :src="item.includes('https') ? item : runtimeConfig.app.baseURL + item"
                         class="w-full h-full object-cover"
                         alt=""
                       />

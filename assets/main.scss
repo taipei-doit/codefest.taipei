@@ -1,3 +1,6 @@
+// 引入 retro-effect 樣式
+@use '@/assets/retro-effect';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -26,4 +29,51 @@
 
 body {
     background-color: theme("colors.primary.500");
+}
+
+
+/** 虛線 */
+.custom-dashed {
+    --dashed-color: white; /* 預設顏色 */
+    background-image: linear-gradient(to right, var(--dashed-color) 50%, transparent 50%);
+    background-size: 14px 1px;
+    background-repeat: repeat-x;
+    background-position: var(--dashed-position, bottom left); /* 預設 bottom */
+}
+
+/* 在 top 顯示虛線 */
+.dashed-top {
+    --dashed-position: top left;
+}
+
+/* 在 bottom 顯示虛線 */
+.dashed-bottom {
+    --dashed-position: bottom left;
+}
+
+/* 黑色虛線 */
+.dashed-black {
+    --dashed-color: black;
+}
+
+.judge .swiper {
+    padding-bottom: 50px;
+
+    .swiper-pagination-bullet {
+        background: theme("colors.secondary.500") !important;
+        opacity: 1;
+        width: 12px;
+        height: 12px;
+    }
+    .swiper-pagination-bullet-active {
+        background: white !important;
+    }
+}
+
+.judge-box {
+    @apply border-4 border-white;
+}
+
+.video-box {
+    @apply border-4 border-white aspect-video;
 }

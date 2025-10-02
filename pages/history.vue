@@ -1,13 +1,8 @@
 <script setup lang="ts">
-import type { Activity } from '~/interfaces/activity.interface';
 import type { HistoryActivity, HistoryNavigation } from '~/interfaces/history-activity.interface';
 
 const { tm } = useI18n();
 
-const _activities = computed<Activity[]>(() => {
-  const data = tm('index.activities');
-  return Array.isArray(data) ? data : Object.values(data); // 轉換 Object 為 Array
-});
 type ActivityKeys = string;
 
 const router = useRouter();
@@ -19,18 +14,17 @@ const navigation = ref<HistoryNavigation[]>(
   Array.isArray(tm('history.navigation')) ? tm('history.navigation') : []
 );
 
-const selectedType = ref<ActivityKeys>(tm('history.navigation')[0].type as ActivityKeys);
-const selectedActivities = ref<HistoryActivity[]>([]);
+const selectedType = computed(() => {
+  return navigation.value.find((item: HistoryNavigation) => item.current)?.type as ActivityKeys;
+});
+const selectedActivities = computed(() => {
+  const activitiesData = tm('history.activities') as Record<string, HistoryActivity[]>;
+  return (
+    activitiesData[selectedType.value]?.filter((item: HistoryActivity) => item.available) || []
+  );
+});
 
-watch(
-  selectedType,
-  (newType: ActivityKeys) => {
-    const activitiesData = tm('history.activities') as Record<string, HistoryActivity[]>;
-    selectedActivities.value =
-      activitiesData[newType]?.filter((item: HistoryActivity) => item.available) || [];
-  },
-  { immediate: true }
-);
+const selectedActivity = ref<HistoryActivity | null>(null);
 
 // 通用方法：選擇主選單項目
 const selectNavigationItem = (index: number) => {
@@ -38,7 +32,7 @@ const selectNavigationItem = (index: number) => {
     item.current = idx === index;
   });
   isLeftPanelActive.value = true;
-  selectedType.value = navigation.value[index].type as ActivityKeys;
+  // selectedType.value = navigation.value[index].type as ActivityKeys;
   resetActivities();
 
   // 🚀 滾動到選中的元素
@@ -53,10 +47,7 @@ const selectNavigationItem = (index: number) => {
 // 通用方法：選擇活動項目
 const selectActivity = (index: number) => {
   isLeftPanelActive.value = false;
-  selectedActivities.value = selectedActivities.value.map((item: HistoryActivity, idx: number) => ({
-    ...item,
-    isSelected: idx === index,
-  }));
+  selectedActivity.value = selectedActivities.value[index];
 
   // 🚀 滾動到選中的元素
   nextTick(() => {
@@ -69,16 +60,15 @@ const selectActivity = (index: number) => {
 
 // 重置所有活動選中狀態
 const resetActivities = () => {
-  selectedActivities.value = selectedActivities.value.map((item: HistoryActivity) => ({
-    ...item,
-    isSelected: false,
-  }));
+  selectedActivity.value = null;
 };
 
 const handleKeydown = (e: KeyboardEvent) => {
   const activities = selectedActivities.value;
   const currentNavIdx = navigation.value.findIndex((item: HistoryNavigation) => item.current);
-  const currentActivityIdx = activities.findIndex((item: HistoryActivity) => item.isSelected);
+  const currentActivityIdx = activities.findIndex(
+    (item: HistoryActivity) => selectedActivity.value?.id === item.id
+  );
 
   switch (e.key) {
     case 'ArrowUp':
@@ -116,7 +106,13 @@ const handleKeydown = (e: KeyboardEvent) => {
       if (currentActivityIdx !== -1) {
         const selectedActivity = activities[currentActivityIdx];
         if (selectedActivity.available) {
-          window.open(selectedActivity.link, '_blank');
+          if (selectedActivity.link) {
+            // 有外部連結，使用 window.open
+            window.open(selectedActivity.link, '_blank');
+          } else if (selectedActivity.id) {
+            // 沒有外部連結但有 id，使用 NuxtLink 導航
+            router.push(`/${selectedActivity.id}`);
+          }
         }
       }
       break;
@@ -211,13 +207,17 @@ onUnmounted(() => {
                     src="@/assets/images/icons/white-right-arrow-svgrepo-com.svg"
                     width="20"
                     alt="right-arrow"
-                    :class="[activity.isSelected ? 'opacity-100' : 'opacity-0', 'mr-4']"
+                    :class="[
+                      selectedActivity?.id === activity.id ? 'opacity-100' : 'opacity-0',
+                      'mr-4',
+                    ]"
                   />
                   <a
+                    v-if="activity.link"
                     :href="activity.link"
                     target="_blank"
                     :class="[
-                      activity.isSelected
+                      selectedActivity?.id === activity.id
                         ? 'bg-primary-50 text-primary-850 active-item active-sub-item'
                         : '',
                       'flex items-center flex-1 md:px-2 py-5',
@@ -226,6 +226,19 @@ onUnmounted(() => {
                   >
                     <p>{{ activity.name }}</p>
                   </a>
+                  <NuxtLink
+                    v-else
+                    :to="`/${activity.id}`"
+                    :class="[
+                      selectedActivity?.id === activity.id
+                        ? 'bg-primary-50 text-primary-850 active-item active-sub-item'
+                        : '',
+                      'flex items-center flex-1 md:px-2 py-5',
+                    ]"
+                    @click="selectActivity(index)"
+                  >
+                    <p>{{ activity.name }}</p>
+                  </NuxtLink>
                 </li>
               </ul>
             </div>
@@ -248,8 +261,6 @@ onUnmounted(() => {
 </template>
 
 <style scoped lang="postcss">
-/* @import '@/assets/retro-effect.scss'; */
-
 .active-item {
   position: relative;
   box-shadow: 2px 2px 0px black;

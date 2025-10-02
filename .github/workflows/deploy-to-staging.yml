@@ -1,0 +1,49 @@
+name: Deploy Project to Staging
+
+on:
+  push:
+    branches:
+      - demo
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Inject .env for Nuxt
+        run: |
+          echo "NUXT_PUBLIC_GTM_ID=${{ secrets.NUXT_PUBLIC_GTM_ID }}" >> .env
+          echo "NUXT_PUBLIC_GA_ID=${{ secrets.NUXT_PUBLIC_GA_ID }}" >> .env
+
+      - name: Build static site (Nuxt generate)
+        run: npm run generate
+
+      - name: Checkout deployment repo
+        uses: actions/checkout@v3
+        with:
+          repository: Koafaith/codefest-deployment
+          path: codefest-deployment
+          token: ${{ secrets.DEPLOYMENT_REPO_TOKEN }}
+
+      - name: Copy build files
+        run: cp -r .output/public/* codefest-deployment/public/2025-spring/
+
+      - name: Commit and push changes
+        run: |
+          cd codefest-deployment
+          git config --local user.email "tanvitsao@koafaith.com"
+          git config --local user.name "TanviTsao"
+          git add .
+          git commit -m "Update codefest build" || true
+          git push
