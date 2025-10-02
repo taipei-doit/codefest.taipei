@@ -30,34 +30,43 @@ onUnmounted(() => {
     class="p-4 overflow-hidden flex"
     :class="props.direction === 'right' ? 'justify-end' : 'justify-start'"
   >
-    <!-- desktop -->
+    <!-- desktop (lg+) -->
     <img
-      v-show="currentImage === 0"
       src="/images/section-decoration.svg"
-      class="lg:block hidden w-[750px]"
-      :class="props.direction === 'right' ? 'transform scale-x-[-1]' : ''"
+      class="hidden lg:block w-[750px]"
+      :class="[
+        props.direction === 'right' ? 'scale-x-[-1]' : '',
+        currentImage === 0 ? '' : 'lg:hidden',
+      ]"
       alt=""
     />
     <img
-      v-show="currentImage === 1"
       src="/images/section-decoration-2.svg"
-      class="lg:block hidden w-[750px]"
-      :class="props.direction === 'right' ? 'transform scale-x-[-1]' : ''"
+      class="hidden lg:block w-[750px]"
+      :class="[
+        props.direction === 'right' ? 'scale-x-[-1]' : '',
+        currentImage === 1 ? '' : 'lg:hidden',
+      ]"
       alt=""
     />
-    <!-- mobile -->
+
+    <!-- mobile (<lg) -->
     <img
-      v-show="currentImage === 0"
       src="/images/section-decoration-mobile.svg"
-      class="lg:hidden block"
-      :class="props.direction === 'right' ? 'transform scale-x-[-1]' : ''"
+      class="block lg:hidden"
+      :class="[
+        props.direction === 'right' ? 'scale-x-[-1]' : '',
+        currentImage === 0 ? '' : 'hidden',
+      ]"
       alt=""
     />
     <img
-      v-show="currentImage === 1"
       src="/images/section-decoration-mobile-2.svg"
-      class="lg:hidden block"
-      :class="props.direction === 'right' ? 'transform scale-x-[-1]' : ''"
+      class="block lg:hidden"
+      :class="[
+        props.direction === 'right' ? 'scale-x-[-1]' : '',
+        currentImage === 1 ? '' : 'hidden',
+      ]"
       alt=""
     />
   </div>
