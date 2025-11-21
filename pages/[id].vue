@@ -956,7 +956,7 @@ onUnmounted(() => {
                     <div class="flex-1 text-white">
                       <div class="flex flex-col text-center p-4 border border-b-white">
                         <p class="text-xl mb-2 whitespace-pre-wrap">
-                          {{ tab.schedule_sub_name }}
+                          <AtomSaveHtml :html="activeSchedule.schedule_sub_name" />
                         </p>
                         <!-- 按鈕（根據類型顯示）-->
                         <template v-if="tab.button?.text">
