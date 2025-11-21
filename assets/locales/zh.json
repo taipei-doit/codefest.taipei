@@ -1,27 +1,27 @@
 {
     "index": {
-        "title": "2025 臺北秋季程式設計節即將登場",
+        "title": "敬請期待2026臺北程式設計節",
         "activities": [
             {
-                "name": "秋季",
-                "icon_type": "smile",
-                "date": "11/08 ~ 11/09",
+                "name": "春季",
+                "icon_type": "loading",
+                "date": "COMING SOON",
                 "available": true,
-                "link": "https://codefest.taipei/2025-fall/"
+                "link": ""
+            },
+            {
+                "name": "秋季",
+                "icon_type": "loading",
+                "date": "COMING SOON",
+                "available": true,
+                "link": ""
             },
             {
                 "name": "臺北生成藝術節",
-                "icon_type": "smile",
-                "date": "11/02",
+                "icon_type": "loading",
+                "date": "COMING SOON",
                 "available": true,
-                "link": "https://genartfest.taipei/"
-            },
-            {
-                "name": "雙北",
-                "icon_type": "finish",
-                "date": "05/31 ~ 06/01",
-                "available": true,
-                "link": "https://codefest.taipei/2025-spring/"
+                "link": ""
             }
         ]
     },
@@ -45,6 +45,752 @@
         ],
         "activities": {
             "taipei_code_fest": [
+                {
+                    "id": "2025-fall",
+                    "name": "2025.秋季城市通微服務大黑客松",
+                    "date": "2025-11-08~2025-11-09",
+                    "link": "",
+                    "available": true,
+                    "hero_banner": {
+                        "section_title": "2025臺北秋季程式設計節\n城市通微服務大黑客松"
+                    },
+                    "past": {
+                        "available": true,
+                        "section_title": "參賽回顧",
+                        "description": "收錄獲獎團隊及影音回顧",
+                        "winning_teams": {
+                            "title": "獲獎團隊",
+                            "more_winning_team_photos_url": "",
+                            "list": [
+                                {
+                                    "id": 0,
+                                    "ranking": "第一名",
+                                    "team_name": "DROP TABLE",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E7%AC%AC%E4%B8%80%E5%90%8D-DROP%20TABLE.jpg",
+                                    "team_members": "國立中央大學資訊工程學系\n國立中央大學資訊電機學院學士班",
+                                    "descriptions": [
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "詐騙及風險網站檢測微服務"
+                                        },
+                                        {
+                                            "title": "專案描述",
+                                            "content": "本專案將原本難取得的網址相關資訊，以簡單易懂的方式公開，並提供判斷依據與詳細資料供民眾查閱。並分析常見詐騙模式並檢測網站流量與連線異常，標示主機所在地與轉向情況，協助民眾快速辨別網址是否可信，給出參考建議。"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/tinf1213/TownPass_2025_hackathon' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/tinf1213/TownPass_2025_hackathon</a>"
+                                        },
+                                        {
+                                            "title": "使用的資料集名稱及連結",
+                                            "content": "<ol style='list-style: decimal; padding-left: 1.5em;'><li>phishing websites<br/><a href='https://archive.ics.uci.edu/dataset/327/phishing+websites' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://archive.ics.uci.edu/dataset/327/phishing+websites</a></li><li>WHOIS<br/><a href='https://www.twnic.tw/whois_n.php' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://www.twnic.tw/whois_n.php</a></li></ol>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E7%AC%AC%E4%B8%80%E5%90%8D-DROP%20TABLE.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 1,
+                                    "ranking": "第二名",
+                                    "team_name": "臉滾鍵盤",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E7%AC%AC%E4%BA%8C%E5%90%8D-%E8%87%89%E6%BB%BE%E9%8D%B5%E7%9B%A4.jpg",
+                                    "team_members": "國立臺灣大學政治學系\n國立臺灣大學資訊管理學系",
+                                    "descriptions": [
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "Carbon Notebook 咔嘣筆記"
+                                        },
+                                        {
+                                            "title": "專案描述",
+                                            "content": "結合永續概念，提供碳排紀錄自動化微服務，並整合政府資訊平台，呈現綠色商家地圖視覺化與減碳行動遊戲化。"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "網站：<a href='https://github.com/face-on-keyboard/web' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/face-on-keyboard/web</a><br/>城市通 App：<a href='https://github.com/face-on-keyboard/townpass' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/face-on-keyboard/townpass</a>"
+                                        },
+                                        {
+                                            "title": "使用的資料集名稱及連結",
+                                            "content": "<ol style='list-style: decimal; padding-left: 1.5em;'><li>電子發票應用API 規格<br/><a href='https://www.einvoice.nat.gov.tw/static/ptl/ein_upload/attachments/1693297176294_0.pdf' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://www.einvoice.nat.gov.tw/static/ptl/ein_upload/attachments/1693297176294_0.pdf</a></li><li>產品碳足跡資訊網<br/><a href='https://cfp-calculate.tw/cfpc/Carbon/WebPage/visitors/FLProductinfo.aspx' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://cfp-calculate.tw/cfpc/Carbon/WebPage/visitors/FLProductinfo.aspx</a></li><li>淨零綠生活資訊平台<br/><a href='https://greenlifestyle.moenv.gov.tw/categories/restaurant' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://greenlifestyle.moenv.gov.tw/categories/restaurant</a></li></ol>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E7%AC%AC%E4%BA%8C%E5%90%8D-%E8%87%89%E6%BB%BE%E9%8D%B5%E7%9B%A4.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "ranking": "第三名",
+                                    "team_name": "假面喵喵隊",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E7%AC%AC%E4%B8%89%E5%90%8D-%E5%81%87%E9%9D%A2%E5%96%B5%E5%96%B5%E9%9A%8A.jpg",
+                                    "team_members": " 國立陽明交通大學資訊科學與工程研究所\n國立中央大學資訊工程學系\n國立清華大學資訊工程學系\n國立臺灣大學資訊工程學系",
+                                    "descriptions": [
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "尋寶趣"
+                                        },
+                                        {
+                                            "title": "專案描述",
+                                            "content": "北市的集章活動如北捷、大縱走經常分散在不同APP內，故打造模組化集章所需功能建立可廣泛使用的微服務。"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/jfif7/TownPass' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/jfif7/TownPass</a>"
+                                        },
+                                        {
+                                            "title": "使用的資料集名稱及連結",
+                                            "content": "<ol style='list-style: decimal; padding-left: 1.5em;'><li>旅遊資訊API<br/><a href='https://www.travel.taipei/open-api/swagger/ui/index#/Attractions/Attractions_All' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://www.travel.taipei/open-api/swagger/ui/index#/Attractions/Attractions_All</a></li></ol>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E7%AC%AC%E4%B8%89%E5%90%8D-%E5%81%87%E9%9D%A2%E5%96%B5%E5%96%B5%E9%9A%8A.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "ranking": "佳作1",
+                                    "team_name": "報報王",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E4%BD%B3%E4%BD%9C1-%E5%A0%B1%E5%A0%B1%E7%8E%8B.jpg",
+                                    "team_members": "國立政治大學資訊科學系 \n中原大學資訊管理學系",
+                                    "descriptions": [
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "騎妙：UBike智慧騎乘安全指南"
+                                        },
+                                        {
+                                            "title": "專案描述",
+                                            "content": "10秒告訴你現在適不適合騎UBike！整合天氣資訊、道路施工並結合車位數量預測模型，守護每段安全旅程。"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/MO7YW4NG/RideFlow' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/MO7YW4NG/RideFlow</a>"
+                                        },
+                                        {
+                                            "title": "使用的資料集名稱及連結",
+                                            "content": "<ol style='list-style: decimal; padding-left: 1.5em;'><li>YouBike2.0臺北市公共自行車即時資訊<br/><a href='https://data.taipei/dataset/detail?id=c6bc8aed-557d-41d5-bfb1-8da24f78f2fb' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=c6bc8aed-557d-41d5-bfb1-8da24f78f2fb</a></li><li>臺北市道路預定施工資訊<br/><a href='https://dig.taipei/TpdigR.net/Map/ShowPWorkData.aspx?caseid=11400579' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://dig.taipei/TpdigR.net/Map/ShowPWorkData.aspx?caseid=11400579</a></li><li>天氣特報-各別縣市地區目前之天氣警特報情形<br/><a href='https://opendata.cwa.gov.tw/dataset/warning/W-C0033-001' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://opendata.cwa.gov.tw/dataset/warning/W-C0033-001</a></li><li>鄉鎮天氣預報-全臺灣各鄉鎮市區預報資料<br/><a href='https://opendata.cwa.gov.tw/dataset/forecast/F-D0047-093' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://opendata.cwa.gov.tw/dataset/forecast/F-D0047-093</a></li><li>空氣品質指標(AQI)<br/><a href='https://data.moenv.gov.tw/dataset/detail/AQX_P_432' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.moenv.gov.tw/dataset/detail/AQX_P_432</a></li><li>紫外線指數-每日紫外線指數最大值<br/><a href='https://opendata.cwa.gov.tw/dataset/observation/O-A0005-001' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://opendata.cwa.gov.tw/dataset/observation/O-A0005-001</a></li><li>氣象觀測站-10分鐘綜觀氣象資料<br/><a href='https://opendata.cwa.gov.tw/dataset/observation/O-A0003-001' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://opendata.cwa.gov.tw/dataset/observation/O-A0003-001</a></li><li>鄉鎮天氣預報-台灣未來3天天氣預報<br/><a href='https://opendata.cwa.gov.tw/dataset/forecast/F-D0047-089' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://opendata.cwa.gov.tw/dataset/forecast/F-D0047-089</a></li></ol>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E4%BD%B3%E4%BD%9C1-%E5%A0%B1%E5%A0%B1%E7%8E%8B.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 4,
+                                    "ranking": "佳作2",
+                                    "team_name": "BP-XZs",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E4%BD%B3%E4%BD%9C2-BP-XZs.jpg",
+                                    "team_members": "國立清華大學資訊工程學系\n國立中央大學資訊工程學系",
+                                    "descriptions": [
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "城心誠靈 - 線上拜拜求籤服務"
+                                        },
+                                        {
+                                            "title": "專案描述",
+                                            "content": "結合數位神諭與雲端香火，落實傳統文化的數位轉型、推廣廟宇觀光，也是舒緩生活壓力的最佳工具。"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/bp-xzs/TownPass' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/bp-xzs/TownPass</a>"
+                                        },
+                                        {
+                                            "title": "使用的資料集名稱及連結",
+                                            "content": "<ol style='list-style: decimal; padding-left: 1.5em;'><li>旅遊資訊API<br/><a href='https://www.travel.taipei/open-api/swagger/docs/V1' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://www.travel.taipei/open-api/swagger/docs/V1</a></li><li>臺北市寺廟一覽<br/><a href='https://data.taipei/dataset/detail?id=b5f043ce-00be-4404-b975-02e29fe10f51' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=b5f043ce-00be-4404-b975-02e29fe10f51</a></li></ol>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E4%BD%B3%E4%BD%9C2-BP-XZs.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 5,
+                                    "ranking": "佳作3",
+                                    "team_name": "4地魔",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E4%BD%B3%E4%BD%9C3-4%E5%9C%B0%E9%AD%94.jpg",
+                                    "team_members": "國立清華大學資訊工程學系\n國立清華大學科技管理學院學士班\n國立清華大學電機資訊學院學士班\n聯發科技股份有限公司",
+                                    "descriptions": [
+                                        {
+                                            "title": "提案方向與內容",
+                                            "content": "藝文足跡 Art-Pass"
+                                        },
+                                        {
+                                            "title": "專案描述",
+                                            "content": "打造台北藝文統一入口，整合護照、地圖與展覽搜尋，降低資訊門檻，提升市民參與感、幸福感與城市凝聚力。"
+                                        },
+                                        {
+                                            "title": "GitHub網址連結",
+                                            "content": "<a href='https://github.com/haotien91/2025-Hackthon-4dimo' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://github.com/haotien91/2025-Hackthon-4dimo</a>"
+                                        },
+                                        {
+                                            "title": "使用的資料集名稱及連結",
+                                            "content": "<ol style='list-style: decimal; padding-left: 1.5em;'><li>臺北市藝文館所<br/><a href='https://data.taipei/dataset/detail?id=f058688f-1fd0-40d4-85e6-18267484cd18' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=f058688f-1fd0-40d4-85e6-18267484cd18</a></li><li>文化快遞<br/><a href='https://cultureexpress.taipei/' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://cultureexpress.taipei/</a></li><li>臺北市政府文化局文化快遞資訊<br/><a href='https://data.taipei/dataset/detail?id=9a7af75b-9abd-4ac1-b359-685fbd7dac23' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://data.taipei/dataset/detail?id=9a7af75b-9abd-4ac1-b359-685fbd7dac23</a></li><li>Google Maps<br/><a href='https://www.google.com/maps' target='_blank' rel='noopener noreferrer' style='text-decoration: underline; color: #0d6efd;'>https://www.google.com/maps</a></li></ol>"
+                                        }
+                                    ],
+                                    "image_list": [
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E7%8D%B2%E7%8D%8E%E5%9C%98%E9%9A%8A/%E4%BD%B3%E4%BD%9C3-4%E5%9C%B0%E9%AD%94.jpg"
+                                    ]
+                                }
+                            ]
+                        },
+                        "photos": {
+                            "title": "照片回顧",
+                            "more_photos_url": "",
+                            "list": [
+                                {
+                                    "id": 0,
+                                    "title": "工作坊",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%B7%A5%E4%BD%9C%E5%9D%8A/251024%E8%B3%BD%E5%89%8D%E5%B7%A5%E4%BD%9C%E5%9D%8A-10.jpg",
+                                    "more_photos_url": "https://drive.google.com/drive/folders/1KOxexV1ayEGqwQURY7BgtGRPKzwLKEJk",
+                                    "image_list": [
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%B7%A5%E4%BD%9C%E5%9D%8A/251024%E8%B3%BD%E5%89%8D%E5%B7%A5%E4%BD%9C%E5%9D%8A-10.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%B7%A5%E4%BD%9C%E5%9D%8A/251024%E8%B3%BD%E5%89%8D%E5%B7%A5%E4%BD%9C%E5%9D%8A-43.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%B7%A5%E4%BD%9C%E5%9D%8A/251024%E8%B3%BD%E5%89%8D%E5%B7%A5%E4%BD%9C%E5%9D%8A-57.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%B7%A5%E4%BD%9C%E5%9D%8A/251024%E8%B3%BD%E5%89%8D%E5%B7%A5%E4%BD%9C%E5%9D%8A-72.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%B7%A5%E4%BD%9C%E5%9D%8A/251024%E8%B3%BD%E5%89%8D%E5%B7%A5%E4%BD%9C%E5%9D%8A-98.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%B7%A5%E4%BD%9C%E5%9D%8A/251024%E8%B3%BD%E5%89%8D%E5%B7%A5%E4%BD%9C%E5%9D%8A-101.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%B7%A5%E4%BD%9C%E5%9D%8A/251024%E8%B3%BD%E5%89%8D%E5%B7%A5%E4%BD%9C%E5%9D%8A-107.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%B7%A5%E4%BD%9C%E5%9D%8A/251024%E8%B3%BD%E5%89%8D%E5%B7%A5%E4%BD%9C%E5%9D%8A-109.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%B7%A5%E4%BD%9C%E5%9D%8A/251024%E8%B3%BD%E5%89%8D%E5%B7%A5%E4%BD%9C%E5%9D%8A-110.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%B7%A5%E4%BD%9C%E5%9D%8A/251024%E8%B3%BD%E5%89%8D%E5%B7%A5%E4%BD%9C%E5%9D%8A-135.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 1,
+                                    "title": "1108精選",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/1108%E7%B2%BE%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_1108%E7%B2%BE%E9%81%B8-16.jpg",
+                                    "more_photos_url": "https://drive.google.com/drive/folders/1qInhGwTy4_EmzD9R8oS4wIIhyxxSGIL9",
+                                    "image_list": [
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/1108%E7%B2%BE%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_1108%E7%B2%BE%E9%81%B8-16.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/1108%E7%B2%BE%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_1108%E7%B2%BE%E9%81%B8-17.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/1108%E7%B2%BE%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_1108%E7%B2%BE%E9%81%B8-60.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/1108%E7%B2%BE%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_1108%E7%B2%BE%E9%81%B8-61.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/1108%E7%B2%BE%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_1108%E7%B2%BE%E9%81%B8-187.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/1108%E7%B2%BE%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@P_1108%E7%B2%BE%E9%81%B8-59.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/1108%E7%B2%BE%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@P_1108%E7%B2%BE%E9%81%B8-73.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/1108%E7%B2%BE%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@P_1108%E7%B2%BE%E9%81%B8-78.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/1108%E7%B2%BE%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@P_1108%E7%B2%BE%E9%81%B8-95.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/1108%E7%B2%BE%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@P_%E5%90%88%E7%85%A7-027.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "1109精選",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/1109%E7%B2%BE%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_1109%E7%B2%BE%E9%81%B8-4.jpg",
+                                    "more_photos_url": "https://drive.google.com/drive/folders/1APleffrrZA67_gKUjYK1PR40lVzKKrNz",
+                                    "image_list": [
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/1109%E7%B2%BE%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_1109%E7%B2%BE%E9%81%B8-4.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/1109%E7%B2%BE%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_1109%E7%B2%BE%E9%81%B8-6.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/1109%E7%B2%BE%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_1109%E7%B2%BE%E9%81%B8-9.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/1109%E7%B2%BE%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_1109%E7%B2%BE%E9%81%B8-11.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/1109%E7%B2%BE%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_1109%E7%B2%BE%E9%81%B8-16.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/1109%E7%B2%BE%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_1109%E7%B2%BE%E9%81%B8-17.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/1109%E7%B2%BE%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_CODING-302.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/1109%E7%B2%BE%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_CODING-326.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/1109%E7%B2%BE%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_Coding%E8%A8%BA%E7%99%82%E5%AE%A4-16.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/1109%E7%B2%BE%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@P_CODING-105.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "title": "合照",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%90%88%E7%85%A7/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_1109%E7%B2%BE%E9%81%B8-42.jpg",
+                                    "more_photos_url": "https://drive.google.com/drive/folders/16mRIICXKjF9otR5xxDFyPi7__t4KjRkA",
+                                    "image_list": [
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%90%88%E7%85%A7/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_1109%E7%B2%BE%E9%81%B8-42.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%90%88%E7%85%A7/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_%E5%90%88%E7%85%A7-18.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%90%88%E7%85%A7/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_%E5%90%88%E7%85%A7-39.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%90%88%E7%85%A7/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_%E5%90%88%E7%85%A7-71.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%90%88%E7%85%A7/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_%E5%90%88%E7%85%A7-92.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%90%88%E7%85%A7/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_%E5%90%88%E7%85%A7-96.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%90%88%E7%85%A7/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@P_1108%E7%B2%BE%E9%81%B8-123.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%90%88%E7%85%A7/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@P_%E5%90%88%E7%85%A7-050.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%90%88%E7%85%A7/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@P_%E5%90%88%E7%85%A7-058.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%90%88%E7%85%A7/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@P_%E5%90%88%E7%85%A7-093.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 4,
+                                    "title": "初選",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%88%9D%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_%E5%88%9D%E9%81%B8-81.jpg",
+                                    "more_photos_url": "https://drive.google.com/drive/folders/1isjjOyJn1__2CBRlFuICWLdGX33KaDHV",
+                                    "image_list": [
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%88%9D%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_%E5%88%9D%E9%81%B8-81.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%88%9D%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_%E5%88%9D%E9%81%B8-121.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%88%9D%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_%E5%88%9D%E9%81%B8-137.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%88%9D%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_%E5%88%9D%E9%81%B8-149.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%88%9D%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_%E5%88%9D%E9%81%B8-173.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%88%9D%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@P_%E5%88%9D%E9%81%B8-023.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%88%9D%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@P_%E5%88%9D%E9%81%B8-040.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%88%9D%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@P_%E5%88%9D%E9%81%B8-069.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%88%9D%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@P_%E5%88%9D%E9%81%B8-083.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%88%9D%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@P_%E5%88%9D%E9%81%B8-091.jpg"
+                                    ]
+                                },
+                                {
+                                    "id": 5,
+                                    "title": "決選",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%B1%BA%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_%E6%B1%BA%E9%81%B8-7.jpg",
+                                    "more_photos_url": "https://drive.google.com/drive/folders/14bV78qApTAh1qiFLYDNuUmM8cKILxDtD",
+                                    "image_list": [
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%B1%BA%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_%E6%B1%BA%E9%81%B8-7.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%B1%BA%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_%E6%B1%BA%E9%81%B8-47.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%B1%BA%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_%E6%B1%BA%E9%81%B8-72.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%B1%BA%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_%E6%B1%BA%E9%81%B8-169.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%B1%BA%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_%E6%B1%BA%E9%81%B8-200.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%B1%BA%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_%E6%B1%BA%E9%81%B8-255.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%B1%BA%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_%E6%B1%BA%E9%81%B8-289.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%B1%BA%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_%E6%B1%BA%E9%81%B8-333.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%B1%BA%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_%E6%B1%BA%E9%81%B8-339.jpg",
+                                        "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%B1%BA%E9%81%B8/2025%E7%A7%8B%E5%AD%A3%E9%BB%91%E5%AE%A2%E6%9D%BE@A_%E6%B1%BA%E9%81%B8-352.jpg"
+                                    ]
+                                }
+                            ]
+                        },
+                        "videos": {
+                            "title": "影音回顧",
+                            "more_videos_url": "",
+                            "list": [
+                                {
+                                    "id": 0,
+                                    "date": "",
+                                    "title": "2025臺北秋季程式設計節大黑客松\n【閉幕影片】",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%BD%B1%E9%9F%B3%E5%9B%9E%E9%A1%A7%E7%B8%AE%E5%9C%96/video-1.jpg",
+                                    "video_url": "https://youtu.be/Y_zg9bPXxt4?si=9yqs54DWPO7sUQEX"
+                                }
+                            ]
+                        }
+                    },
+                    "rules": {
+                        "available": true,
+                        "section_title": "競賽規則",
+                        "description": "\"The power of open source is the power of the people.\"\n— Philippe Kahn\n（開源的力量就是人民的力量）",
+                        "content_title": "概念",
+                        "content": "在智慧城市與數據驅動時代，創新技術成為推動城市發展與提升市政服務的關鍵。\n為持續朝向服務型政府目標邁進，並推廣開源及開放政策，2025臺北秋季程式設計節希望透過「台北通」的經驗，優化更多市政服務！\n這次黑客松希望各路好手運用創意和技術，開發各種各樣微服務，逐步將開源技術融入，實踐更好的使用體驗、進一步優化市政服務、提升行政效率！\n\n11月8號到9號，邀請大家一起參與！",
+                        "buttons": [],
+                        "promotion_images": {
+                            "desktop_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E4%B8%BB%E8%A6%96%E8%A6%BA%E5%9C%96/img-rules.png",
+                            "mobile_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E4%B8%BB%E8%A6%96%E8%A6%BA%E5%9C%96/img-rules-mobile.png"
+                        },
+                        "judges": {
+                            "available": true,
+                            "list": [
+                                {
+                                    "name": "初審",
+                                    "list": [
+                                        {
+                                            "id": 0,
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E8%A9%95%E5%AF%A9/%E5%88%9D%E9%81%B8/Tony%20Q%20%E7%8E%8B%E6%99%AF%E5%BC%98.jpg",
+                                            "name": "王景弘(Tony Q)",
+                                            "corporation": "JavaScript.tw技術社團",
+                                            "position": "創辦人"
+                                        },
+                                        {
+                                            "id": 1,
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E8%A9%95%E5%AF%A9/%E5%88%9D%E9%81%B8/kevin%20%E8%AC%9D%E6%A8%B9%E7%91%84.jpg",
+                                            "name": "謝樹瑄",
+                                            "corporation": "臺北市政府資訊局開發團隊",
+                                            "position": "城市通架構師"
+                                        },
+                                        {
+                                            "id": 2,
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E8%A9%95%E5%AF%A9/%E5%88%9D%E9%81%B8/%E8%94%A1%E7%A7%89%E7%BF%B0.jpg",
+                                            "name": "蔡秉翰",
+                                            "corporation": "臺北市政府資訊局",
+                                            "position": "專門委員"
+                                        },
+                                        {
+                                            "id": 3,
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E8%A9%95%E5%AF%A9/%E5%88%9D%E9%81%B8/OA%E5%90%B3%E6%94%BF%E8%B3%A2.jpg",
+                                            "name": "吳政賢(OA)",
+                                            "corporation": "白沙屯媽祖GPS APP",
+                                            "position": "開發者"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "決審",
+                                    "list": [
+                                        {
+                                            "id": 4,
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E8%A9%95%E5%AF%A9/%E6%B1%BA%E9%81%B8/%E6%9E%97%E5%A5%95%E8%BE%B0.jpg",
+                                            "name": "林奕辰",
+                                            "corporation": "洽吧智能股份有限公司",
+                                            "position": "創辦人&執行長"
+                                        },
+                                        {
+                                            "id": 5,
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E8%A9%95%E5%AF%A9/%E6%B1%BA%E9%81%B8/%E8%83%A1%E8%B2%9D%E8%92%82.jpg",
+                                            "name": "胡貝蒂",
+                                            "corporation": "數位發展部",
+                                            "position": "主任秘書"
+                                        },
+                                        {
+                                            "id": 6,
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E8%A9%95%E5%AF%A9/%E6%B1%BA%E9%81%B8/%E5%B1%80%E9%95%B71.jpg",
+                                            "name": "趙式隆",
+                                            "corporation": "臺北市政府資訊局",
+                                            "position": "局長"
+                                        },
+                                        {
+                                            "id": 7,
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E8%A9%95%E5%AF%A9/%E6%B1%BA%E9%81%B8/%E5%90%B3%E9%81%94%E5%81%89.jpg",
+                                            "name": "吳達偉",
+                                            "corporation": "新竹市政府勞工及青年處",
+                                            "position": "處長"
+                                        },
+                                        {
+                                            "id": 8,
+                                            "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E8%A9%95%E5%AF%A9/%E6%B1%BA%E9%81%B8/%E9%99%B3%E5%AF%8C%E6%B7%BB.jpg",
+                                            "name": "陳富添",
+                                            "corporation": "新北市政府資訊中心",
+                                            "position": "主任"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "prospectus": {
+                            "title": "規則概要",
+                            "image_url": "",
+                            "contents": [
+                                {
+                                    "sub_title": "<壹、活動背景說明>",
+                                    "sub_content": "臺北市政府資訊局（以下簡稱「主辦單位」）為持續推動臺北市成為服務型政府，並推廣主辦單位開源及資料開放政策，舉辦「2025臺北秋季程式設計節」(以下簡稱「本競賽」)，以「台北通」為服務平台，運用開放原始碼方式，盼讓數據驅動生活，實踐更好的使用體驗、介面設計，讓市民朋友獲得更加完善且親民的市政服務。"
+                                },
+                                {
+                                    "sub_title": "<貳、活動目標>",
+                                    "sub_content": "為達到透明開放、科技普惠、建立服務型政府的目標，本競賽以市政服務為概念，廣邀各界高手，在良好基礎上提出創意方案。同時，希望以此競賽作為首發，透過拋磚引玉，逐步將開源技術導入市政服務的一環，期望降低開發成本、提高政府經營效率，以此打造、激盪出跨縣市優質的數位公共服務。"
+                                },
+                                {
+                                    "sub_title": "<參、參賽方式>",
+                                    "sub_content": "一、參賽資格\n(一)、本競賽以隊伍為單位報名參賽，隊伍成員數量至少4人至多5人，每人限報名1隊，隊伍中需由2人擔任主要及次要聯絡人。\n(二)、本競賽對於參賽者的年齡、身份與國籍原則上不設限。惟報名時尚未年滿18歲者，須經法定代理人書面同意。\n(三)、參賽隊伍建議應具備以下核心技能：\n1.開發工具：Git、Docker、Postman。\n2.前端技術能力：HTML、CSS、JavaScript、Vue、其他 package.json 工具。\n3.後端技術能力(Java)：Spring Framework、Hibernate、Tomcat。\n4.Flutter開發：Flutter、Dart、狀態管理、Flutter Widgets、網路通信。\n5.市政知識：了解市政運營，設計應用。\n(四)、參賽隊伍編制建議包含但不限於以下角色：\n1.專案規劃師：說明文字撰寫、應用場景規劃、主題規劃\n2.資料工程師：資料彙整、資料源串接、系統架構\n3.前端工程師：前端畫面開發、前後端API串接\n4.後端工程師：API 開發、後端與資料庫串接\n\n二、報名方式\n(一)、所有報名均應透過本競賽官網完成，連結：<a href='https://codefest.taipei/2025-fall/' target='_blank' style='text-decoration: underline; color: #58FEFF;' rel='noopener noreferrer'>https://codefest.taipei/</a>\n(二)、本競賽參賽隊伍以40隊或200人為原則；主辦單位將依據參賽者能力背景審核參賽資格，並採2階段審核：\n1.第1階段審核（書面審核）：參賽隊伍完成報名後，主辦單位將根據報名資料進行審核。審核錄取及備取結果將於第2階段前於官方網站公告，同時以Email通知隊伍。\n2.第2階段審核（面談審核）：將於工作坊同日舉行，以透過面談方式辦理。審核錄取及備取結果將於競賽活動前於官方網站公告，同時以Email通知隊伍。\n(三)、參賽隊伍應提交完整團隊資料，包括但不限於成員姓名、聯繫方式與簡歷等相關資料。如經主辦單位認定提交資料不完整，主辦單位得退回該隊伍的報名申請；參賽隊伍若仍欲報名，須依主辦單位指示補交完整團隊資料後始完成報名程序。\n(四)、倘不克參賽之團隊，最遲應於10月31日中午12:00前告知主辦單位，以利主辦單位安排候補參賽隊伍。若競賽當日參賽者無故缺席，將影響往後參與主辦單位類似競賽之報名資格。\n(五)、參賽隊伍中若有未年滿18歲者與其法定代理人共同參賽，請於填寫報名表勾選相應選項，並請於備註欄位註明法定代理人姓名（詳報名表單之說明）。\n(六)、主辦單位保留提前及延後結束報名之權利。\n(七)、主辦單位保留遞補候補參賽隊伍，及調整本競賽參賽隊伍數之權利。\n\n三、參賽隊伍須知\n(一)、各隊伍須指派1至2名成員代表出席實體工作坊，其餘隊伍成員得線上出席。參賽隊伍於競賽期間須全體成員實體出席。若參賽隊伍未指派代表參與工作坊，主辦單位將直接取消該參賽隊伍之競賽資格。若參賽隊伍全體成員於競賽期間無正當理由未親自到場報到參與競賽，主辦單位亦有權取消該參賽隊伍之競賽資格。\n(二)、參賽者若有重複參賽之情事，主辦單位得取消參賽、得獎資格並追回相關獎金(項)。\n(三)、參賽作品不得有抄襲、仿冒或其他侵害他人權益之情事。若經主辦單位發現或經他人檢舉有侵害他人權益之情事，並經訴訟程序確認屬實者，主辦單位得取消參賽、得獎資格並追回相關獎金(項)。\n(四)、主辦單位將於工作坊及競賽當天對參賽隊伍成員進行身分驗證，驗證方式包括但不限於以身分證、健保卡、駕照、護照或居留證等政府核發之證明文件。\n(五)、參賽隊伍應秉持良善立意，了解競賽規則，盡力完成競賽。\n(六)、參賽隊伍應配合主辦單位的問卷調查與訪問。\n(七)、參賽隊伍自備本競賽相關電腦設備，請自行保管維護，若因人為方式損害，主辦單位保留免責權利。\n(八)、參賽隊伍應公開釋出所有於本競賽開發之成果，詳情請參閱第捌條。"
+                                },
+                                {
+                                    "sub_title": "<肆、競賽時程>",
+                                    "sub_content": "一、報名期間：114年10月1日(五)下午12:00 至 114年10月20日(一)下午12:00止。\n二、說明會：114年10月3日(五)下午13:30至14:30於線上辦理。\n三、工作坊：114年10月24日(五)上午09:30至15:30，於臺北市青年局國際會議廳辦理。\n四、本競賽期間：114年11月8日(六) 至 114年11月9日(日)止（中間不間斷），於國立臺灣大學綜合體育館3樓辦理。"
+                                },
+                                {
+                                    "sub_title": "<伍、競賽內容>",
+                                    "sub_content": "一、競賽主題\n(一)、本競賽將以市政服務開源為方向，以此提升並完善各城市數位服務，翻轉城市美學為目標。\n(二)、主辦單位將於工作坊說明主題的概略方向與內容，競賽當天於現場正式公告競賽主題及詳細內容。\n\n二、開發項目\n(一)、主要目標：以台北通為基礎，開發新城市通微服務新功能。\n(二)、資料來源：程式運作時，所需之核心與關鍵資料應使用公開且合法之開放資料，並備註引用來源；其餘非必要資料得以模擬資料替代。\n(三)、第三方應用：競賽作品中僅得使用開源軟體或套件，不得使用第三方軟體、商用套件或API等。違反本規定者，主辦單位得視情況扣分或取消參賽資格。\n\n三、成果發表\n參賽隊伍需於第2天參加初選與決選進行成果發表，如選擇不進行成果發表則喪失評選資格。成果發表注意事項如下：\n(一)、成果發表內容建議包括：\n1.說明擇定或被指派的題目\n2.說明作品的想法來源及應用場景\n3.說明開發項目、資料來源與相關技術應用細節\n4.成果實際運作展示\n(二)、參賽隊伍限投影開發成果畫面發表，不允許使用任何形式簡報（如PPT）。\n(三)、主辦單位會在工作坊公布詳細成果發表流程與規則。"
+                                },
+                                {
+                                    "sub_title": "<陸、評選辦法>",
+                                    "sub_content": "一、評選程序\n評審委員在競賽第2天，分為「初選」與「決選」兩階段進行成果發表審查，參賽隊伍會在兩階段分別進行約2分鐘與5分鐘的成果發表，並在決選階段進行問題回答。\n初選階段重在了解參賽隊伍的成果，成果符合條件、完整優良的參賽隊伍者將進入決選階段。決選階段會完整審查參賽隊伍的成果發表與進行問題回答。待所有入圍決選的參賽隊伍皆審查完畢，評審委員將召開評審會議決定得獎名單，並敘明得獎理由。\n\n二、評選標準：本次競賽分為初選與決選，詳細評分項目及配分說明如下：\n<div class='table-responsive' style='width:100%; overflow-x:auto;'><table style='width:100%; border-collapse:collapse; min-width:720px;'><caption style='text-align:left; font-weight:600; padding:8px 0;'>二、評選標準</caption><thead><tr><th style='text-align:left; border-bottom:1px solid #ddd; padding:8px; min-width:70px; white-space:nowrap;'>階段</th><th style='text-align:left; border-bottom:1px solid #ddd; padding:8px;'>項目</th><th style='text-align:left; border-bottom:1px solid #ddd; padding:8px;'>說明</th><th style='text-align:center; border-bottom:1px solid #ddd; padding:8px; white-space:nowrap;'>配分</th><th style='text-align:left; border-bottom:1px solid #ddd; padding:8px;'>評分依據</th></tr></thead><tbody><tr><td style='padding:8px; border-bottom:1px solid #eee; min-width:70px; white-space:nowrap;'>初選</td><td style='padding:8px; border-bottom:1px solid #eee;'>服務應用</td><td style='padding:8px; border-bottom:1px solid #eee;'>想法創意且與題目相符</td><td style='padding:8px; border-bottom:1px solid #eee; text-align:center;'>40</td><td style='padding:8px; border-bottom:1px solid #eee; text-align:left;'>具創意性（20分）、符合題目（20分）</td></tr><tr><td style='padding:8px; border-bottom:1px solid #eee;'></td><td style='padding:8px; border-bottom:1px solid #eee;'>視覺呈現</td><td style='padding:8px; border-bottom:1px solid #eee;'>服務功能畫面（至少呈現 1 個服務介面）</td><td style='padding:8px; border-bottom:1px solid #eee; text-align:center;'>30</td><td style='padding:8px; border-bottom:1px solid #eee; text-align:left;'>介面清楚（10分）、操作簡單（10分）、介面美觀（10分）</td></tr><tr><td style='padding:8px; border-bottom:1px solid #eee;'></td><td style='padding:8px; border-bottom:1px solid #eee;'>技術完整度</td><td style='padding:8px; border-bottom:1px solid #eee;'>架構清楚、資料來源正確</td><td style='padding:8px; border-bottom:1px solid #eee; text-align:center;'>30</td><td style='padding:8px; border-bottom:1px solid #eee; text-align:left;'>系統流程順暢（10分）、資料來源符合規定（10分）、功能可運行（10分）</td></tr><tr><td style='padding:8px; border-bottom:1px solid #eee;'>決選</td><td style='padding:8px; border-bottom:1px solid #eee;'>服務應用</td><td style='padding:8px; border-bottom:1px solid #eee;'>情境完整且實用</td><td style='padding:8px; border-bottom:1px solid #eee; text-align:center;'>25</td><td style='padding:8px; border-bottom:1px solid #eee;'>使用情境完整（15分）、可解決痛點（10分）</td></tr><tr><td style='padding:8px; border-bottom:1px solid #eee;'></td><td style='padding:8px; border-bottom:1px solid #eee;'>服務完整度</td><td style='padding:8px; border-bottom:1px solid #eee;'>服務落地可能性及難易度</td><td style='padding:8px; border-bottom:1px solid #eee; text-align:center;'>25</td><td style='padding:8px; border-bottom:1px solid #eee;'>資料可持續取得（10分）、功能完整（10分）、成本合理（5分）</td></tr><tr><td style='padding:8px; border-bottom:1px solid #eee;'></td><td style='padding:8px; border-bottom:1px solid #eee;'>技術穩定度</td><td style='padding:8px; border-bottom:1px solid #eee;'>操作流暢度與系統穩定性</td><td style='padding:8px; border-bottom:1px solid #eee; text-align:center;'>20</td><td style='padding:8px; border-bottom:1px solid #eee;'>執行流暢（10分）、無明顯錯誤（5分）、具擴充性（5分）</td></tr><tr><td style='padding:8px; border-bottom:1px solid #eee;'></td><td style='padding:8px; border-bottom:1px solid #eee;'>視覺呈現</td><td style='padding:8px; border-bottom:1px solid #eee;'>操作介面與功能完整度</td><td style='padding:8px; border-bottom:1px solid #eee; text-align:center;'>20</td><td style='padding:8px; border-bottom:1px solid #eee;'>介面美觀（10分）、介面清楚（5分）、操作簡單（5分）</td></tr><tr><td style='padding:8px;'>加分</td><td style='padding:8px;'>加分項（非必給）</td><td style='padding:8px;'>使用開源技術、符合公共利益、創意性高等優點，評審可酌情加分</td><td style='padding:8px; text-align:center;'>10</td><td style='padding:8px;'>—</td></tr></tbody></table></div>\n\n三、評分方式：\n(一)、初選：各項目依配分比例評分，滿分為100分，各隊伍經評審委員合計評分後，轉換為序位，並將序位合計後，依序決定決選隊伍名單。\n(二)、決選：各項目依配分比例評分，滿分為100分，各隊伍經評審委員合計評分後，轉換為序位，並將序位合計後，依序給定第一名、第二名及第三名各1隊、佳作3隊。序位合計結果，如遇相同情形，則由評審委員共識後決定名次。\n(三)、評審委員會得保留獎項從缺或並列之權利。\n\n四、名次給定：\n(一)、依評審委員審查結果，給定第一名、第二名及第三名各1隊、佳作3隊。\n(二)、評審委員會得保留獎項從缺或並列之權利。"
+                                },
+                                {
+                                    "sub_title": "<柒、得獎隊伍權利義務>",
+                                    "sub_content": "一、獎金、獎狀：得獎隊伍將核發獎金、獎狀\n(一)、獎金金額：所有獎金均以隊伍為單位核發。\n1.第一名：新台幣300,000元整。\n2.第二名：新台幣150,000元整。\n3.第三名：新台幣100,000元整。\n4.佳作：新台幣50,000元整。\n(二)、獎項核發：主辦單位會於頒獎典禮頒發獎狀。\n(三)、得獎隊伍需要在賽後與主辦單位協作，在競賽結束後，主辦單位電子郵件通知日之翌日起算1個月內，將其得獎作品指定元素整併到官方程式庫中，主辦單位將於整併工作完成後執行獎金核發作業。如得獎作品經主辦單位認定整併者有困難或不適合整併者，則不受此限。詳細協作項目與規範請參閱本條第二款。\n(四)、獎金分配與核發：獎金分配方式由得獎隊伍於主辦單位指定期間內自行決定後，以書面提供分配方式及匯款帳號予主辦單位。得獎隊伍與主辦單位協作完成後，主辦單位將依參賽隊伍提交分配方式及匯款帳號於30日內將獎金匯入本國銀行之指定帳戶。若未於指定期限內將分配方式及匯款帳號提供予主辦單位者，主辦單位將平均分配、暫保留或依法處理該筆獎金。\n(五)、得獎隊伍之參賽者獎金應各自依所得稅法等相關規定辦理扣繳。\n(六)、得獎隊伍應配合主辦單位要求於往後舉辦的黑客松競賽前，分享相關經驗。\n\n二、得獎隊伍與主辦單位協作\n(一)、主辦單位將於競賽結束後2週內，以電子郵件通知得獎隊伍希望參與協作的項目，並將得獎隊伍聯絡資訊提供予主辦單位相關開發人員。\n(二)、整併範圍限得獎隊伍於競賽期間完成的作品，主辦單位僅會要求得獎隊伍簡易修改或刪減，並不會要求得獎隊伍進行額外新功能的開發。若得獎隊伍對於整併項目有窒礙難行之處，均可與主辦單位提出調整。\n(三)、得獎隊伍對於開發事項如有疑問或需主辦單位協助事項，應盡速與主辦單位聯絡。主辦單位得邀請得獎隊伍就協作一同討論，相關細節將於競賽結束後2週內以電子郵件形式告知。"
+                                },
+                                {
+                                    "sub_title": "<捌、智慧財產聲明>",
+                                    "sub_content": "一、參賽隊伍\n(一)、參賽隊伍就其開發成果取得完整之合法授權或著作權，參賽隊伍同意以無償且不可撤銷之條件，以AGPL 條款方式授權予主辦單位及其所屬機關，同時應附上以下第二點聲明。前述授權期間為本競賽公布得獎結果日起算1 年，參賽隊伍於該授權期間內不得將其各自開發成果下架。\n(二)、參賽隊伍應以AGPL條款方式授權其開發成果，並同時於授權文件上載明下列AGPL授權條款：\n「<one line to give the programs name and a brief idea of what it does.>\nCopyright (C) <year> <name of author>\nThis program is free software: you can redistribute it and/or modify it under the terms　of the GNU Affero General Public License as published by the Free Software Foundation,either version 3 of the License, or (at your option) any later version.\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY　WARRANTY; without even the implied warranty of MERCHANTABILITY or　FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public　License for more details. You should have received a copy of the GNU Affero General Public License along　with this program. If not, see < https://www.gnu.org/licenses/>.」\n(三)、參賽隊伍須擔保就AGPL 授權範圍外之所提供之一切開發成果，包括但不限於參賽提案、圖文、簡報、影音及其他資料，並無侵害他人之智慧財產權、其他權利或違反法令之情事。\n(四)、參賽隊伍同意將其因參加本活動所提供之圖文、簡報、照片、影音、其他資料及本活動進行中過程中，主辦單位及其所屬機關或協辦單位拍攝、錄影或請參賽隊伍提供相關照片或動態影像（包括但不限於參賽隊伍成員之姓名表示權或肖像權等權利），以永久、無償且不可撤銷之條件授權主辦單位（包括臺北市政府及其所屬機關）、協辦單位或經主辦單位授權之第三人基於宣傳之非營利目下享有重製權、改作權、公開上映權、公開傳輸權或公開展示權等依著作權法得享有之著作財產權，且該授權範圍不限區域。主辦單位進行推廣及宣傳時均不另通知參賽隊伍。\n\n二、得獎隊伍\n除了前項所述情形外，得獎隊伍之所有成員另外同意以永久、無償且不可撤銷之條件，非專屬授權予主辦單位（包括臺北市政府及其所屬機關）使用其開發成果有關之智慧財產權（包括但不限於重製權、改作權、公開上映權、公開傳輸權或公開展示權等依著作權法得享有之著作財產權），並配合主辦單位的時程規劃，協助與城市通的開源程式碼進行整合；若因系統整合需求，得獎隊伍須同意無償將其開發成果進行改作或編輯（下稱「衍生著作」），得獎隊伍亦同意將其衍生著作依本項前述所定之方式一併授權予主辦單位，且該授權範圍不限區域。"
+                                },
+                                {
+                                    "sub_title": "<玖、修正事宜公告>",
+                                    "sub_content": "一、如本活動須知有未盡事宜，得由主辦單位修正後公布於官方網站。\n二、主辦單位、承辦單位及協辦單位保留隨時修正、異動、暫停、取消以及本活動最終解釋之權利。"
+                                },
+                                {
+                                    "sub_title": "<壹拾、管轄法院>",
+                                    "sub_content": "本活動有關爭議，均依中華民國法律處理，並以臺灣臺北地方法院為第一審管轄法院。"
+                                }
+                            ],
+                            "download_url": "https://drive.google.com/file/d/1NOO7O13H6als_WwrqXiDKXgKX-wN--cD/view"
+                        }
+                    },
+                    "schedule": {
+                        "available": true,
+                        "section_title": "重要時程",
+                        "apply_count_down": "2025-10-20 11:59:00",
+                        "count_down": "2025-11-08 09:00:00",
+                        "list": [
+                            {
+                                "id": "online",
+                                "schedule_name": "線上說明會 10.03",
+                                "schedule_sub_name": "2025年10月03日（星期五）13:30–14:30\n<a href='https://youtu.be/btnbg0e95_E?si=mdQrhyT8dcISlFyy' target='_blank' style='text-decoration: underline; color: #58FEFF;'>說明會網址連結</a>",
+                                "button": {
+                                    "text": "",
+                                    "link": "",
+                                    "type": "outside_link"
+                                },
+                                "schedule_headers": [
+                                    {
+                                        "name": "時間"
+                                    },
+                                    {
+                                        "name": "議程"
+                                    },
+                                    {
+                                        "name": "主講人"
+                                    }
+                                ],
+                                "schedule": [
+                                    {
+                                        "col1": "13:00-13:30",
+                                        "col2": "報到",
+                                        "col3": ""
+                                    },
+                                    {
+                                        "col1": "13:30-13:35",
+                                        "col2": "開場與活動介紹",
+                                        "col3": ""
+                                    },
+                                    {
+                                        "col1": "13:35-13:40",
+                                        "col2": "長官致詞",
+                                        "col3": ""
+                                    },
+                                    {
+                                        "col1": "13:40-13:55",
+                                        "col2": "參賽與報名介紹",
+                                        "col3": "執行團隊說明及介紹"
+                                    },
+                                    {
+                                        "col1": "13:55-14:20",
+                                        "col2": "團隊經驗分享",
+                                        "col3": "2024城市通微服務「找車位」專案\n嘻嘻的時候黑客松松澤—隊長 游松澤"
+                                    },
+                                    {
+                                        "col1": "14:20-14:30",
+                                        "col2": "Q&A互動時間",
+                                        "col3": ""
+                                    },
+                                    {
+                                        "col1": "14:30-",
+                                        "col2": "賦歸",
+                                        "col3": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "workshop",
+                                "schedule_name": "工作坊 10.24",
+                                "schedule_sub_name": "2025年10月24日（星期五）10:00–15:00\n臺北市政府青年局6樓國際會議廳（台北市中正區仁愛路一段17號）",
+                                "button": {
+                                    "text": "",
+                                    "link": "",
+                                    "type": ""
+                                },
+                                "schedule_headers": [
+                                    {
+                                        "name": "時間"
+                                    },
+                                    {
+                                        "name": "議程"
+                                    },
+                                    {
+                                        "name": "主講人"
+                                    }
+                                ],
+                                "schedule": [
+                                    {
+                                        "col1": "09:30-10:00",
+                                        "col2": "報到",
+                                        "col3": ""
+                                    },
+                                    {
+                                        "col1": "10:00-10:05",
+                                        "col2": "開場及主辦單位致詞",
+                                        "col3": ""
+                                    },
+                                    {
+                                        "col1": "10:05-10:35",
+                                        "col2": "城市通微服務大黑客松規則說明",
+                                        "col3": ""
+                                    },
+                                    {
+                                        "col1": "10:35-12:00",
+                                        "col2": "城市通技術工作坊（1）",
+                                        "col3": ""
+                                    },
+                                    {
+                                        "col1": "12:00-13:00",
+                                        "col2": "午餐交流",
+                                        "col3": ""
+                                    },
+                                    {
+                                        "col1": "13:00-15:00",
+                                        "col2": "城市通技術工作坊（2）／實作練習＆參賽面談",
+                                        "col3": ""
+                                    },
+                                    {
+                                        "col1": "15:00-",
+                                        "col2": "賦歸",
+                                        "col3": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "competition",
+                                "schedule_name": "競賽日 11.08 - 11.09",
+                                "schedule_sub_name": "2025年11月08日（星期六）09:00 ～ 11月09日（星期日）18:00（期間不間斷）\n臺灣大學綜合體育館3樓（台北市大安區羅斯福路四段1號3樓）",
+                                "button": {
+                                    "text": "",
+                                    "link": "",
+                                    "type": ""
+                                },
+                                "schedule_headers": [
+                                    {
+                                        "name": "日期"
+                                    },
+                                    {
+                                        "name": "時間"
+                                    },
+                                    {
+                                        "name": "議程"
+                                    },
+                                    {
+                                        "name": "主講人"
+                                    }
+                                ],
+                                "schedule": [
+                                    {
+                                        "col1": "11/08（六）",
+                                        "col2": "09:00-09:30",
+                                        "col3": "報到",
+                                        "col4": ""
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "09:30-10:00",
+                                        "col3": "開幕式",
+                                        "col4": ""
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "10:00-23:59",
+                                        "col3": "Hacking及Coding診療室",
+                                        "col4": ""
+                                    },
+                                    {
+                                        "col1": "11/09（日）",
+                                        "col2": "00:00-11:00",
+                                        "col3": "Hacking及Coding診療室",
+                                        "col4": ""
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "11:00-13:10",
+                                        "col3": "初選",
+                                        "col4": ""
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "13:10-14:00",
+                                        "col3": "公告決選名單（15隊）",
+                                        "col4": ""
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "14:00-16:30",
+                                        "col3": "決選",
+                                        "col4": ""
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "16:30-17:00",
+                                        "col3": "評審討論",
+                                        "col4": ""
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "17:00-17:30",
+                                        "col3": "頒獎及閉幕式",
+                                        "col4": ""
+                                    },
+                                    {
+                                        "col1": "",
+                                        "col2": "17:30-",
+                                        "col3": "賦歸",
+                                        "col4": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "sponsor": {
+                        "available": true,
+                        "section_title": "感謝單位",
+                        "list": [
+                            {
+                                "id": 0,
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D/sitcon_logo.png"
+                            },
+                            {
+                                "id": 1,
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D/OCF_logo.png"
+                            },
+                            {
+                                "id": 2,
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D/%E6%A2%85%E7%AB%B9%E9%BB%91%E5%AE%A2%E6%9D%BE_logo.png"
+                            },
+                            {
+                                "id": 3,
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D/%E9%9D%92%E5%B9%B4%E5%B1%80LOGO-%E7%99%BD.png"
+                            },
+                            {
+                                "id": 4,
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D/%E8%BC%94%E5%A4%A7%E8%B3%87%E7%AE%A1LOGO-%E7%99%BD.png"
+                            },
+                            {
+                                "id": 5,
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D/%E4%B8%AD%E5%A4%AE%E8%B3%87%E5%B7%A5.png"
+                            },
+                            {
+                                "id": 6,
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D/%E4%B8%AD%E5%8E%9F%E5%A4%A7%E5%AD%B8-%E8%B3%87%E8%A8%8A%E7%AE%A1%E7%90%86%E5%AD%B8%E7%B3%BBLOGO.png"
+                            },
+                            {
+                                "id": 7,
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D/%E5%85%83%E6%99%BA%E8%B3%87%E5%B7%A5LOGO-%E7%99%BD.png"
+                            },
+                            {
+                                "id": 8,
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D/NTUEESA_logo.png"
+                            },
+                            {
+                                "id": 9,
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8-%E7%99%BD-01.png"
+                            },
+                            {
+                                "id": 10,
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D/%E4%B8%AD%E5%A4%AE%E8%B3%87%E7%AE%A1-%E7%99%BD-01.png"
+                            },
+                            {
+                                "id": 11,
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D/%E5%8F%B0%E5%A4%A7%E8%B3%87%E7%AE%A1%E5%AD%B8%E7%94%9F%E6%9C%83-%E7%99%BD-01.png"
+                            },
+                            {
+                                "id": 12,
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D/%E5%9C%8B%E7%AB%8B%E6%B8%85%E8%8F%AF%E5%A4%A7%E5%AD%B8%E7%A7%91%E6%8A%80%E8%97%9D%E8%A1%93%E7%A0%94%E7%A9%B6%E6%89%80-%E7%99%BD-01.png"
+                            },
+                            {
+                                "id": 13,
+                                "image_url": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E6%84%9F%E8%AC%9D%E5%96%AE%E4%BD%8D/%E5%9C%8B%E7%AB%8B%E8%87%BA%E5%8C%97%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8%E8%B3%87%E8%A8%8A%E8%88%87%E8%B2%A1%E9%87%91%E7%AE%A1%E7%90%86%E7%B3%BB-%E7%99%BD-01.png"
+                            }
+                        ]
+                    },
+                    "footer": {
+                        "organizer": [
+                            "臺北市政府資訊局"
+                        ],
+                        "co_organizer": [
+                            "臺北市政府青年局"
+                        ],
+                        "implementer": [
+                            "台北市電腦商業同業公會"
+                        ],
+                        "buttons": [
+                            {
+                                "name": "Github",
+                                "link": "https://github.com/taipei-doit"
+                            },
+                            {
+                                "name": "YouTube",
+                                "link": "https://www.youtube.com/@Code-FestTaipei"
+                            }
+                        ]
+                    }
+                },
                 {
                     "id": "2024-fall",
                     "name": "2024.秋季城市通微服務大黑客松",

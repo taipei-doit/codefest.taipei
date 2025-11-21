@@ -9,7 +9,6 @@ import 'swiper/css/navigation';
 import 'swiper/css/thumbs';
 // import required modules
 import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
-const runtimeConfig = useRuntimeConfig();
 
 const props = defineProps<{
   isOpen: boolean;
@@ -87,7 +86,7 @@ watch(
             <!-- 單圖模式 -->
             <div v-if="!props.activePhoto?.image_list.length" class="aspect-video">
               <img
-                :src="runtimeConfig.app.baseURL + props.activePhoto?.thumbnail"
+                :src="props.activePhoto?.thumbnail"
                 class="w-full h-full object-cover lg:mb-0 mb-6"
                 alt=""
               />
@@ -109,11 +108,7 @@ watch(
                 >
                   <SwiperSlide v-for="(item, index) in props.activePhoto?.image_list" :key="index">
                     <div class="aspect-video">
-                      <img
-                        :src="runtimeConfig.app.baseURL + item"
-                        class="w-full h-full object-cover"
-                        alt=""
-                      />
+                      <img :src="item" class="w-full h-full object-cover" alt="" />
                     </div>
                   </SwiperSlide>
                 </Swiper>
@@ -158,11 +153,7 @@ watch(
                   class="thumb-slide"
                 >
                   <div class="aspect-square cursor-pointer">
-                    <img
-                      :src="runtimeConfig.app.baseURL + item"
-                      class="w-full h-full object-cover"
-                      alt=""
-                    />
+                    <img :src="item" class="w-full h-full object-cover" alt="" />
                   </div>
                 </SwiperSlide>
               </Swiper>
