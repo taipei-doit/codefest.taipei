@@ -356,6 +356,20 @@
                                     "title": "2025臺北秋季程式設計節大黑客松\n【閉幕影片】",
                                     "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%BD%B1%E9%9F%B3%E5%9B%9E%E9%A1%A7%E7%B8%AE%E5%9C%96/video-1.jpg",
                                     "video_url": "https://youtu.be/Y_zg9bPXxt4?si=9yqs54DWPO7sUQEX"
+                                },
+                                {
+                                    "id": 1,
+                                    "date": "",
+                                    "title": "2025臺北秋季程式設計節大黑客松\n【全紀錄影片】",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%BD%B1%E9%9F%B3%E5%9B%9E%E9%A1%A7%E7%B8%AE%E5%9C%96/video-2.jpg",
+                                    "video_url": "https://youtu.be/vFExuK15NFI?si=9AVNJLTBltyqPJ49"
+                                },
+                                {
+                                    "id": 2,
+                                    "date": "",
+                                    "title": "2025臺北秋季程式設計節大黑客松\n【精華影片】",
+                                    "thumbnail": "https://storage.googleapis.com/tuic-taipei-hackathon_formal/hack/photos/2025%20fall/%E5%BD%B1%E9%9F%B3%E5%9B%9E%E9%A1%A7%E7%B8%AE%E5%9C%96/video-3.jpg",
+                                    "video_url": "https://youtu.be/1SmINeJRN5U?si=c7LfhycBfwxA3Ax3"
                                 }
                             ]
                         }
