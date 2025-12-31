@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue';
-import type { PastWinningTeam } from '~/interfaces/past.interface';
+import type { PastPhoto, PastWinningTeam } from '~/interfaces/past.interface';
 import type { Sponsor } from '~/interfaces/sponsor.interface';
 
 const runtimeConfig = useRuntimeConfig();
@@ -139,6 +139,9 @@ const duplicatedSponsorList = computed(() => {
   return [...originalList, ...originalList, ...originalList, ...originalList];
 });
 
+/** 選中的照片回顧 */
+const activePhoto = ref<PastPhoto | null>(null);
+
 const handleKeydown = (e: KeyboardEvent) => {
   switch (e.key) {
     case 'Backspace':
@@ -248,7 +251,7 @@ onUnmounted(() => {
         <!-- <div class="lg:flex justify-start hidden">
         <MoleculeSectionNav active-nav-name="past" :focus-y="30" />
       </div> -->
-        <section id="past" class="2xl:px-0 px-5 py-5">
+        <section id="past" class="2xl:px-0 p-5">
           <div class="border border-white relative">
             <div class="m-1 border border-white">
               <p class="section-title font-fusion-pixel">參賽回顧</p>
@@ -334,7 +337,11 @@ onUnmounted(() => {
                   />
                 </DisclosureButton>
                 <DisclosurePanel>
-                  <div class="lg:p-12 p-6 border-b border-white">
+                  <!-- 純照片 -->
+                  <div
+                    v-if="currentActivity?.past?.photos?.image_list?.length"
+                    class="lg:p-12 p-6 border-b border-white"
+                  >
                     <div class="grid lg:grid-cols-3 grid-cols-1 gap-8">
                       <div
                         v-for="(image, index) in currentActivity?.past?.photos?.image_list"
@@ -373,6 +380,74 @@ onUnmounted(() => {
                           <!-- </a> -->
                         </div>
                       </div>
+                    </div>
+                  </div>
+                  <!-- 分資料夾方式 -->
+                  <div
+                    v-if="currentActivity?.past?.photos?.list?.length"
+                    class="lg:p-12 p-6 border-b border-white"
+                  >
+                    <div class="grid lg:grid-cols-3 grid-cols-1 gap-8">
+                      <div
+                        v-for="(group, index) in currentActivity?.past?.photos?.list"
+                        :key="index"
+                      >
+                        <div :key="group.id">
+                          <a
+                            :href="group.more_photos_url"
+                            target="_blank"
+                            @click.prevent="
+                              activePhoto = group;
+                              dialogStore.openDialog('photo');
+                            "
+                          >
+                            <div class="video-box relative">
+                              <img
+                                :src="group.thumbnail"
+                                class="w-full h-full object-cover transition-all duration-300 group-hover:brightness-75"
+                                alt=""
+                              />
+                            </div>
+                            <div
+                              class="lg:block flex items-center mt-2 lg:text-lg text-base text-white"
+                            >
+                              <p class="flex justify-between items-center">
+                                <span>{{ group.title }}</span>
+                                <img
+                                  src="@/assets/images/icons/white-right-arrow.svg"
+                                  width="24"
+                                  class="lg:inline-block hidden"
+                                  alt="white-right-arrow"
+                                />
+                              </p>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    v-if="currentActivity?.past?.photos?.more_photos_url"
+                    class="flex flex-col lg:flex-row justify-between items-center p-4 m-1"
+                  >
+                    <!-- 文字區塊 (lg 以上才顯示) -->
+                    <div class="hidden lg:block flex-1">
+                      <p class="font-px437 text-white typing-container mr-2">
+                        View More Photos：View →
+                      </p>
+                    </div>
+
+                    <!-- 按鈕區塊 -->
+                    <div
+                      class="w-full lg:w-auto flex flex-nowrap justify-center lg:justify-end space-x-8"
+                    >
+                      <AtomButton
+                        :href="currentActivity?.past?.photos?.more_photos_url"
+                        :icon-type="'arrow'"
+                        class="w-1/2 lg:w-auto lg:min-w-60"
+                      >
+                        更多照片回顧
+                      </AtomButton>
                     </div>
                   </div>
                 </DisclosurePanel>
@@ -468,7 +543,7 @@ onUnmounted(() => {
         <!-- <div class="lg:flex justify-end hidden">
         <MoleculeSectionNav active-nav-name="rules" :focus-y="3" />
       </div> -->
-        <section id="rules" class="2xl:px-0 px-5 py-5">
+        <section id="rules" class="2xl:px-0 p-5">
           <div class="border border-white relative">
             <div class="m-1 border border-white">
               <p class="section-title font-fusion-pixel">
@@ -700,7 +775,7 @@ onUnmounted(() => {
         <div class="lg:flex justify-start hidden">
           <!-- <MoleculeSectionNav active-nav-name="schedule" :focus-y="8" /> -->
         </div>
-        <section id="schedule" class="2xl:px-0 px-5 py-5">
+        <section id="schedule" class="2xl:px-0 p-5">
           <div class="border border-white relative">
             <div class="m-1 border border-white">
               <p class="section-title font-fusion-pixel">
@@ -787,7 +862,7 @@ onUnmounted(() => {
                       class="flex justify-between items-center p-4 border border-b-white min-h-[83px]"
                     >
                       <p class="text-xl whitespace-pre-wrap">
-                        {{ activeSchedule.schedule_sub_name }}
+                        <AtomSaveHtml :html="activeSchedule.schedule_sub_name" />
                       </p>
 
                       <!-- 按鈕（根據類型顯示）-->
@@ -840,9 +915,15 @@ onUnmounted(() => {
                         </thead>
                         <tbody>
                           <tr v-for="(item, index) in activeSchedule.schedule" :key="index">
-                            <td class="p-2 whitespace-pre-wrap">{{ item.col1 }}</td>
-                            <td class="p-2 whitespace-pre-wrap">{{ item.col2 }}</td>
-                            <td class="p-2 whitespace-pre-wrap">{{ item.col3 }}</td>
+                            <td v-if="item.col1" class="p-2 whitespace-pre-wrap">
+                              {{ item.col1 }}
+                            </td>
+                            <td v-if="item.col2" class="p-2 whitespace-pre-wrap">
+                              {{ item.col2 }}
+                            </td>
+                            <td v-if="item.col3" class="p-2 whitespace-pre-wrap">
+                              {{ item.col3 }}
+                            </td>
                           </tr>
                         </tbody>
                       </table>
@@ -881,7 +962,7 @@ onUnmounted(() => {
                     <div class="flex-1 text-white">
                       <div class="flex flex-col text-center p-4 border border-b-white">
                         <p class="text-xl mb-2 whitespace-pre-wrap">
-                          {{ tab.schedule_sub_name }}
+                          <AtomSaveHtml :html="activeSchedule.schedule_sub_name" />
                         </p>
                         <!-- 按鈕（根據類型顯示）-->
                         <template v-if="tab.button?.text">
@@ -925,9 +1006,15 @@ onUnmounted(() => {
                           </thead>
                           <tbody>
                             <tr v-for="(item, itemIndex) in tab.schedule" :key="itemIndex">
-                              <td class="p-2 whitespace-pre-wrap">{{ item.col1 }}</td>
-                              <td class="p-2 whitespace-pre-wrap">{{ item.col2 }}</td>
-                              <td class="p-2 whitespace-pre-wrap">{{ item.col3 }}</td>
+                              <td v-if="item.col1" class="p-2 whitespace-pre-wrap">
+                                {{ item.col1 }}
+                              </td>
+                              <td v-if="item.col2" class="p-2 whitespace-pre-wrap">
+                                {{ item.col2 }}
+                              </td>
+                              <td v-if="item.col3" class="p-2 whitespace-pre-wrap">
+                                {{ item.col3 }}
+                              </td>
                             </tr>
                           </tbody>
                         </table>
@@ -1053,6 +1140,15 @@ onUnmounted(() => {
         :active-winning-team="activeWinningTeam"
         @close="
           activeWinningTeam = null;
+          dialogStore.closeDialog();
+        "
+      />
+
+      <OrganismPhotoDialog
+        :is-open="activeDialog === 'photo'"
+        :active-photo="activePhoto"
+        @close="
+          activePhoto = null;
           dialogStore.closeDialog();
         "
       />
